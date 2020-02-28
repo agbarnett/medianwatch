@@ -4,8 +4,7 @@ author: Adrian Barnett
 date: '2020-02-28'
 slug: funding-gender-disparity
 categories: []
-tags:
-  - funding
+tags: ["funding"]
 subtitle: ''
 description: ''
 image: ''
@@ -23,9 +22,8 @@ library(stringr)
 
 There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women. The idea of allowing fewer applications from men using quotas has been raised.
 
-The figures below show the application numbers for the Australian Research Council (ARC), with an average gap between men and women of around 8,000 applications per year and around 2,650 awards. \footnote{Data from https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”).
+The figures below show the application numbers for the Australian Research Council (ARC), with an average gap between men and women of around 8,000 applications per year and around 2,650 awards.^1^
 
-See Figure \@ref(fig:arcPlot).
 
 ```{r arcPlot, fig.cap='Numbers over time'}
 
@@ -64,11 +62,11 @@ Start_Yr	Female_applied	Indeterminate/Intersex	Male_applied	Unspecified	Female_w
 
 ## summary stats on gaps
 # a) applications
-mutate(arc_data, gap = Male_applied - Female_applied) %>%
-  summarise(mean(gap))
+#mutate(arc_data, gap = Male_applied - Female_applied) %>%
+#  summarise(mean(gap))
 # b) winners
-mutate(arc_data, gap = Male_won - Female_won) %>%
-  summarise(mean(gap))
+#mutate(arc_data, gap = Male_won - Female_won) %>%
+#  summarise(mean(gap))
 
 # plot numbers over time
 to.plot.apps = select(arc_data, Start_Yr, Female_applied, Male_applied) %>%
@@ -88,3 +86,7 @@ tplot = ggplot(data=to.plot, aes(x=Start_Yr, y=number, col=factor(gender)))+
   facet_wrap(~type, scale='free_y')
 tplot
 ```
+
+#### Footnotes
+
+1. Data from https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.
