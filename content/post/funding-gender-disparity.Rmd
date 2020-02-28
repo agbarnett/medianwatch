@@ -1,13 +1,10 @@
 ---
-title: A 2-for-1 offer for female researchers
-author: Adrian Barnett
-date: '2020-02-28'
-slug: funding-gender-disparity
+title: "A 2-for-1 offer for female researchers"
+author: "Adrian Barnett"
+date: 2020-02-28
 categories: []
 tags: ["funding"]
-subtitle: ''
-description: ''
-image: ''
+slug: funding-gender-disparity
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +15,7 @@ library(tidyr)
 library(stringr)
 ```
 
-# The gender disparity in research funding
+## The gender disparity in research funding
 
 There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women. The idea of allowing fewer applications from men using quotas has been raised.
 
@@ -86,6 +83,11 @@ tplot = ggplot(data=to.plot, aes(x=Start_Yr, y=number, col=factor(gender)))+
   facet_wrap(~type, scale='free_y')
 tplot
 ```
+
+## Funding peer review
+
+Just in case you are unfamiliar with how research grants are awarded, researchers spend a long time preparing detailed applications, which are then peer reviewed, given a score and ranked. Those ranked high enough win funding, and those below the funding line get nothing. There are lots of different schemes, with some funding projects and some funding people. Most funding schemes work on an annual basis. It’s a tough system and success rates have been falling for years, as shown by the graph below.
+
 
 #### Footnotes
 

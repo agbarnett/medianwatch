@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>A 2-for-1 offer for female researchers</title>
+      <link>https://medianwatch.netlify.com/post/funding-gender-disparity/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
+      <description>The gender disparity in research fundingThere is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
+    </item>
+    
+    <item>
       <title>Why blog why now?</title>
       <link>https://medianwatch.netlify.com/post/2020-02-28-first-post/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
@@ -19,16 +28,6 @@
       <guid>https://medianwatch.netlify.com/post/2020-02-28-first-post/</guid>
       <description>The title for this blog is stolen from the ABC show &amp;ldquo;Media Watch&amp;rdquo; which critiques the Australian media and is never short of content. Similarly there&amp;rsquo;s a lot wrong in the world of statistics, so this blog is mainly about the use and misuse of statistics.
 I&amp;rsquo;ve got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I&amp;rsquo;ve made in published papers, which I realise may just help the climate change propagandists to undermine my credibility!</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Zhaohuabing Blog</title>
-      <link>https://medianwatch.netlify.com/2017/11/03/hello-world/</link>
-      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.com/2017/11/03/hello-world/</guid>
-      <description> “Yeah It&amp;rsquo;s on. ”
- Hello World! </description>
     </item>
     
     <item>
@@ -57,7 +56,8 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/top/about/</guid>
-      <description></description>
+      <description>Adrian Barnett I am a statistician working at Queensland University of Technology. I am the current president of the Statistical Society of Australia.
+Feel free to email me: a.barnett@qut.edu.edu.</description>
     </item>
     
     <item>
