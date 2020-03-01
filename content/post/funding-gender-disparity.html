@@ -1,9 +1,9 @@
 ---
-title: "A 2-for-1 offer for female researchers"
+title: "A 2-for-1 deal for female researchers"
 author: "Adrian Barnett"
-date: 2020-02-28
+date: 2020-03-01
 categories: []
-tags: ["funding"]
+tags: ["funding","simulations"]
 slug: funding-gender-disparity
 ---
 
@@ -13,16 +13,27 @@ slug: funding-gender-disparity
 <h2>The gender disparity in research funding</h2>
 <p>There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women. The idea of allowing fewer applications from men using quotas has been raised.</p>
 <p>The figures below show the application numbers for the Australian Research Council (ARC), with an average gap between men and women of around 8,000 applications per year and around 2,650 awards.<sup>1</sup></p>
-<div class="figure"><span id="fig:arcPlot"></span>
-<img src="/post/funding-gender-disparity_files/figure-html/arcPlot-1.png" alt="Numbers over time" width="2800" />
-<p class="caption">
-Figure 1: Numbers over time
-</p>
-</div>
+<p><img src="/post/funding-gender-disparity_files/figure-html/arcPlot-1.png" width="2800" /></p>
 </div>
 <div id="funding-peer-review" class="section level2">
 <h2>Funding peer review</h2>
 <p>Just in case you are unfamiliar with how research grants are awarded, researchers spend a long time preparing detailed applications, which are then peer reviewed, given a score and ranked. Those ranked high enough win funding, and those below the funding line get nothing. There are lots of different schemes, with some funding projects and some funding people. Most funding schemes work on an annual basis. It’s a tough system and success rates have been falling for years, as shown by the graph below.</p>
+</div>
+<div id="distribution-of-overall-scores" class="section level2">
+<h2>Distribution of overall scores</h2>
+<p>The plot below shows the distribution of original overall NHMRC scores and fifty of my simulations (see below for technical details). My simulations do not match the shape of the original scores, but I am not greatly concerned as I think I capture the broad shape of the scores. The great advantage of using simulations is that we are in complete control, and can change any aspect.</p>
+<!--- from check_simulation.R, can't give code as it relies on NHMRC data --->
+<p><img src="compareSimDensity.jpg" width="750" /></p>
+</div>
+<div id="x" class="section level2">
+<h2>x</h2>
+<p>A success rate of around 60%.</p>
+<div id="techinical-details-of-the-simulations" class="section level4">
+<h4>Techinical details of the simulations</h4>
+</div>
+<div id="references" class="section level4">
+<h4>References</h4>
+</div>
 <div id="footnotes" class="section level4">
 <h4>Footnotes</h4>
 <ol style="list-style-type: decimal">
