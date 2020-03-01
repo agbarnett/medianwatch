@@ -1,7 +1,7 @@
 ---
 title: "A 2-for-1 deal for female researchers"
 author: "Adrian Barnett"
-date: 2020-03-01
+date: 2020-03-02
 categories: []
 tags: ["funding","simulations"]
 slug: funding-gender-disparity
@@ -128,7 +128,7 @@ I varied the definition of what applications were "close" to the funding line, w
 The plot below shows the distribution of original NHMRC overall scores per applicant (in red) and fifty of my simulations (in grey). My simulations are too smooth and do not match the shape of the original scores, but I am not greatly concerned as I think I capture the broad shape of the scores. The great advantage of using simulations is that we are in complete control, and can change any aspect of the funding system.
 
 <!--- from check_simulation.R, can't give code as it relies on NHMRC data --->
-![](https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/post/compareSimDensity.jpg){width=750px} 
+![](https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/post/compareSimDensity.jpg){width=450px} 
 
 ## Simulated number of additional women funded
 
