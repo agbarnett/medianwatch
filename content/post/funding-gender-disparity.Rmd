@@ -11,7 +11,7 @@ link-citations: true
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, collapse = TRUE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400)
+knitr::opts_chunk$set(echo = FALSE, collapse = TRUE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, out.width = "70%")
 library(ggplot2)
 library(dplyr)
 library(tidyr)
@@ -202,19 +202,23 @@ winner.plot = ggplot(data=to.plot, aes(x=prop.male, y=winner.median, ymin=winner
 winner.plot
 ```
 
-So around another 10 women would be funded in the first round. There was no large flow-on to the carry-forward round, so the combined benefit is the 10 women in the first round plus around `r filter(to.plot, gap==0.2, prop.male==0.65)$counts.median` women from the carry-forward round. So an additional 22 women funded per 1,000 applications.
+So around another 10 women would be funded in the first round. There was a small flow-on to the carry-forward round with an average of 1 extra women funded, so the combined benefit is the 10 women in the first round plus around `r filter(to.plot, gap==0.2, prop.male==0.65)$counts.median` women from the carry-forward round. So an additional 22 women funded per 1,000 applications.
 
 #### Summary:
 
-So this policy is not going to create the ideal 50:50 balance in research funding, but it would be expected to add a good amount of female researchers to the numbers funded.
+This policy is not going to create the ideal 50:50 balance in research funding, but it would likely fund a good number of additional female researchers for a relatively simple change to the funding process.
 
-### Caveats
+### Limitations
 
 This is a very simplistic simulation of peer reviewers' scores with many large assumptions. Given the complexities of the funding system and the often complex behaviour of researchers, the reality could be very different from that shown here. 
 
-An increase in the female:male ratio from 30:70 to 35:65 is a big jump and may be too ambitious.
+One complexity I overlooked is that applications are reviewed in panels which have their own funding line (I assumed an overall funding line). This increases the year-to-year variability in the funding line, so I would expect it to increase the variability in the number of additional women funded, but not the average.
 
-I did also examine a system in which the weighting was 33% for track record instead of the 25% for the NHMRC model, and as expected more women were funded using the carry-forward. A carry-forward based on track record would likely be more effective for schemes where track record had a higher percent of the overall score, the obvious candidate being fellowship schemes.
+One argument against this policy is that a year can be a long time in science and hence the applications may be out of date and so should not be carried-forward. However, most projects and fellowships are 3 years or longer, hence funding systems are already vulnerable to any rapid changes in discovery.
+
+My assumed increase in the female:male ratio from 30:70 to 35:65 is a big jump and may be unrealistic.
+
+I also examined a system in which the weighting was 33% for track record instead of the 25% for the NHMRC model (results not shown), and as expected more women were funded using the carry-forward. A carry-forward based on track record would likely be more effective for schemes where track record had a higher percent of the overall score, the obvious candidate being fellowship schemes.
 
 #### Technical details of the simulations {#tech}
 

@@ -11,3 +11,5 @@ The title for this blog is a homage the ABC TV show "[Media Watch](https://www.a
 I've got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I've made in published papers, which I realise may just help the climate change propagandists to undermine my credibility.
 
 I was inspired by [Alison Hill](https://alison.rbind.io) to start this blog, thanks to her great talk at [YSC2019](https://ysc2019.netlify.com). The blog theme was borrowed with permission from [Zhao Huabing](https://zhaohuabing.com).
+
+I am still learning about blogs and blogdown, so you will find problems in the pages with broken links and equations not rendering. Please do contact me if you have any improvements or fixes.
