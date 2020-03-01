@@ -2,4 +2,4 @@
 
 I am a statistician working at Queensland University of Technology. 
 I am the current president of the [Statistical Society of Australia](https://www.statsoc.org.au).
-I am interesting in improving the quality of research, in particular how researchers use statistics and how research is funded.
+I am interested in improving the quality of research, in particular how researchers use statistics and how research is funded.

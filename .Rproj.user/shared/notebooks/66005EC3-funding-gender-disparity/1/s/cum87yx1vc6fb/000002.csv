@@ -4,7 +4,6 @@
 "0","Female	2581	339"
 "0","Male	3185	423')"
 "0",""
-"0",""
 "0","# data from https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data"
 "0","arc_data = read.table(header=TRUE, sep='\t', text='"
 "0","Start_Yr	Female_applied	Indeterminate/Intersex	Male_applied	Unspecified	Female_won	Indeterminate/Intersex	Male_won	Unspecified"

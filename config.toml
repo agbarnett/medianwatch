@@ -100,9 +100,6 @@ home = ["HTML", "RSS", "Algolia"]
 #  href =  "https://martinfowler.com"
 
   [[params.addtional_menus]]
-  title =  "BOOKS"
-  href =  "/top/books/"
-  [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/top/about/"
 

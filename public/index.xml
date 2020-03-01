@@ -17,7 +17,7 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
-      <description>The gender disparity in research fundingThere is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
+      <description>The gender disparity in research funding.There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
     </item>
     
     <item>
@@ -26,19 +26,8 @@
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/post/2020-02-28-first-post/</guid>
-      <description>The title for this blog is stolen from the ABC show &amp;ldquo;Media Watch&amp;rdquo; which critiques the Australian media and is never short of content. Similarly there&amp;rsquo;s a lot wrong in the world of statistics, so this blog is mainly about the use and misuse of statistics.
-I&amp;rsquo;ve got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I&amp;rsquo;ve made in published papers, which I realise may just help the climate change propagandists to undermine my credibility!</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://medianwatch.netlify.com/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>https://medianwatch.netlify.com/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <description>The title for this blog is a homage the ABC TV show &amp;ldquo;Media Watch&amp;rdquo; which critiques the Australian media and is never short of content. Similarly there&amp;rsquo;s a lot wrong in the way people use statistics, so this blog is mainly about the use and misuse of statistics.
+I&amp;rsquo;ve got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I&amp;rsquo;ve made in published papers, which I realise may just help the climate change propagandists to undermine my credibility.</description>
     </item>
     
     <item>
@@ -57,16 +46,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>https://medianwatch.netlify.com/top/about/</guid>
       <description>Adrian Barnett
-I am a statistician working at Queensland University of Technology. I am the current president of the Statistical Society of Australia. I am interesting in improving the quality of research, in particular how researchers use statistics and how research is funded.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://medianwatch.netlify.com/top/books/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.com/top/books/</guid>
-      <description></description>
+I am a statistician working at Queensland University of Technology. I am the current president of the Statistical Society of Australia. I am interested in improving the quality of research, in particular how researchers use statistics and how research is funded.</description>
     </item>
     
   </channel>

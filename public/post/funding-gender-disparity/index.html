@@ -105,15 +105,9 @@
                     </li>
                     
                         
-                        <li>
-                            <a href="/categories/r">r</a>
-                        </li>
-                        
                     
                     
 		    
-                        <li><a href="/top/books/">BOOKS</a></li>
-                    
                         <li><a href="/top/about/">ABOUT</a></li>
                     
 
@@ -223,36 +217,106 @@
                 
 
 
-<div id="the-gender-disparity-in-research-funding" class="section level2">
-<h2>The gender disparity in research funding</h2>
-<p>There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women. The idea of allowing fewer applications from men using quotas has been raised.</p>
-<p>The figures below show the application numbers for the Australian Research Council (ARC), with an average gap between men and women of around 8,000 applications per year and around 2,650 awards.<sup>1</sup></p>
-<p><img src="/post/funding-gender-disparity_files/figure-html/arcPlot-1.png" width="2800" /></p>
+<div id="the-gender-disparity-in-research-funding." class="section level2">
+<h2>The gender disparity in research funding.</h2>
+<p>There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women. The idea of limiting the number of applications from men using quotas per institution has been raised.</p>
+<p>The figures below show the annual application numbers for the Australian Research Council (ARC), with an average gap between men and women of around 8,000 applications per year and around 2,650 awards.<sup>1</sup></p>
+<p><img src="/post/funding-gender-disparity_files/figure-html/arcPlot-1.png" width="2000" /></p>
 </div>
 <div id="funding-peer-review" class="section level2">
 <h2>Funding peer review</h2>
 <p>Just in case you are unfamiliar with how research grants are awarded, researchers spend a long time preparing detailed applications, which are then peer reviewed, given a score and ranked. Those ranked high enough win funding, and those below the funding line get nothing. There are lots of different schemes, with some funding projects and some funding people. Most funding schemes work on an annual basis. It’s a tough system and success rates have been falling for years, as shown by the graph below.</p>
+<p><img src="/post/funding-gender-disparity_files/figure-html/success.rates.by.gender-1.png" width="2800" /></p>
 </div>
+<div id="carrying-it-forward" class="section level2">
+<h2>Carrying-it-forward</h2>
+<p>My proposal is to allow women who just missed out on funding to have their score carried forward to the next application round. Women who were close to the funding line (defined below) would be given this option and they could either have their previous score carried forward without having to re-write their application or put in an entirely new application. If they carried forward their score, they would be allowed to update their track record, and this part of their application would be re-scored, meaning their overall score could increase. The deadline for updating track records would be the same as the overall deadline.</p>
+<p>Completing a grant application takes a huge amount of effort, we calculated around 20 working days for the lead researcher of an NHMRC Project Grant <span class="citation">(Barnett et al. <a href="#ref-Barnett2015" role="doc-biblioref">2015</a>)</span>. During this time other work commitments and family commitments often get neglected <span class="citation">(Herbert et al. <a href="#ref-Herbert2014" role="doc-biblioref">2014</a>)</span>. Some women may choose not to take part because of their other commitments, and hence its often time, not talent, that is the key barrier to success.</p>
+<p>Knowing that an application could count for two years may encourage more women to take part.</p>
+</div>
+<div id="why-not-just-fund-more-women" class="section level2">
+<h2>Why not just fund more women?</h2>
+<p>A direct way of funding more women would be to lower the funding line for them. However, the strong argument against this is that women want to compete on the same terms as men, and such awards would be viewed as less meritorious. Carrying-forward the score keeps the same standards and should fund equally meritorious science, although the association between score and scientific output is weak <span class="citation">(Fang, Bowen, and Casadevall <a href="#ref-Fang2016" role="doc-biblioref">2016</a>)</span>.</p>
+</div>
+<div id="simulations" class="section level1">
+<h1>Simulations</h1>
+<p>I have simulated the carry-over policy based on peer review data from the Australian NHMRC from 2009. The data are 6,950 peer reviewers scores for 2,899 applications (two or three reviewers per application). The scores are integers from 1 (worst) to 7 (best), although 1 and 7 are hardly used. Each reviewer gives three integer scores for: significance, track record, and scientific quality. These are combined into an overall score using a 25:25:50 weighting, so scientific quality dominates. The scores for the three reviewers are then averaged to give an average score per applicant, which is then ranked and funding awarded to the highest scoring applicants.</p>
+<p>I first fitted a regression model to the real data so that I could simulate lots of alternative worlds. For the details on the model see the technical details below. All the code is available <a href="https://github.com/agbarnett/carryover_funding">here on Github</a>.</p>
+<p>I used a hypothetical scheme with 1,000 applications of which 70% were from men. I assumed the success rates for men and women were the same. The funding line was at 20%. Each application had three reviewers.</p>
+<p>I varied the definition of what applications were “close” to the funding line, which controls which women are offered the option to carry-forward their application. I assumed that all women took up the offer. For carried forward applications, I randomly improved their track record by 1 with each reviewer with a probability of 0.5.</p>
 <div id="distribution-of-overall-scores" class="section level2">
 <h2>Distribution of overall scores</h2>
-<p>The plot below shows the distribution of original overall NHMRC scores and fifty of my simulations (see below for technical details). My simulations do not match the shape of the original scores, but I am not greatly concerned as I think I capture the broad shape of the scores. The great advantage of using simulations is that we are in complete control, and can change any aspect.</p>
+<p>The plot below shows the distribution of original NHMRC overall scores per applicant (in red) and fifty of my simulations (in grey). My simulations are too smooth and do not match the shape of the original scores, but I am not greatly concerned as I think I capture the broad shape of the scores. The great advantage of using simulations is that we are in complete control, and can change any aspect of the funding system.</p>
 <!--- from check_simulation.R, can't give code as it relies on NHMRC data --->
 <p><img src="compareSimDensity.jpg" width="750" /></p>
 </div>
-<div id="x" class="section level2">
-<h2>x</h2>
-<p>A success rate of around 60%.</p>
-<div id="techinical-details-of-the-simulations" class="section level4">
-<h4>Techinical details of the simulations</h4>
+<div id="simulated-number-of-additional-women-funded" class="section level2">
+<h2>Simulated number of additional women funded</h2>
+<p>These first results use a female:male ratio of 30:70.</p>
+<p>The plots below show the number of women funded by carrying-over their applications and the success rate in the second round for the carried-over applications. The <span class="math inline">\(x\)</span>-axis is the gap between the funding line and those offered the carry-over.</p>
+<p><img src="/post/funding-gender-disparity_files/figure-html/plot.results.30_70-1.png" width="2800" /></p>
+<p>A narrow gap in the score of 0.1 leads to a very high success rate for the carried-over applications with a proportion of 0.76 funded in the next round.
+Widening the gap lowers the success rate, because those further from the funding line are included, and by virtue of having lower scores they need more improvements in their track record to get funded.
+A gap of 0.2 has a 0.59 proportion success rate and a median number of 11 women funded by carry-over. Increasing the funding gap to 0.3 only increases the median number of women funded to 12.</p>
+<p>The number of additional women funded is relatively modest at 11 per 1,000 applications, although it increases the absolute number of women funded from to per 1,000 applications.</p>
 </div>
-<div id="references" class="section level4">
-<h4>References</h4>
+<div id="what-if-more-women-apply" class="section level2">
+<h2>What if more women apply?</h2>
+<p>One potential effect of the policy is that more women might apply because they know their application could count for two years. This would mean more women being funded in the first round, and even more women in the carry-over round too.</p>
+<p>To model this I changed the female:male ratio from 30:70 to 35:65.</p>
+<p><img src="/post/funding-gender-disparity_files/figure-html/plot.results.35_65-1.png" width="2800" /></p>
+<p>So around another 10 women would be funded in the first round. There was no large flow-on to the carry-over round, so the combined benefit is the 10 women in the first round plus around 12 women from the carry-over round.</p>
+<div id="summary" class="section level4">
+<h4>Summary:</h4>
+<p>So this policy is not going to create the ideal 50:50 balance in research funding, but it would be expected to add a good amount of female researchers to the numbers funded.</p>
 </div>
-<div id="footnotes" class="section level4">
-<h4>Footnotes</h4>
+<div id="caveats" class="section level3">
+<h3>Caveats</h3>
+<p>This is a very simplistic simulation of peer reviewers’ scores with many large assumptions. Given the complexities of the funding system and the often complex behaviour of researchers, the reality could be very different from that shown here.</p>
+<p>An increase in the female:male ratio from 30:70 to 35:65 is a big jump and may be too ambitious.</p>
+<p>I did also examine a system in which the weighting was 33% for track record instead of the 25% for the NHMRC model, and as expected more women were funded using the carry-over. A carry-over based on track record would likely be more effective for schemes where track record had a higher percent of the overall score, the obvious candidate being fellowship schemes.</p>
+<div id="tech" class="section level4">
+<h4>Technical details of the simulations</h4>
+<p>I fitted a Bayesian model to the three observed scores for: significance, track record and quality.
+I assumed these scores were correlated using a multivariate Normal distribution.
+I assumed that each applicant had a latent overall score that had a Normal distribution.</p>
+<p><span class="math inline">\(s(i,1:3) \sim \textrm{MVN} (\mu(i,1:3), \Sigma), \qquad i=1,\ldots, N\)</span></p>
+<p><span class="math inline">\(\mu(i,j) = \beta(i) + \alpha(j), \qquad i=1,\ldots, N, \, j=1,2,3,\)</span></p>
+<p><span class="math inline">\(\beta(j) \sim \textrm{N}(0, \sigma^2_{\beta})\)</span></p>
+<p><span class="math inline">\(\alpha(j) \sim \textrm{N}(0, 10^2)\)</span></p>
+<p><span class="math inline">\(1 / \Sigma \sim \textrm{Wishart}(3)\)</span></p>
+<p><span class="math inline">\(1 / \sigma^2_{\beta} \sim \textrm{Gamma}(1,1)\)</span></p>
+<p>In these equations:</p>
+<ul>
+<li><p><span class="math inline">\(s\)</span> are the observed integer scores for the <span class="math inline">\(N\)</span> applicants</p></li>
+<li><p><span class="math inline">\(\alpha\)</span> is the mean score for the three questions</p></li>
+<li><p><span class="math inline">\(\beta\)</span> is the latent score per applicant.</p></li>
+</ul>
+<p>The model did not converge, because there was a strong correlation between the latent applicant effect and the variance<span class="math inline">\(-\)</span>covariance matrix for the multivariate normal. This is not surprising as they are related. To get a better convergence I tightened the prior for the applicant effect to:</p>
+<p><span class="math inline">\(\sigma^2_{\beta} \sim \textrm{N}(0.8, 0.01^2)\)</span></p>
+<p>I do not normally do fixes like this, but for a simulated model I am just trying to get average predictions that are as close to the observed data as possible.</p>
+</div>
+<div id="footnote" class="section level4">
+<h4>Footnote</h4>
 <ol style="list-style-type: decimal">
 <li>Data from <a href="https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data" class="uri">https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data</a> - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.</li>
 </ol>
+</div>
+<div id="references" class="section level4 unnumbered">
+<h4>References</h4>
+<div id="refs" class="references">
+<div id="ref-Barnett2015">
+<p>Barnett, Adrian G, Nicholas Graves, Philip Clarke, and Danielle Herbert. 2015. “The Impact of a Streamlined Funding Application Process on Application Time: Two Cross-Sectional Surveys of Australian Researchers.” <em>BMJ Open</em> 5 (1). <a href="https://doi.org/10.1136/bmjopen-2014-006912">https://doi.org/10.1136/bmjopen-2014-006912</a>.</p>
+</div>
+<div id="ref-Fang2016">
+<p>Fang, Ferric C, Anthony Bowen, and Arturo Casadevall. 2016. “NIH Peer Review Percentile Scores Are Poorly Predictive of Grant Productivity.” <em>eLife</em> 5 (February). <a href="https://doi.org/10.7554/elife.13323">https://doi.org/10.7554/elife.13323</a>.</p>
+</div>
+<div id="ref-Herbert2014">
+<p>Herbert, Danielle L, John Coveney, Philip Clarke, Nicholas Graves, and Adrian G Barnett. 2014. “The Impact of Funding Deadlines on Personal Workloads, Stress and Family Relationships: A Qualitative Study of Australian Researchers.” <em>BMJ Open</em> 4 (3). <a href="https://doi.org/10.1136/bmjopen-2013-004462">https://doi.org/10.1136/bmjopen-2013-004462</a>.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 
