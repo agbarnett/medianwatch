@@ -5,7 +5,7 @@ date: 2020-03-02
 categories: []
 tags: ["funding","simulations"]
 slug: funding-gender-disparity
-toc: false
+showtoc: false
 image: "/img/rail_2.jpg"
 bibliography: bibliography.bib
 link-citations: true
@@ -76,7 +76,7 @@ To model this I changed the female:male ratio from 30:70 to 35:65. The plot belo
 <h4>Technical details of the simulations</h4>
 <p>I fitted a Bayesian model to the three observed scores for: significance, track record and quality.
 I assumed these scores were correlated using a multivariate Normal distribution.
-I assumed that each applicant had a latent overall score that had a Normal distribution.<sup>2</sup></p>
+I assumed that each applicant had a latent overall score that had a Normal distribution.</p>
 <p><span class="math inline">\(s(i,1:3) \sim \textrm{MVN} (\mu(i,1:3), \Sigma), \qquad i=1,\ldots, N\)</span></p>
 <p><span class="math inline">\(\mu(i,j) = \beta(i) + \alpha(j), \qquad i=1,\ldots, N, \, j=1,2,3,\)</span></p>
 <p><span class="math inline">\(\beta(j) \sim \textrm{N}(0, \sigma^2_{\beta})\)</span></p>
@@ -94,11 +94,10 @@ I assumed that each applicant had a latent overall score that had a Normal distr
 <p>I do not normally do fixes like this, but for a simulated model I am just trying to get average predictions that are as close to the observed data as possible.</p>
 <p>The model creates continuous scores, which I converted to integers using rounding. Any simulated scores above 7 were truncated to 7.</p>
 </div>
-<div id="footnotes" class="section level4">
-<h4>Footnotes</h4>
+<div id="footnote" class="section level4">
+<h4>Footnote</h4>
 <ol style="list-style-type: decimal">
-<li><p>Data from <a href="https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data" class="uri">https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data</a> - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.</p></li>
-<li><p>I am trying to fix the rendering of these equations!</p></li>
+<li>Data from <a href="https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data" class="uri">https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data</a> - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.</li>
 </ol>
 </div>
 <div id="references" class="section level4 unnumbered">
