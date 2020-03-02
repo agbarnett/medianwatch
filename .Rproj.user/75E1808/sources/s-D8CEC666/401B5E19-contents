@@ -90,7 +90,7 @@ tplot
 
 Just in case you are unfamiliar with how research grants are awarded, researchers spend a long time preparing detailed applications, which are then peer reviewed, given a score and ranked. Those ranked high enough win funding, and those below the funding line get nothing. There are lots of different schemes, with some funding projects and some funding people. Most funding schemes work on an annual basis. It’s a tough system and success rates have been falling for years, as shown by the graph below, again using data from the ARC.
 
-```{r success.rates.by.gender}
+```{r success.rates.by.gender, fig.width=5, fig.height=4}
 to.plot = select(arc_data, Start_Yr, p_male, p_female) %>%
   tidyr::gather(`p_male`, `p_female`, key=gender, value=p) %>%
   mutate(genderc = ifelse(gender=='p_male','Male','Female'))
@@ -120,9 +120,9 @@ I have simulated the carry-forward policy based on peer review data from the Aus
 
 I first fitted a regression model to the real data so that I could simulate lots of alternative worlds. For the details on the model see the technical details below. All the code is available [here on Github](https://github.com/agbarnett/carryover_funding).
 
-I used a hypothetical scheme with 1,000 applications of which 70% were from men. I assumed the success rates for men and women were the same. The funding line was at 20%. Each application had three reviewers.
+I used a hypothetical scheme with 1,000 applications of which 70% were from men. I assumed the success rates for men and women were the same. Two-hundred applicants were funded per round, a 20% success rate. Each application had five peer reviewers.
 
-I varied the definition of what applications were "close" to the funding line, which controls which women are offered the option to carry-forward their application. I assumed that all women took up the offer. For carried forward applications, I randomly improved their track record by 1 with each reviewer with a probability of 0.5.
+I varied the definition of what applications were "close" to the funding line, which controls which women were offered the option to carry-forward their application. I assumed that all women took up the offer. For carried forward applications, I randomly improved their track record by 1 with each reviewer with a probability of 0.5.
 
 ## Distribution of overall scores
 
@@ -135,9 +135,9 @@ The plot below shows the distribution of original NHMRC overall scores per appli
 
 These first results use a female:male ratio of 30:70.
 
-The plots below show the number of women funded by carrying-forward their applications and the success rate in the second round for the carried-over applications. The x-axis is the gap between the funding line and those offered the carry-forward. 
+The plots below show the number of women funded by carrying-forward their applications and the success proportion in the second round for the carried-forward applications. The x-axis is the gap between the funding line and those offered the carry-forward. 
 
-```{r plot.results.30_70}
+```{r plot.results.30_70, fig.width=5, fig.height=4}
 # get the data
 file = 'sim.results.RData'
 load(paste('data/', file, sep='')) # load simulations results from simulate_carry_over_women.R
@@ -171,9 +171,9 @@ p.plot = ggplot(data=to.plot, aes(x=gap, y=winner.p))+
 grid.arrange(num.plot, p.plot, nrow = 1)
 ```
 
-A narrow gap in the score of 0.1 leads to a very high success rate for the carried-over applications with a proportion of `r round(filter(to.plot, gap==0.1)$winner.p, 2)` funded in the next round. 
+A narrow gap in the score of 0.1 leads to a very high success proportion for the carried-forward applications with a proportion of `r round(filter(to.plot, gap==0.1)$winner.p, 2)` funded in the next round. 
 Widening the gap lowers the success rate, because those further from the funding line are included, and by virtue of having lower scores they need more improvements in their track record to get funded.
-A gap of 0.2 has a `r round(filter(to.plot, gap==0.2)$winner.p, 2)` proportion success rate and a median number of `r filter(to.plot, gap==0.2)$counts.median` women funded by carry-forward. Increasing the funding gap to 0.3 only increases the median number of women funded to `r filter(to.plot, gap==0.3)$counts.median`.
+A gap of 0.2 has a success proportion of `r round(filter(to.plot, gap==0.2)$winner.p, 2)` and a median number of `r filter(to.plot, gap==0.2)$counts.median` women funded by carry-forward. Increasing the funding gap to 0.3 does not increase the number of women funded.
 
 ```{r include=FALSE}
 women.funded.old = filter(results, gap==0.2, prop.male==0.70)$success * (1- 0.7) *1000
@@ -185,8 +185,7 @@ The number of additional women funded is relatively modest at `r filter(to.plot,
 ## What if more women apply?
 
 One potential effect of the policy is that more women might apply because they know their application could count for two years. This would mean more women being funded in the first round, and even more women in the carry-forward round too.
-
-To model this I changed the female:male ratio from 30:70 to 35:65.
+To model this I changed the female:male ratio from 30:70 to 35:65. The plot below shows the number of women funded in the first round, before the carry-forward.
 
 ```{r plot.results.35_65, fig.width=4, fig.height=3}
 ## plot first round winners by proportion male (do not need gap as results are the same)
@@ -215,7 +214,7 @@ This is a very simplistic simulation of peer reviewers' scores with many large a
 
 One complexity I overlooked is that applications are reviewed in panels which have their own funding line (I assumed an overall funding line). This increases the year-to-year variability in the funding line, so I would expect it to increase the variability in the number of additional women funded, but not the average.
 
-One argument against this policy is that a year can be a long time in science and hence the applications may be out of date and so should not be carried-forward. However, most projects and fellowships are 3 years or longer, hence funding systems are already vulnerable to any rapid changes in discovery.
+One argument against this policy is that a year can be a long time in science and hence the applications may be out of date and so should not be carried-forward. However, most projects and fellowships are 3 years or longer, hence funding systems are already vulnerable to any rapid changes in scientific discovery.
 
 My assumed increase in the female:male ratio from 30:70 to 35:65 is a big jump and may be unrealistic.
 
@@ -225,7 +224,7 @@ I also examined a system in which the weighting was 33% for track record instead
 
 I fitted a Bayesian model to the three observed scores for: significance, track record and quality. 
 I assumed these scores were correlated using a multivariate Normal distribution.
-I assumed that each applicant had a latent overall score that had a Normal distribution.
+I assumed that each applicant had a latent overall score that had a Normal distribution.^2^
 
 $s(i,1:3) \sim \textrm{MVN} (\mu(i,1:3), \Sigma), \qquad i=1,\ldots, N$
 
@@ -253,9 +252,13 @@ $\sigma^2_{\beta} \sim \textrm{N}(0.8, 0.01^2)$
 
 I do not normally do fixes like this, but for a simulated model I am just trying to get average predictions that are as close to the observed data as possible. 
 
-#### Footnote
+The model creates continuous scores, which I converted to integers using rounding. Any simulated scores above 7 were truncated to 7.
+
+#### Footnotes
 
 1. Data from https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.
+
+2. I am trying to fix the rendering of these equations!
 
 #### References
 

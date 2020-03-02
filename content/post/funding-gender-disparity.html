@@ -37,8 +37,8 @@ link-citations: true
 <h1>Simulations</h1>
 <p>I have simulated the carry-forward policy based on peer review data from the Australian NHMRC from 2009. The data are 6,950 peer reviewers scores for 2,899 applications (two or three reviewers per application). The scores are integers from 1 (worst) to 7 (best), although 1 and 7 are hardly used. Each reviewer gives three integer scores for: significance, track record, and scientific quality. These are combined into an overall score using a 25:25:50 weighting, so scientific quality dominates. The scores for the three reviewers are then averaged to give an average score per applicant, which is then ranked and funding awarded to the highest scoring applicants.</p>
 <p>I first fitted a regression model to the real data so that I could simulate lots of alternative worlds. For the details on the model see the technical details below. All the code is available <a href="https://github.com/agbarnett/carryover_funding">here on Github</a>.</p>
-<p>I used a hypothetical scheme with 1,000 applications of which 70% were from men. I assumed the success rates for men and women were the same. The funding line was at 20%. Each application had three reviewers.</p>
-<p>I varied the definition of what applications were “close” to the funding line, which controls which women are offered the option to carry-forward their application. I assumed that all women took up the offer. For carried forward applications, I randomly improved their track record by 1 with each reviewer with a probability of 0.5.</p>
+<p>I used a hypothetical scheme with 1,000 applications of which 70% were from men. I assumed the success rates for men and women were the same. Two-hundred applicants were funded per round, a 20% success rate. Each application had five peer reviewers.</p>
+<p>I varied the definition of what applications were “close” to the funding line, which controls which women were offered the option to carry-forward their application. I assumed that all women took up the offer. For carried forward applications, I randomly improved their track record by 1 with each reviewer with a probability of 0.5.</p>
 <div id="distribution-of-overall-scores" class="section level2">
 <h2>Distribution of overall scores</h2>
 <p>The plot below shows the distribution of original NHMRC overall scores per applicant (in red) and fifty of my simulations (in grey). My simulations are too smooth and do not match the shape of the original scores, but I am not greatly concerned as I think I capture the broad shape of the scores. The great advantage of using simulations is that we are in complete control, and can change any aspect of the funding system.</p>
@@ -48,17 +48,17 @@ link-citations: true
 <div id="simulated-number-of-additional-women-funded" class="section level2">
 <h2>Simulated number of additional women funded</h2>
 <p>These first results use a female:male ratio of 30:70.</p>
-<p>The plots below show the number of women funded by carrying-forward their applications and the success rate in the second round for the carried-over applications. The x-axis is the gap between the funding line and those offered the carry-forward.</p>
+<p>The plots below show the number of women funded by carrying-forward their applications and the success proportion in the second round for the carried-forward applications. The x-axis is the gap between the funding line and those offered the carry-forward.</p>
 <p><img src="/post/funding-gender-disparity_files/figure-html/plot.results.30_70-1.png" width="70%" /></p>
-<p>A narrow gap in the score of 0.1 leads to a very high success rate for the carried-over applications with a proportion of 0.76 funded in the next round.
+<p>A narrow gap in the score of 0.1 leads to a very high success proportion for the carried-forward applications with a proportion of 0.76 funded in the next round.
 Widening the gap lowers the success rate, because those further from the funding line are included, and by virtue of having lower scores they need more improvements in their track record to get funded.
-A gap of 0.2 has a 0.49 proportion success rate and a median number of 11 women funded by carry-forward. Increasing the funding gap to 0.3 only increases the median number of women funded to 11.</p>
+A gap of 0.2 has a success proportion of 0.49 and a median number of 11 women funded by carry-forward. Increasing the funding gap to 0.3 does not increase the number of women funded.</p>
 <p>The number of additional women funded is relatively modest at 11 per 1,000 applications, although it increases the absolute number of women funded from 60 to 71 per 1,000 applications.</p>
 </div>
 <div id="what-if-more-women-apply" class="section level2">
 <h2>What if more women apply?</h2>
-<p>One potential effect of the policy is that more women might apply because they know their application could count for two years. This would mean more women being funded in the first round, and even more women in the carry-forward round too.</p>
-<p>To model this I changed the female:male ratio from 30:70 to 35:65.</p>
+<p>One potential effect of the policy is that more women might apply because they know their application could count for two years. This would mean more women being funded in the first round, and even more women in the carry-forward round too.
+To model this I changed the female:male ratio from 30:70 to 35:65. The plot below shows the number of women funded in the first round, before the carry-forward.</p>
 <p><img src="/post/funding-gender-disparity_files/figure-html/plot.results.35_65-1.png" width="70%" /></p>
 <p>So around another 10 women would be funded in the first round. There was a small flow-on to the carry-forward round with an average of 1 extra women funded, so the combined benefit is the 10 women in the first round plus around 12 women from the carry-forward round. So an additional 22 women funded per 1,000 applications.</p>
 <div id="summary" class="section level4">
@@ -69,14 +69,14 @@ A gap of 0.2 has a 0.49 proportion success rate and a median number of 11 women 
 <h3>Limitations</h3>
 <p>This is a very simplistic simulation of peer reviewers’ scores with many large assumptions. Given the complexities of the funding system and the often complex behaviour of researchers, the reality could be very different from that shown here.</p>
 <p>One complexity I overlooked is that applications are reviewed in panels which have their own funding line (I assumed an overall funding line). This increases the year-to-year variability in the funding line, so I would expect it to increase the variability in the number of additional women funded, but not the average.</p>
-<p>One argument against this policy is that a year can be a long time in science and hence the applications may be out of date and so should not be carried-forward. However, most projects and fellowships are 3 years or longer, hence funding systems are already vulnerable to any rapid changes in discovery.</p>
+<p>One argument against this policy is that a year can be a long time in science and hence the applications may be out of date and so should not be carried-forward. However, most projects and fellowships are 3 years or longer, hence funding systems are already vulnerable to any rapid changes in scientific discovery.</p>
 <p>My assumed increase in the female:male ratio from 30:70 to 35:65 is a big jump and may be unrealistic.</p>
 <p>I also examined a system in which the weighting was 33% for track record instead of the 25% for the NHMRC model (results not shown), and as expected more women were funded using the carry-forward. A carry-forward based on track record would likely be more effective for schemes where track record had a higher percent of the overall score, the obvious candidate being fellowship schemes.</p>
 <div id="tech" class="section level4">
 <h4>Technical details of the simulations</h4>
 <p>I fitted a Bayesian model to the three observed scores for: significance, track record and quality.
 I assumed these scores were correlated using a multivariate Normal distribution.
-I assumed that each applicant had a latent overall score that had a Normal distribution.</p>
+I assumed that each applicant had a latent overall score that had a Normal distribution.<sup>2</sup></p>
 <p><span class="math inline">\(s(i,1:3) \sim \textrm{MVN} (\mu(i,1:3), \Sigma), \qquad i=1,\ldots, N\)</span></p>
 <p><span class="math inline">\(\mu(i,j) = \beta(i) + \alpha(j), \qquad i=1,\ldots, N, \, j=1,2,3,\)</span></p>
 <p><span class="math inline">\(\beta(j) \sim \textrm{N}(0, \sigma^2_{\beta})\)</span></p>
@@ -92,11 +92,13 @@ I assumed that each applicant had a latent overall score that had a Normal distr
 <p>The model did not converge, because there was a strong correlation between the latent applicant effect and the variance<span class="math inline">\(-\)</span>covariance matrix for the multivariate normal. This is not surprising as they are related. To get a better convergence I tightened the prior for the applicant effect to:</p>
 <p><span class="math inline">\(\sigma^2_{\beta} \sim \textrm{N}(0.8, 0.01^2)\)</span></p>
 <p>I do not normally do fixes like this, but for a simulated model I am just trying to get average predictions that are as close to the observed data as possible.</p>
+<p>The model creates continuous scores, which I converted to integers using rounding. Any simulated scores above 7 were truncated to 7.</p>
 </div>
-<div id="footnote" class="section level4">
-<h4>Footnote</h4>
+<div id="footnotes" class="section level4">
+<h4>Footnotes</h4>
 <ol style="list-style-type: decimal">
-<li>Data from <a href="https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data" class="uri">https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data</a> - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.</li>
+<li><p>Data from <a href="https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data" class="uri">https://www.arc.gov.au/policies-strategies/strategy/gender-equality-research/gender-outcomes-ncgp-trend-data</a> - accessed 25-Feb-2020; data for “all scheme rounds announced by Minister”.</p></li>
+<li><p>I am trying to fix the rendering of these equations!</p></li>
 </ol>
 </div>
 <div id="references" class="section level4 unnumbered">
