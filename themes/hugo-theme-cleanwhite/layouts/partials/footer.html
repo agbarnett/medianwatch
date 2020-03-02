@@ -266,7 +266,6 @@
     })();
 </script>
 
-
 <!-- Baidu Tongji -->
 <script>
     // dynamic User by Hux
@@ -281,6 +280,12 @@
       s.parentNode.insertBefore(hm, s);
     })();
 </script>
+{{ end }}
+
+<!--- from https://github.com/yihui/hugo-lithium/blob/master/layouts/partials/footer_mathjax.html --->
+{{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
+<script src="{{ "/js/math-code.js" | relURL }}"></script>
+<script async src="{{ .Site.Params.MathJaxCDN | default "//cdnjs.cloudflare.com/ajax/libs" }}/mathjax/{{ .Site.Params.MathJaxVersion | default "2.7.5" }}/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {{ end }}
 
 {{ if .Site.GoogleAnalytics }}
