@@ -1,4 +1,0 @@
-"0","women.funded.old = filter(results, gap==0.2, p_male==0.70)$success * (1- 0.7) *1000
-"
-"2","Error in ~p_male == 0.7 : object 'p_male' not found
-"

@@ -135,9 +135,9 @@ The plot below shows the distribution of original NHMRC overall scores per appli
 
 These first results use a female:male ratio of 30:70.
 
-The plots below show the number of women funded by carrying-forward their applications and the success proportion in the second round for the carried-forward applications. The x-axis is the gap between the funding line and those offered the carry-forward. 
+The plots below show the number of women funded by carrying-forward their applications and the success proportion in the second round for the carried-forward applications. The x-axis is the gap between the funding line and those offered the carry-forward. The plots show the median and the inter-quartile range.
 
-```{r plot.results.30_70, fig.width=5, fig.height=4}
+```{r plot.results.30_70, fig.width=5.3, fig.height=4}
 # get the data
 file = 'sim.results.RData'
 load(paste('data/', file, sep='')) # load simulations results from simulate_carry_over_women.R
@@ -185,7 +185,7 @@ The number of additional women funded is relatively modest at `r filter(to.plot,
 ## What if more women apply?
 
 One potential effect of the policy is that more women might apply because they know their application could count for two years. This would mean more women being funded in the first round, and even more women in the carry-forward round too.
-To model this I changed the female:male ratio from 30:70 to 35:65. The plot below shows the number of women funded in the first round, before the carry-forward.
+To model this I changed the female:male ratio from 30:70 to 35:65. The plot below shows the number of women funded in the first round, before the carry-forward (median and inter-quartile range).
 
 ```{r plot.results.35_65, fig.width=4, fig.height=3}
 ## plot first round winners by proportion male (do not need gap as results are the same)
