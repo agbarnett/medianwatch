@@ -11,9 +11,9 @@ bibliography: bibliography.bib
 link-citations: true
 ---
 
-Here’s a great quote about working with statistics from the fantastic statistician [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/) “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really _is_ a difficult and unintuitive idea” [@Spiegelhalter2019]. 
+### Statistics can be hard
 
-Statistics can be difficult, and that’s part of what makes it fun. 
+Here’s a great quote about working with statistics from the fantastic statistician [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/): “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really _is_ a difficult and unintuitive idea” [@Spiegelhalter2019]. 
 
 Someone who attended my one-day statistics refresher course expressed disappointment in their evaluation that after a day’s training they did not now feel like an expert. Perhaps if I’d given a course in _Microsoft Paint_ I could have handed out certificates that rightly said “certified expert”, but statistics is not something you can master in a day. 
 
@@ -26,13 +26,13 @@ And I’ve made mistakes too. Just last week I noticed a mistake in my R code th
 
 I made a big mistake in one of my first ever publications by using the wrong intra-cluster correlation [@Underwood1988], which was kindly corrected by Sally Kerry and Martin Bland (more from him below) [@Kerry1998].
 
-I made a mistake in my most highly cited paper [@Barnett2004]. I found this one years later when I was moving the code from an old web site to _GitHub_ [@Barnett2015IJE]. The calculations were right on the web site, but wrong in the paper. I have no idea how this happened, possibly just a transcription error as I was fiddling with the parameters in the example between the web and the paper. Given how often this paper has been cited and read, this is a regrettable mistake.
+I made a mistake in my most highly cited paper [@Barnett2004]. I found this one years later when I was moving the code from an old web site to _GitHub_ [@Barnett2015IJE]. The calculations were right on the web site, but wrong in the paper. I have no idea how this happened, possibly just a transcription error as I was fiddling with the parameters in the example between the web and the paper. This is a regrettable mistake because this paper has been widely cited and read.
 
-I made a mistake in one of my most influential papers on the time that Australian researchers spend applying for funding [@Herbert2013]. Here I accidentally used the number of chief investigators rather than the distribution of chief investigators. This means the total years that researchers spend applying for funding should be 604 not 551. A fairly big difference that does cause me chagrin. My comfort is that I think the impact of the paper would have been the same with either figure, as both figures are shocking.
+I made a mistake in one of my most influential papers on the time that Australian researchers spend applying for funding [@Herbert2013]. Here I accidentally used the number of chief investigators rather than the distribution of chief investigators. This means the total time that researchers spend applying for funding should be 604 years not 551. A fairly big difference that does cause me chagrin. My comfort is that I think the impact of the paper would have been the same with either figure, as both are shocking.
 
 I even made a minor mistake in my first [blog article](https://medianwatch.netlify.com/post/funding-gender-disparity), as I didn’t label what the error bars were (fixed now).
 
-There are likely mistakes that I’ve missed and have been published regardless because nobody else spotted them, and with bigger data sets of huge rows and columns, this makes mistakes more likely. I think a big part of the current reproducibility crisis is caused by errors in statistical analyses.
+There are likely other mistakes that I’ve missed and have been published because neither my colleagues or the peer reviewers spotted them. With bigger data sets with huge numbers of rows and columns, mistakes are now more likely. I think a big part of the current reproducibility crisis is caused by errors in statistical analyses.
 
 ### Martin Bland
 
@@ -42,7 +42,7 @@ This might sound like I’m encouraging slap-dash practices, as if statistics we
 
 I am still advocating for lots of background reading, lots of training (in theory and practice), and lots of data and code checking. But I'm also saying that you are likely to make mistakes given that we work in such a complex area.
 
-Another benefit to making mistakes is that it has made me better at spotting mistakes when I review papers, because I've remembered the tell-tale signs of my past mistakes.
+Another benefit to making mistakes is that I am good at spotting mistakes when I review papers, because I've remembered the tell-tale signs of my past mistakes.
 A key part of Martin’s talk was about learning from his mistakes and then avoiding them. 
 
 ### The final curtain
