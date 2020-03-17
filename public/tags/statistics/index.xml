@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistics on Median Watch</title>
+    <link>/tags/statistics/</link>
+    <description>Recent content in statistics on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mistakes, I’ve made a few, but then again, not too few to mention</title>
+      <link>/post/making-mistakes/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/making-mistakes/</guid>
+      <description>Here’s a great quote about working with statistics from the fantastic statistician David Spiegelhalter “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really is a difficult and unintuitive idea” (Spiegelhalter 2019).
+Statistics can be difficult, and that’s part of what makes it fun.</description>
+    </item>
+    
+  </channel>
+</rss>

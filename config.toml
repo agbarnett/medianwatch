@@ -22,6 +22,7 @@ home = ["HTML", "RSS", "Algolia"]
   keyword = "statistics, meta-research"
   slogan = "Eyes on statistics"
 
+# I should change this image to my own
   image_404 = "img/404-bg.jpg"
   title_404 = "Page not found :("
   omit_categories = false
@@ -101,6 +102,10 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/top/about/"
+
+  [[params.addtional_menus]]
+#  title =  "ABANDONED IDEAS" # not ready for this yet
+#  href =  "/top/ideas/"
 
 [outputFormats.Algolia]
 baseName = "algolia"

@@ -2,51 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Median Watch</title>
-    <link>https://medianwatch.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://medianwatch.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Mistakes, I’ve made a few, but then again, not too few to mention</title>
+      <link>/post/making-mistakes/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/making-mistakes/</guid>
+      <description>Here’s a great quote about working with statistics from the fantastic statistician David Spiegelhalter “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really is a difficult and unintuitive idea” (Spiegelhalter 2019).
+Statistics can be difficult, and that’s part of what makes it fun.</description>
+    </item>
+    
+    <item>
       <title>A 2-for-1 deal for female researchers</title>
-      <link>https://medianwatch.netlify.com/post/funding-gender-disparity/</link>
+      <link>/post/funding-gender-disparity/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
+      <guid>/post/funding-gender-disparity/</guid>
       <description>The gender disparity in research funding.There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
     </item>
     
     <item>
       <title>Why start blogging now?</title>
-      <link>https://medianwatch.netlify.com/post/2020-02-28-first-post/</link>
+      <link>/post/2020-02-28-first-post/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/2020-02-28-first-post/</guid>
+      <guid>/post/2020-02-28-first-post/</guid>
       <description>The title for this blog is a homage the ABC TV show &amp;ldquo;Media Watch&amp;rdquo; which critiques the Australian media and is never short of content. Similarly there&amp;rsquo;s a lot wrong in the way people use statistics, so this blog is mainly about the use and misuse of statistics.
 I&amp;rsquo;ve got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I&amp;rsquo;ve made in published papers, which I realise may just help the climate change propagandists to undermine my credibility.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://medianwatch.netlify.com/search/placeholder/</link>
+      <link>/search/placeholder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/search/placeholder/</guid>
+      <guid>/search/placeholder/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://medianwatch.netlify.com/top/about/</link>
+      <link>/top/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/top/about/</guid>
+      <guid>/top/about/</guid>
       <description>Adrian Barnett
 I am a statistician working at Queensland University of Technology. I am the current president of the Statistical Society of Australia. I am interested in improving the quality of research, in particular how researchers use statistics and how research is funded.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/top/ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/top/ideas/</guid>
+      <description>These are some abandoned ideas that are free for others to re-use. These were things that I thought about, but now no longer have the time to pursue. Some of them are getting a bit old, and I haven&amp;rsquo;t checked to see if they have already been published by others.
+I stole this idea from the economist Paul Frijters who put his own abandoned ideas on his blog. I use the same approach as Paul:</description>
     </item>
     
   </channel>
