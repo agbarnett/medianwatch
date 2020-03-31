@@ -3,7 +3,7 @@ title: "It's fun to look at the Y A C M (Yet Another COVID Model)"
 author: "Adrian Barnett"
 date: 2020-03-31
 categories: []
-tags: ["statistics","simulation","COVID-19"]
+tags: ["statistics","simulations","COVID-19"]
 slug: covid-uncertainty
 showtoc: false
 image: "/img/rail_3.jpg"
@@ -120,7 +120,7 @@ pander(table, style='simple')#, justify=c('right','left'), split.cells=c(1,1))
 
 #### Microsimulation numbers over time
 
-The plots below show 50 versions of the cumulative number of infections, recovered and dead by day. Because microsimulations are stochastic, we get a different answer when we re-run the same simulation. So the plots show the stochastic uncertainty in numbers. 
+The plots below show 50 versions of the daily cumulative number of infections, recovered and dead. Because microsimulations are stochastic, we get a different answer when we re-run the same simulation. So the plots show the stochastic uncertainty in numbers. 
 
 ```{r numbers}
 # convert to cumulative across days
@@ -148,7 +148,7 @@ cplot
 
 ### Comparing microsimulations with ordinary differential equations
 
-Below I plot the 50 versions of the numbered recovered from microsimulations (grey lines) with the number using ordinary differential equations (blue line). The ordinary differential equation model takes more time to get going, but then displays the similar S-shaped curve. The microsimulations start earlier because they need a decent number of infections to 'seed' the model, otherwise they can fizzle out. I assumed `r 100*meta$starting.probs[2]`% of the population were "exposed" at day 0. The ODE model starts with just 1 "exposed".
+Below I plot the 50 versions of the number recovered from microsimulations (grey lines) with the number using ordinary differential equations (blue line). The ordinary differential equation model takes more time to get going, but then displays the similar S-shaped curve. The microsimulations start earlier because they need a decent number of infections to 'seed' the model, otherwise they can fizzle out. I assumed `r 100*meta$starting.probs[2]`% of the population were "exposed" at day 0. The ODE model starts with just 1 "exposed".
 
 ```{r}
 # Plot with Alison's numbers on top
