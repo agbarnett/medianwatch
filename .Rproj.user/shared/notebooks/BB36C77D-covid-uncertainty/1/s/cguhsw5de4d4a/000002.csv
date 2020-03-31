@@ -11,7 +11,7 @@
 "0","f10 = data.frame(Parameter='Transmission rate (critical infections, relative to mild)', Value = meta$b31, stringsAsFactors = FALSE)"
 "0","f11 = data.frame(Parameter='Population size', Value = meta$N.start, stringsAsFactors = FALSE)"
 "0","table = bind_rows(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11)"
-"0","pander(table, style='simple', justify=c('right','left'))"
+"0","pander(table, style='simple', justify=c('right','left'), split.cells=c(1,1))"
 "1","
 
                                                   Parameter Value    

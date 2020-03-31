@@ -1,7 +1,7 @@
 ---
 title: "It's fun to look at the Y A C M (Yet Another COVID Model)"
 author: "Adrian Barnett"
-date: 2020-03-17
+date: 2020-03-31
 categories: []
 tags: ["statistics","simulation","COVID-19"]
 slug: covid-uncertainty
@@ -87,7 +87,7 @@ I2,Severe infection
 I3,Critical infection
 R,Recovered
 D,Dead')
-pander(state.labels, style='simple')
+pander(state.labels, style='simple', split.cells=c(5,5))
 ```
 
 
@@ -99,9 +99,7 @@ It’s also easy to extend microsimulations to account for individual characteri
 
 ### Estimates of COVID infections over time
 
-This work builds heavily on [Alison Hill's model](https://alhill.shinyapps.io/COVID19seir), and I recommend looking at that first.
-
-The table below shows the key model assumptions:
+This work builds heavily on [Alison Hill's model](https://alhill.shinyapps.io/COVID19seir), and I recommend looking at that first. The table below shows the key model assumptions:
 
 ```{r table.assumptions}
 # table of estimates
@@ -117,7 +115,7 @@ f9 = data.frame(Parameter='Transmission rate (severe infections, relative to mil
 f10 = data.frame(Parameter='Transmission rate (critical infections, relative to mild)', Value = meta$b31, stringsAsFactors = FALSE)
 f11 = data.frame(Parameter='Population size', Value = meta$N.start, stringsAsFactors = FALSE)
 table = bind_rows(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11)
-pander(table, style='simple', justify=c('right','left'))
+pander(table, style='simple')#, justify=c('right','left'), split.cells=c(1,1))
 ```
 
 #### Microsimulation numbers over time
@@ -195,7 +193,7 @@ count.summary.final = group_by(count.final, State) %>%
   mutate(CI = paste(round(lower), ' to ', round(upper), sep='')) %>% # make confidence interval
   arrange(-Median) %>%
   dplyr::select(-lower, -upper)
-pander(count.summary.final, digits=0, style='simple')
+pander(count.summary.final, digits=0, style='simple')#, justify=c('right','left','left'), split.cells=c(5,5,10))
 
 # number from Alison's model
 alison = group_by(out, variable) %>%
@@ -258,7 +256,7 @@ count.summary.final = group_by(count.final, State) %>%
   mutate(CI = paste(round(lower), ' to ', round(upper), sep='')) %>% # make confidence interval
   arrange(-Median) %>%
   dplyr::select(-lower, -upper)
-pander(count.summary.final, digits=0, style='simple')
+pander(count.summary.final, digits=0, style='simple')#, justify=c('right','left','left'), split.cells=c(5,5,10))
 ```
 
 Ideally I would go through the evidence and assign a statistical distribution to the uncertainty for each parameter that reflected the uncertainty in the evidence. However, what I think is useful is to consider the uncertainty in the estimated of deaths and infections, and ideally decision makers are being shown these ranges as well as the mean or median. 

@@ -1,0 +1,30 @@
+"0","# counts per Simulation of numbers travelling through each state"
+"0","count.final = group_by(transitions, simnum, To) %>%"
+"0","  summarise(n=n()) %>%"
+"0","  arrange(simnum, n) %>%"
+"0","  mutate(State = factor(To, levels=c('E','I1','I2','I3','R','D'), # make nicer labels"
+"0","                         labels = c('Exposed','Mild infection','Severe infection','Critical infection','Recovered','Died')))"
+"0","# summary stats on counts across simulations (inter-quartile range and 95% CI)"
+"0","# Q1=quantile(n, 0.25), Q3=quantile(n, 0.75), "
+"0","count.summary.final = group_by(count.final, State) %>%"
+"0","  summarise(Median=median(n), lower=quantile(n, 0.05), upper=quantile(n, 0.95)) %>%"
+"0","  mutate(CI = paste(round(lower), ' to ', round(upper), sep='')) %>% # make confidence interval"
+"0","  arrange(-Median) %>%"
+"0","  dplyr::select(-lower, -upper)"
+"0","pander(count.summary.final, digits=0, style='simple', justify=c('right','left','left'), split.cells=c(5,5,10))"
+"1","
+
+               State Median   CI          
+-------------------- -------- ------------
+           Recovered 818      781 to 854  
+      Mild infection 782      750 to 819  
+             Exposed 736      698 to 770  
+    Severe infection 169      146 to 187  
+  Critical infection 42       33 to 52    
+                Died 17       11 to 22    
+
+"
+"0","# number from Alison's model"
+"0","alison = group_by(out, variable) %>%"
+"0","  slice(n()) %>%"
+"0","  filter(variable=='R')"
