@@ -1,0 +1,31 @@
+"0","# table of estimates"
+"0","f1 = data.frame(Parameter='Incubation period, days', Value = meta$IncubPeriod, stringsAsFactors = FALSE)"
+"0","f2 = data.frame(Parameter='Duration of mild infections, days', Value = meta$DurMildInf, stringsAsFactors = FALSE)"
+"0","f3 = data.frame(Parameter='Fraction of infections that are severe', Value = meta$FracSevere, stringsAsFactors = FALSE)"
+"0","f4 = data.frame(Parameter='Fraction of infections that are critical', Value = meta$FracCritical, stringsAsFactors = FALSE)"
+"0","f5 = data.frame(Parameter='Probability of dying given critical infection', Value = meta$ProbDeath, stringsAsFactors = FALSE)"
+"0","f6 = data.frame(Parameter='Time from ICU admission to death, days', Value = meta$TimeICUDeath, stringsAsFactors = FALSE)"
+"0","f7 = data.frame(Parameter='Duration of hospitalization (severe infections), days', Value = meta$DurHosp, stringsAsFactors = FALSE)"
+"0","f8 = data.frame(Parameter='Transmission rate (mild infections)', Value = meta$b1, stringsAsFactors = FALSE)"
+"0","f9 = data.frame(Parameter='Transmission rate (severe infections, relative to mild)', Value = meta$b21, stringsAsFactors = FALSE)"
+"0","f10 = data.frame(Parameter='Transmission rate (critical infections, relative to mild)', Value = meta$b31, stringsAsFactors = FALSE)"
+"0","f11 = data.frame(Parameter='Population size', Value = meta$N.start, stringsAsFactors = FALSE)"
+"0","table = bind_rows(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11)"
+"0","pander(table, style='simple', justify=c('right','left'))"
+"1","
+
+                                                  Parameter Value    
+----------------------------------------------------------- ---------
+                                    Incubation period, days 5.043    
+                          Duration of mild infections, days 5.501    
+                     Fraction of infections that are severe 0.1569   
+                   Fraction of infections that are critical 0.04635  
+              Probability of dying given critical infection 0.3612   
+                     Time from ICU admission to death, days 8.417    
+      Duration of hospitalization (severe infections), days 6.214    
+                        Transmission rate (mild infections) 0.2993   
+    Transmission rate (severe infections, relative to mild) 0.1068   
+  Transmission rate (critical infections, relative to mild) 0.1002   
+                                            Population size 1000     
+
+"

@@ -3,77 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mistakes/</loc>
+    <loc>https://medianwatch.netlify.com/post/covid-uncertainty/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/making-mistakes/</loc>
+    <loc>https://medianwatch.netlify.com/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://medianwatch.netlify.com/tags/mistakes/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/statistics/</loc>
+    <loc>https://medianwatch.netlify.com/post/making-mistakes/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://medianwatch.netlify.com/post/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/funding-gender-disparity/</loc>
+    <loc>https://medianwatch.netlify.com/tags/simulation/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/post/funding-gender-disparity/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/funding/</loc>
+    <loc>https://medianwatch.netlify.com/tags/funding/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/simulations/</loc>
+    <loc>https://medianwatch.netlify.com/tags/simulations/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2020-02-28-first-post/</loc>
+    <loc>https://medianwatch.netlify.com/post/2020-02-28-first-post/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/search/placeholder/</loc>
+    <loc>https://medianwatch.netlify.com/search/placeholder/</loc>
   </url>
   
   <url>
-    <loc>/top/about/</loc>
+    <loc>https://medianwatch.netlify.com/top/about/</loc>
   </url>
   
   <url>
-    <loc>/top/ideas/</loc>
+    <loc>https://medianwatch.netlify.com/top/ideas/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://medianwatch.netlify.com/categories/</loc>
   </url>
   
   <url>
-    <loc>/search/</loc>
+    <loc>https://medianwatch.netlify.com/search/</loc>
   </url>
   
   <url>
-    <loc>/top/</loc>
+    <loc>https://medianwatch.netlify.com/top/</loc>
   </url>
   
 </urlset>

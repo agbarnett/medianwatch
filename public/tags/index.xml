@@ -2,48 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Median Watch</title>
-    <link>/tags/</link>
+    <link>https://medianwatch.netlify.com/tags/</link>
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://medianwatch.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>mistakes</title>
-      <link>/tags/mistakes/</link>
+      <title>COVID-19</title>
+      <link>https://medianwatch.netlify.com/tags/covid-19/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mistakes/</guid>
+      <guid>https://medianwatch.netlify.com/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mistakes</title>
+      <link>https://medianwatch.netlify.com/tags/mistakes/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/mistakes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simulation</title>
+      <link>https://medianwatch.netlify.com/tags/simulation/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>/tags/statistics/</link>
+      <link>https://medianwatch.netlify.com/tags/statistics/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>https://medianwatch.netlify.com/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>funding</title>
-      <link>/tags/funding/</link>
+      <link>https://medianwatch.netlify.com/tags/funding/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/funding/</guid>
+      <guid>https://medianwatch.netlify.com/tags/funding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>simulations</title>
-      <link>/tags/simulations/</link>
+      <link>https://medianwatch.netlify.com/tags/simulations/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/simulations/</guid>
+      <guid>https://medianwatch.netlify.com/tags/simulations/</guid>
       <description></description>
     </item>
     

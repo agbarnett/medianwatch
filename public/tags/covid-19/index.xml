@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 on Median Watch</title>
+    <link>https://medianwatch.netlify.com/tags/covid-19/</link>
+    <description>Recent content in COVID-19 on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 17 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://medianwatch.netlify.com/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>It&#39;s fun to look at the Y A C M (Yet Another COVID Model)</title>
+      <link>https://medianwatch.netlify.com/post/covid-uncertainty/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/covid-uncertainty/</guid>
+      <description>Yet another COVID modelI did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
+    </item>
+    
+  </channel>
+</rss>
