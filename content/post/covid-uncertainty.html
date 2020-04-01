@@ -3,7 +3,7 @@ title: "It's fun to look at the Y A C M (Yet Another COVID Model)"
 author: "Adrian Barnett"
 date: 2020-03-31
 categories: []
-tags: ["statistics","simulation","COVID-19"]
+tags: ["statistics","simulations","COVID-19"]
 slug: covid-uncertainty
 showtoc: false
 image: "/img/rail_3.jpg"
@@ -130,13 +130,13 @@ link-citations: true
 </table>
 <div id="microsimulation-numbers-over-time" class="section level4">
 <h4>Microsimulation numbers over time</h4>
-<p>The plots below show 50 versions of the cumulative number of infections, recovered and dead by day. Because microsimulations are stochastic, we get a different answer when we re-run the same simulation. So the plots show the stochastic uncertainty in numbers.</p>
+<p>The plots below show 50 versions of the daily cumulative number of infections, recovered and dead. Because microsimulations are stochastic, we get a different answer when we re-run the same simulation. So the plots show the stochastic uncertainty in numbers.</p>
 <p><img src="/post/covid-uncertainty_files/figure-html/numbers-1.png" width="70%" /></p>
 </div>
 </div>
 <div id="comparing-microsimulations-with-ordinary-differential-equations" class="section level3">
 <h3>Comparing microsimulations with ordinary differential equations</h3>
-<p>Below I plot the 50 versions of the numbered recovered from microsimulations (grey lines) with the number using ordinary differential equations (blue line). The ordinary differential equation model takes more time to get going, but then displays the similar S-shaped curve. The microsimulations start earlier because they need a decent number of infections to ‘seed’ the model, otherwise they can fizzle out. I assumed 1% of the population were “exposed” at day 0. The ODE model starts with just 1 “exposed”.</p>
+<p>Below I plot the 50 versions of the number recovered from microsimulations (grey lines) with the number using ordinary differential equations (blue line). The ordinary differential equation model takes more time to get going, but then displays the similar S-shaped curve. The microsimulations start earlier because they need a decent number of infections to ‘seed’ the model, otherwise they can fizzle out. I assumed 1% of the population were “exposed” at day 0. The ODE model starts with just 1 “exposed”.</p>
 <p><img src="/post/covid-uncertainty_files/figure-html/unnamed-chunk-1-1.png" width="70%" /></p>
 <div id="numbers-in-each-state" class="section level4">
 <h4>Numbers in each state</h4>
