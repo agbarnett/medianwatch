@@ -263,4 +263,45 @@ Ideally I would go through the evidence and assign a statistical distribution to
 
 Caveat: This work has been done relatively quickly whilst also trying to home-school. 
 
+### Update (4 April 2020)
+
+I have updated the code to:
+
+* Count the number of people presenting to hospital
+* Include a winter peak in transmission
+* Add random new exposed cases over time to model imported cases
+* Include deaths from other causes using a Gompertz function
+* Increase the rate of recovery for younger people from mild and critical infections
+
+The box-plot below shows average ages for 50 simulations for transitions between the infected states and recovery or death. The model has created clear age gaps, as younger people are more likely to recover from mild infections and less likely to die when critical.
+
+```{r}
+# get the data
+load('data/all_results_microsimulation_age.RData') # micro-simulation results with age-dependent rates
+cbPalette <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7", "#999999") # colours
+# 
+transitions = mutate(all_results, 
+                     From = str_remove(From, pattern='f/|m/'), # remove genders
+                     To = str_remove(To, pattern='f/|m/'))
+# summary stats per simulation
+age.mean = group_by(transitions, simnum, From, To) %>%
+  summarise(mean = mean(transitionAge), Q1=quantile(transitionAge, 0.25), Q3=quantile(transitionAge, 0.75))
+# plot, first remove hospital transitions
+for.plot = filter(age.mean,
+                  !From %in% c('HR','HS','HE','H1','R','S'),
+                  !To %in% c('HR','HS','HE','H1','S','dead')) %>% # remove some transitions to neaten plot
+  mutate(
+    FromNice = factor(From, levels=c('E','I1','I2','I3','R','D','HR','HS','H1','HE','dead'), # make nicer labels
+                    labels = c('Exposed','Mild\ninfection','Severe\ninfection','Critical\ninfection','Recovered','Died - COVID','Hospital R','Hospital S','Hospital I1','Hospital E','Died - Other')),
+    ToNice = factor(To, levels=c('E','I1','I2','I3','R','D','HR','HS','H1','HE','dead'), # make nicer labels
+                         labels = c('Exposed','Mild infection','Severe infection','Critical infection','Recovered','Died - COVID','Hospital R','Hospital S','Hospital I1','Hospital E','Died - Other'))) 
+age.box = ggplot(data=for.plot, aes(x=FromNice, y=mean, fill=ToNice))+
+  geom_boxplot()+
+  scale_fill_manual('Transition to', values=cbPalette)+
+  ylab('Age')+
+  xlab('Transition from')+
+  theme_bw()
+age.box
+```
+
 ### Reference

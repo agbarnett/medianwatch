@@ -1,0 +1,44 @@
+"0","knitr::opts_chunk$set(echo = FALSE, collapse = TRUE, warning=FALSE, message=FALSE, error=FALSE, comment='', dpi=400, out.width = ""70%"")"
+"0","library(ggplot2)"
+"2","Registered S3 method overwritten by 'dplyr':
+  method           from
+  print.rowwise_df     
+"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(tidyr)"
+"0","library(stringr)"
+"0","library(gridExtra)"
+"2","
+Attaching package: ‘gridExtra’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    combine
+
+"
+"0","library(pander)"
+"0",""
+"0","## Data"
+"0","load('data/all_results_microsimulation.RData') # micro-simulation results"
+"0","# remove genders to examine overall transitions"
+"0","transitions = mutate(all_results, "
+"0","                     From = str_remove(From, pattern='f/|m/'), # remove genders"
+"0","                     To = str_remove(To, pattern='f/|m/')) "
+"0",""
+"0","# Using Alisons' model"
+"0","load('data/AlisonResults.RData') #"

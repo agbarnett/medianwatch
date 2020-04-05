@@ -235,6 +235,19 @@ The number of recovered using ordinary differential equations is 790, this numbe
 <p>Ideally I would go through the evidence and assign a statistical distribution to the uncertainty for each parameter that reflected the uncertainty in the evidence. However, what I think is useful is to consider the uncertainty in the estimated of deaths and infections, and ideally decision makers are being shown these ranges as well as the mean or median.</p>
 <p>Caveat: This work has been done relatively quickly whilst also trying to home-school.</p>
 </div>
+<div id="update-4-april-2020" class="section level3">
+<h3>Update (4 April 2020)</h3>
+<p>I have updated the code to:</p>
+<ul>
+<li>Count the number of people presenting to hospital</li>
+<li>Include a winter peak in transmission</li>
+<li>Add random new exposed cases over time to model imported cases</li>
+<li>Include deaths from other causes using a Gompertz function</li>
+<li>Increase the rate of recovery for younger people from mild and critical infections</li>
+</ul>
+<p>The box-plot below shows average ages for 50 simulations for transitions between the infected states and recovery or death. The model has created clear age gaps, as younger people are more likely to recover from mild infections and less likely to die when critical.</p>
+<p><img src="/post/covid-uncertainty_files/figure-html/unnamed-chunk-3-1.png" width="70%" /></p>
+</div>
 <div id="reference" class="section level3 unnumbered">
 <h3>Reference</h3>
 <div id="refs" class="references">
