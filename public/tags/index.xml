@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://medianwatch.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>climate crisis</title>
+      <link>https://medianwatch.netlify.com/tags/climate-crisis/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/climate-crisis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://medianwatch.netlify.com/tags/statistics/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>COVID-19</title>
@@ -26,15 +44,6 @@
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/tags/simulations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://medianwatch.netlify.com/tags/statistics/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.com/tags/statistics/</guid>
       <description></description>
     </item>
     
