@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/climate-crisis/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://medianwatch.netlify.com/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/post/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/post/research-waste-covid/</loc>
+    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://medianwatch.netlify.com/tags/climate-crisis/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,28 +43,8 @@
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/tags/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://medianwatch.netlify.com/tags/temperature/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
-    <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
