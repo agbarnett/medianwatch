@@ -1,18 +1,18 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1585619037392.000,
+    "created" : 1589371077678.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
-    "id" : "3A711A3C",
-    "lastKnownWriteTime" : 1589369981,
-    "last_content_update" : 1589369981376,
-    "path" : "U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/blog/medianwatch/content/post/climate-crisis.Rmd",
-    "project_path" : "content/post/climate-crisis.Rmd",
+    "id" : "D41BAC51",
+    "lastKnownWriteTime" : 1586480025,
+    "last_content_update" : 1586480025,
+    "path" : "U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/blog/medianwatch/content/post/covid-uncertainty.Rmd",
+    "project_path" : "content/post/covid-uncertainty.Rmd",
     "properties" : {
-        "cursorPosition" : "15,0",
+        "cursorPosition" : "6,23",
         "last_setup_crc32" : "",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
@@ -20,7 +20,7 @@
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 5,
+    "relative_order" : 4,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"
