@@ -31,7 +31,7 @@ transitions = mutate(all_results,
 load('data/AlisonResults.RData') #
 ```
 
-### Yet another COVID model 
+### Yet another COVID model. 
 
 I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is [here](https://github.com/agbarnett/COVID). I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change [@Stephen2017]. 
 
