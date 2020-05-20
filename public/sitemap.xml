@@ -3,107 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
+    <loc>/tags/academia/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/working-weekends-and-late-nights/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/covid-19/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/</loc>
+    <loc>/tags/statistics/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/</loc>
+    <loc>/post/research-waste-covid/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/tags/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/post/research-waste-covid/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://medianwatch.netlify.com/tags/climate-crisis/</loc>
+    <loc>/tags/climate-crisis/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/climate-crisis/</loc>
+    <loc>/post/climate-crisis/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/temperature/</loc>
+    <loc>/tags/temperature/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/covid-uncertainty/</loc>
+    <loc>/post/covid-uncertainty/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/simulations/</loc>
+    <loc>/tags/simulations/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/mistakes/</loc>
+    <loc>/tags/mistakes/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/making-mistakes/</loc>
+    <loc>/post/making-mistakes/</loc>
     <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/funding-gender-disparity/</loc>
+    <loc>/post/funding-gender-disparity/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/tags/funding/</loc>
+    <loc>/tags/funding/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/post/2020-02-28-first-post/</loc>
+    <loc>/post/2020-02-28-first-post/</loc>
     <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/search/placeholder/</loc>
+    <loc>/search/placeholder/</loc>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/top/about/</loc>
+    <loc>/top/about/</loc>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/top/ideas/</loc>
+    <loc>/top/ideas/</loc>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/search/</loc>
+    <loc>/search/</loc>
   </url>
   
   <url>
-    <loc>https://medianwatch.netlify.com/top/</loc>
+    <loc>/top/</loc>
   </url>
   
 </urlset>
