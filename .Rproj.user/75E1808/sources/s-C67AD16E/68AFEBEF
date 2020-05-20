@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589971892242.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "186170157",
+    "id" : "68AFEBEF",
+    "lastKnownWriteTime" : 1589972013,
+    "last_content_update" : 1589972013369,
+    "path" : "U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/blog/medianwatch/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "105,1",
+        "scrollLine" : "96"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}
