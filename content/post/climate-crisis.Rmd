@@ -3,7 +3,7 @@ title: "Playing the scientific record backwards."
 author: "Adrian Barnett"
 date: '2020-04-15'
 categories: []
-image: "/img/rail_1_water.jpg"
+image: "/img/rail_1.jpg"
 link-citations: yes
 showtoc: no
 slug: climate-crisis

@@ -7,7 +7,7 @@ categories: []
 tags: ['academia']
 subtitle: ''
 showtoc: false
-image: "/img/path_4_water.jpg"
+image: "/img/path_4.jpg"
 ---
 
 *Re-posted from [the March 2020 issue of Advocate](http://www.nteu.org.au/article/Working-late%2C-weekends-and-poolside%3A-Inger-Mewburn%2C-columnist-%28Advocate-27-01%29-21855).*

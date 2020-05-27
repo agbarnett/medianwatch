@@ -6,7 +6,7 @@ categories: []
 tags: ["statistics","simulations","COVID-19"]
 slug: covid-uncertainty
 showtoc: false
-image: "/img/rail_3_water.jpg"
+image: "/img/rail_3.jpg"
 bibliography: bibliography.bib
 link-citations: true
 ---

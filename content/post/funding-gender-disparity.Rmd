@@ -6,7 +6,7 @@ categories: []
 tags: ["funding","simulations"]
 slug: funding-gender-disparity
 showtoc: false
-image: "/img/rail_2_water.jpg"
+image: "/img/rail_2.jpg"
 bibliography: bibliography.bib
 link-citations: true
 ---
