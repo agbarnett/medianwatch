@@ -388,7 +388,7 @@ a img {
 }
 .skip-content:active, .skip-content:focus {
   top: 0;
-  color: #000000;
+  color: #ffffff;
 }
 
 .search .sticky {
