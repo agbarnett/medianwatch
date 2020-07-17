@@ -2,21 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Median Watch</title>
-    <link>/post/</link>
+    <link>https://medianwatch.netlify.com/post/</link>
     <description>Recent content in Posts on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://medianwatch.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>When should I quit research? An evidence-based approach</title>
+      <link>https://medianwatch.netlify.com/post/quit-research/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/quit-research/</guid>
+      <description>Re-posted from the AusHSI blog (8 May 2015).
+After yet another failed fellowship application I considered if I should leave research. I now have seven fellowship failures and no successes, and that seems like a lot.
+Success rates for grants are nose-diving and even the former head of the NHMRC says that researchers should be considering other careers (pay-walled). I’ve spent a lot of time running research projects for no money, but working for no money is a luxury I can’t afford.</description>
+    </item>
+    
+    <item>
       <title>I did the dishes.</title>
-      <link>/post/did-the-dishes/</link>
+      <link>https://medianwatch.netlify.com/post/did-the-dishes/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/did-the-dishes/</guid>
+      <guid>https://medianwatch.netlify.com/post/did-the-dishes/</guid>
       <description>My daughter loves a song by Parry Gripp called “I did the dishes”. The chorus is “I did the dishes, I’m a hero.”
 I can’t work out if the song is trying to encourage kids to do the dishes, or if it’s making fun of people who think their housework is heroic, or a bit of both.
 “Plates, done! Bowls, done! Gravy boat, done!”
@@ -25,20 +36,20 @@ I helped some people, I’m a heroHere’s a screenshot of some my colleagues w
     
     <item>
       <title>Working Weekends and Late Nights</title>
-      <link>/post/working-weekends-and-late-nights/</link>
+      <link>https://medianwatch.netlify.com/post/working-weekends-and-late-nights/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/working-weekends-and-late-nights/</guid>
+      <guid>https://medianwatch.netlify.com/post/working-weekends-and-late-nights/</guid>
       <description>Re-posted from the March 2020 issue of Advocate.
 The smell of pool chlorine reminds us of work. Both of us admit to doing emails while sitting at the local pool waiting for the kids to finish their lessons, as well as at cafés, on airplanes, waiting in queues. At least one of us does the odd email or two from the bathroom. We are academics and therefore work anywhere, anytime (maybe most of the time?</description>
     </item>
     
     <item>
       <title>The COVID-19 crisis is amplifying shortcomings in health and medical research.</title>
-      <link>/post/research-waste-covid/</link>
+      <link>https://medianwatch.netlify.com/post/research-waste-covid/</link>
       <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/research-waste-covid/</guid>
+      <guid>https://medianwatch.netlify.com/post/research-waste-covid/</guid>
       <description>Re-posted from Campus Morning Mail.
 Poor quality medical research is nothing new. A major cause is the race to be published first, which means researchers do not adequately check their work.
 The COVID-19 crisis has put an already pressured system under even more strain, and the cracks are clearly visible.
@@ -47,48 +58,48 @@ Small studies have been used to justify massive changes in clinical practice, su
     
     <item>
       <title>Playing the scientific record backwards.</title>
-      <link>/post/climate-crisis/</link>
+      <link>https://medianwatch.netlify.com/post/climate-crisis/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/climate-crisis/</guid>
+      <guid>https://medianwatch.netlify.com/post/climate-crisis/</guid>
       <description>I’ve done a lot of research on seasonal models. I’ve always enjoyed playing with the elegantly simple sinusoid function, which can fit a remarkable array of shapes with just a few parameters. Put enough sinusoids together and you can create any sound. When Fourier discovered this, it was considered too simple to be true.
 A great number of diseases are seasonal, so these models are useful as well as being mathematically pleasing.</description>
     </item>
     
     <item>
       <title>It&#39;s fun to look at the Y A C M (Yet Another COVID Model)</title>
-      <link>/post/covid-uncertainty/</link>
+      <link>https://medianwatch.netlify.com/post/covid-uncertainty/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/covid-uncertainty/</guid>
+      <guid>https://medianwatch.netlify.com/post/covid-uncertainty/</guid>
       <description>Yet another COVID model.I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
     </item>
     
     <item>
       <title>Mistakes, I’ve made a few, but then again, not too few to mention</title>
-      <link>/post/making-mistakes/</link>
+      <link>https://medianwatch.netlify.com/post/making-mistakes/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/making-mistakes/</guid>
+      <guid>https://medianwatch.netlify.com/post/making-mistakes/</guid>
       <description>Statistics can be hardHere’s a great quote about working with statistics from the fantastic statistician David Spiegelhalter: “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really is a difficult and unintuitive idea” (Spiegelhalter 2019).
 Someone who attended my one-day statistics refresher course expressed disappointment in their evaluation that after a day’s training they did not now feel like an expert.</description>
     </item>
     
     <item>
       <title>A 2-for-1 deal for female researchers</title>
-      <link>/post/funding-gender-disparity/</link>
+      <link>https://medianwatch.netlify.com/post/funding-gender-disparity/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/funding-gender-disparity/</guid>
+      <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
       <description>The gender disparity in research funding.There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
     </item>
     
     <item>
       <title>Why start blogging now?</title>
-      <link>/post/2020-02-28-first-post/</link>
+      <link>https://medianwatch.netlify.com/post/2020-02-28-first-post/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020-02-28-first-post/</guid>
+      <guid>https://medianwatch.netlify.com/post/2020-02-28-first-post/</guid>
       <description>The title for this blog is a homage the ABC TV show &amp;ldquo;Media Watch&amp;rdquo; which critiques the Australian media and is never short of content. Similarly there&amp;rsquo;s a lot wrong in the way people use statistics, so this blog is mainly about the use and misuse of statistics.
 I&amp;rsquo;ve got a post coming on how my research has been misused by those trying to deny the climate crisis. I also want to write about some statistical mistakes I&amp;rsquo;ve made in published papers, which I realise may just help the climate change propagandists to undermine my credibility.</description>
     </item>

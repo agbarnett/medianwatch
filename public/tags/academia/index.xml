@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>academia on Median Watch</title>
-    <link>/tags/academia/</link>
+    <link>https://medianwatch.netlify.com/tags/academia/</link>
     <description>Recent content in academia on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/academia/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://medianwatch.netlify.com/tags/academia/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Working Weekends and Late Nights</title>
-      <link>/post/working-weekends-and-late-nights/</link>
+      <link>https://medianwatch.netlify.com/post/working-weekends-and-late-nights/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/working-weekends-and-late-nights/</guid>
+      <guid>https://medianwatch.netlify.com/post/working-weekends-and-late-nights/</guid>
       <description>Re-posted from the March 2020 issue of Advocate.
 The smell of pool chlorine reminds us of work. Both of us admit to doing emails while sitting at the local pool waiting for the kids to finish their lessons, as well as at cafés, on airplanes, waiting in queues. At least one of us does the odd email or two from the bathroom. We are academics and therefore work anywhere, anytime (maybe most of the time?</description>
     </item>
