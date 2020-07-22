@@ -88,7 +88,7 @@ pplot = ggplot(data=for.plot.prior.posterior, aes(x=theta, y=prior, fill=group))
 pplot
 ```
 
-There is a `r round(bottom$prob*100)`% probability that I am in the bottom half, so I stay in research by a margin of `r 100-round(bottom$prob*100)`%. Sadly the evidence tells me that there’s an almost zero probability that I am a genius, and a relatively high probability that I am a plodder. Twelve failures are needed to reach the 90% margin, so the message for other people who have had multiple failures is: don’t give up hope yet.
+There is a `r round(bottom$prob*100)`% probability that I am in the bottom half, so I stay in research by a margin of `r 100-round(bottom$prob*100)-10`% (I am this far from the 10% quit threshold). Sadly the evidence tells me that there’s an almost zero probability that I am a genius, and a relatively high probability that I am a plodder. Twelve failures are needed to reach the 90% margin, so the message for other people who have had multiple failures is: don’t give up hope yet.
 
 Of course if (when) I do reach the 90% probability threshold then I’ll just move the goalposts to being 95% sure, which moves the failure threshold up to 16. Or if I do eventually quit research at least it will be a partly evidence-based decision.
 

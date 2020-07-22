@@ -2,9 +2,10 @@
 title: "Goodbye to all that"
 author: "Adrian Barnett"
 date: 2020-07-23
+slug: last-day
 categories: []
 tags: ["statistics"]
-slug: last-day
+subtitle: ''
 showtoc: false
 image: "/img/path_6.jpg"
 ---
