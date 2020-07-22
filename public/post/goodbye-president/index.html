@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Goodbye to all that" />
+    <meta property="og:title" content="Goodbye to all that" />
+    <meta property="twitter:title" content="Goodbye to all that" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="statistics, meta-research">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Searches-Median Watch</title>
+    <title>Goodbye to all that-Median Watch</title>
 
-    <link rel="canonical" href="/search/">
+    <link rel="canonical" href="/post/goodbye-president/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -144,14 +144,37 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/moth_water.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/path_6.jpg')
+    }
+</style>
+<header class="intro-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Median Watch </h1>
-                    
-		    <span class="subheading">Eyes on statistics</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/statistics" title="statistics">
+                            statistics
+                        </a>
+                        
+                    </div>
+                    <h1>Goodbye to all that</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                            Adrian Barnett
+                         
+                        on 
+                        Thursday, July 23, 2020
+                        
+                        
+                        
+                    </span>
                 </div>
             </div>
         </div>
@@ -160,244 +183,130 @@
 
 
 
-<div class="container">
-    <div class="row">
-        
-        
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
+
+<article>
+    <div class="container">
+        <div class="row">
+
             
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
 
-<div id="search-searchbar"></div>
- <div class="post-list" id="search-hits">
- </div>
-
-<script>
-const search = instantsearch({
-  appId: '',
-  indexName: '',
-  apiKey: ''
-});
-
-const hitTemplate = function(hit) {
-
-
-  let date = '';
-  if (hit.date) {
-    date = moment.unix(hit.date).format('MMM D, YYYY');
-  }
-  let url = `${hit.url}#${hit.anchor}`;
-  const title = hit._highlightResult.title.value;
-
-  let breadcrumbs = '';
-  if (hit._highlightResult.headings) {
-    breadcrumbs = hit._highlightResult.headings.map(match => {
-      return `<span class="post-breadcrumb">${match.value}</span>`
-    }).join(' > ')
-  }
-
-  let content = "" ; 
-  if (hit._highlightResult.content){
-      content = hit._highlightResult.content.value;
-  }
-  else{
-      content = hit.summary;
-  }
-
-
-  return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
-      <div class="post-snippet">${content}</div>
-    </div>
-  `;
-}
-
-
-search.addWidget(
-  instantsearch.widgets.searchBox({
-    container: '#search-searchbar',
-    placeholder: 'Search into posts...',
-    poweredBy: true // This is required if you're on the free Community plan
-  })
-);
-
-search.addWidget(
-  instantsearch.widgets.hits({
-    container: '#search-hits',
-    templates: {
-      item: hitTemplate
-    }
-  })
-);
-
-search.start();
-</script>
-
-<style>
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-.post-link .ais-Highlight {
-  color: #111;
-  font-style: normal;
-  text-decoration: underline;
-}
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-.post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
-}
-.post-breadcrumb .ais-Highlight {
-  font-weight: bold;
-  font-style: normal;
-}
-.post-snippet .ais-Highlight {
-  color: #2a7ae2;
-  font-style: normal;
-  font-weight: bold;
-}
-.post-snippet img {
-  display: none;
-}
-</style>
-
-       	</div>
-        
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-             
-            
                 
-            
                 
-            
-                
-                    <a href="/tags/covid-19" title="covid-19">
-                        covid-19
-                    </a>
-                
-            
-                
-                    <a href="/tags/funding" title="funding">
-                        funding
-                    </a>
-                
-            
-                
-            
-                
-                    <a href="/tags/simulations" title="simulations">
-                        simulations
-                    </a>
-                
-            
-                
-                    <a href="/tags/statistics" title="statistics">
-                        statistics
-                    </a>
-                
-            
-                
-            
-        </div>
-    </section>
-    
 
-    
-	
-    <section class="visible-md visible-lg">
-	<hr><h5><a href="/top/about">ABOUT ME</a></h5>
-        <div class="short-about">
-            
-            <a href="/top/about">
-               <img src="/img/smart_rocky.jpg" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Statistician and health researcher</p>
-            
-           
-           <ul class="list-inline"> 
-               
-               
-               <li>
-                   <a href="https://twitter.com/aidybarnett">
-                       <span class="fa-stack fa-lg">
-                           <i class="fa fa-circle fa-stack-2x"></i>
-                           <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/agbarnett">
-                       <span class="fa-stack fa-lg">
-                           <i class="fa fa-circle fa-stack-2x"></i>
-                           <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
+
+<p>Today I end my two year stint as president of the <a href="https://www.statsoc.org.au">Statistical Society of Australia</a>. As I press “submit” on my presidency, here’s a hodge-podge of reflections.</p>
+<p>I was delighted to be president, and I will miss being able to say, “I’m the president of the Stats Society”. Statistics has given me an incredible career and I feel I owe something back.</p>
+<p>It might sound strange to feel a debt to a thing, but statistics is a big thing. Often overlooked, misused and derided, statistics is so much more than facts and figures.
+It’s a way to work out what the heck is going on, and the world needs that right now. (If you don’t agree, you’ve been looking at the wrong statistics.)</p>
+<div id="young-stats-talent-time" class="section level2">
+<h2>Young Stats Talent Time</h2>
+<p>A huge highlight of my presidency was the Young Stats conference in Canberra. The variety of topics was incredible, and the standard of the talks was way higher than most “normal” conferences.</p>
+<p>It’s encouraging to see such new talent starting their careers, but the numbers show that Australia is not producing enough statisticians given the demand for people with maths and stats skills.
+There are big shortages in qualified maths and stats teachers, and not enough kids are doing advanced maths at school, especially girls.</p>
+<p>Australia will likely continue to plug the gap by importing statisticians (I am from the UK and so was the last president), but that’s a lazy work-around and one that is only available because of the country’s finances.
+We’re neglecting our own pool of talent and dipping in to others.</p>
+<p>And better maths and stats teaching is not just for people who want a career in the mathematical sciences.
+I’ve met lots of scientists who run metaphorical marathons in their own field, but stub their toe on statistics.</p>
+</div>
+<div id="boom" class="section level2">
+<h2>Boom</h2>
+<p>There’s been a explosion in data analysis in the last decade, but in statistics we’ve only felt the echo rather than the boom.
+Instead “machine learning” and “data science” have become their own things, despite having statistics at their core and statistics at their edges.</p>
+<p>Maybe our crusty old field of statistics wasn’t dynamic enough to lead this new wave of data analysis, and we should be grateful for the indirect rise in our profile.
+However, there’s a strength in numbers, and we would be better off politically and financially if we club together.</p>
+<p>The society of engineers split early with the shearing off of civil engineering, and that has forever weakened them.</p>
+</div>
+<div id="future-boom" class="section level2">
+<h2>Future boom?</h2>
+<p>Most statisticians have an ingrained reluctance to make bold predictions, but I will go against the grain and say that the future of statistics looks bright.
+The world’s biggest current problems involve data and evidence, and we’ll need people with skills and experience for some time to come (don’t believe anyone who tells you that analysts will be replaced by algorithms).</p>
+<p>The future of the Stats Society looks healthy too, and I know that <a href="https://research.monash.edu/en/persons/jessica-kasza">Jessica Kasza</a> will be a great president and she’s already done fantastic work as Vice President.</p>
+<p>Our society relies on our members. I may have been nominally top of the pyramid, but the whole structure would fall in a heap without the support of lots of people. I want to give special mention to Marie-Louise Rankin (Executive Officer), Doug Shaw (Secretary), Raaj Kishore Biswas (Young Stats) and Carmen Lim (Vice President of Media).</p>
+<p>We rely on our members to keep us relevant and vibrant.
+So please join us and join in.</p>
+</div>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/quit-research/" data-toggle="tooltip" data-placement="top" title="When should I quit research? An evidence-based approach">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
                 </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
             </div>
-    </section>
-	
-    
-    
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
 
-    
-    
-</div>
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/covid-19" title="covid-19">
+                            covid-19
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/funding" title="funding">
+                            funding
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/simulations" title="simulations">
+                            simulations
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/statistics" title="statistics">
+                            statistics
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
 
-	</div>
-</div>
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
 
 
 
