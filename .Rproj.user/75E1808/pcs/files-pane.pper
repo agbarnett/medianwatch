@@ -1,9 +1,9 @@
 {
-    "path" : "U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/blog/medianwatch",
-    "sortOrder" : [
+    "path": "U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/blog/medianwatch",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "ascending": true,
+            "columnIndex": 2
         }
     ]
 }
