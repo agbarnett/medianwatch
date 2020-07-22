@@ -2,12 +2,12 @@
 title: "Goodbye to all that"
 author: "Adrian Barnett"
 date: 2020-07-23
-slug: last-day
+slug: goodbye-president
 categories: []
 tags: ["statistics"]
 subtitle: ''
 showtoc: false
-image: "/img/path_4.jpg"
+image: "/img/path_6.jpg"
 ---
 
 Today I end my two year stint as president of the [Statistical Society of Australia](https://www.statsoc.org.au). As I press "submit" on my presidency, here's a hodge-podge of reflections. 
