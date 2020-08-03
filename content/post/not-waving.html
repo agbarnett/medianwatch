@@ -1,0 +1,68 @@
+---
+title: "Not waving but drowning in data"
+author: "Adrian Barnett"
+date: '2020-08-03'
+slug: not-waving
+categories: []
+tags:
+  - statistics
+subtitle: ''
+description: ''
+showtoc: false
+image: "/img/rail_1.jpg"
+---
+
+
+
+<p>Our paper examining trends in acronyms in abstracts was recently published in <a href="https://elifesciences.org/articles/60080"><em>eLife</em></a>.
+We examined over 26 million abstracts from the <a href="https://pubmed.ncbi.nlm.nih.gov/"><em>PubMed</em> database</a>, which is easily the largest data set I’ve ever used.
+In this post I talk about some of the challenges and benefits of dealing with such a massive data set.</p>
+<div id="data-greed" class="section level3">
+<h3>Data greed</h3>
+<p>One of the most common mistakes I see researchers — new and experienced — make is to collect too much data.
+A memorable example is sitting through a whole day meeting whose sole aim was to shorten a study questionnaire, only to end the day with a different but longer questionnaire.</p>
+<p>The two imps driving this data greed are a fear of missing something vital and the ironically repeated plea that “it’s just one more question.”
+But big questionnaires mean small response rates, big data management issues and sludgy analyses.</p>
+<p>It’s almost always better to answer a few questions well than answer a lot of questions badly.</p>
+</div>
+<div id="peer-fear" class="section level3">
+<h3>Peer fear</h3>
+<p>I pride myself on being on a hypocrite, so when I started to analyse the <em>PubMed</em> data with 26 million available abstracts, I of course wanted to use the whole thing.
+The data were already collected, so I didn’t need to worry about response rates, but I knew the data management would be painful.</p>
+<p>The imp on my shoulder whispered doubts about the peer reviewers.
+How much easier to be able to write in our paper, “We used all 26 million abstracts”, than writing, “We took a random sample of 1 million abstracts stratified by year.”
+I just imagined a peer reviewer’s horror at the 25 million “missing” abstracts.</p>
+<p>With the imp’s help I also imagined the multitude of different sampling schemes that reviewers would suggest (“You should have stratified on journal, month, impact factor, etc…”).
+My firm belief (based on theory) is that any sensible sampling scheme would give similar results.
+Given the choice of having to explain sampling theory or using all the data, I chose the path that was easier for the reviewer and harder for me.</p>
+</div>
+<div id="data-management" class="section level3">
+<h3>Data management</h3>
+<p>I badly underestimated how long this project would take. Extracting acronyms sounds like an easy task, but I had no idea of the huge variety in journal styles, even for something as standardised as an abstract.</p>
+<p>It took around 5 days just to download the data from <em>PubMed</em>.
+I did it in two stages, a massive download of the data from <em>PubMed</em> into <em>R</em> with just a few exclusions and edits, and then a second more detailed refinement in <em>R</em> that took another few days.</p>
+<p>Often after creating my “final” data set, I found a small mistake in the acronyms, one that I could have easily ignored, but I instead ended up re-running the whole data collection process again.
+With 26 million abstracts it only needs an error rate of 1 in 10,000 to have 2,600 errors, which just feels too big even though it’s unlikely to have any impact on broad questions such as trends over time.</p>
+<p>I did reduce my workload by only using a fraction of the many variables available on each <em>PubMed</em> abstract, so it was a long data set (many rows, few columns).
+There’s a lot of fascinating data to mine in the <em>PubMed</em> database, and it’s an excellent open data source for research questions on the published literature.</p>
+</div>
+<div id="modelling" class="section level3">
+<h3>Modelling</h3>
+<p>I quickly gave up on any regression models as <em>R</em> ran out of memory.
+I did use repeated smaller random samples of the data to get some trend models going, but I decided that a simple plot of the annual means was better than any model.
+The size of the data meant almost all the confidence intervals around the annual means were tiny and mostly invisible on any plots.</p>
+<p>I used the “<a href="https://cran.r-project.org/web/packages/feasts/vignettes/feasts.html">feasts</a>” package to extract features per journal which was handy for reducing the data. We didn’t end up using these results, but they were useful for spotting data issues, in particular flagging when journals changed their style such as switching titles to all capitals.</p>
+</div>
+<div id="some-benefits-to-big-data" class="section level3">
+<h3>Some benefits to big data</h3>
+<p>One benefit of using the entire <em>PubMed</em> data was being able to create big statistics, such as finding 1.1 million unique acronyms, which is a shocking number.</p>
+<p>Another nice finding was that for all 26<span class="math inline">\(\times\)</span> 26<span class="math inline">\(\times\)</span> 26 = 17,576 possible combinations of three-letter acronyms using upper case letters (e.g., “WHO”), 94% of them had been used at least once.
+So we’ve almost exhausted our supplies of acronyms!</p>
+<p>There was a clear pattern in the first letters of 6% of acronyms still available, as shown in the circular plot below.</p>
+<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/post/first_letters_circular.jpg" width="450" /></p>
+<p>It has a remarkable similarity to the scores on <a href="https://en.wikipedia.org/wiki/Scrabble">Scrabble</a> tiles:</p>
+<p><img src="/post/not-waving_files/figure-html/unnamed-chunk-2-1.png" width="1600" /></p>
+<p>So scientists in Queensland or Zimbabwe, or working on Zebra fish, can still make a brand new acronym.</p>
+<p>Most scientists have to use second-hand acronyms or SHAs. But SHA could also mean <a href="https://pubmed.ncbi.nlm.nih.gov/30004277/">superior hypophyseal arteries</a> or <a href="https://pubmed.ncbi.nlm.nih.gov/29740556/">side-lying hip abduction</a> or <a href="https://pubmed.ncbi.nlm.nih.gov/29178044/">short-stem hip arthroplasty</a> or <a href="https://pubmed.ncbi.nlm.nih.gov/29862027/">system of health accounts</a>.
+Best to say what you actually mean.</p>
+</div>

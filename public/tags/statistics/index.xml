@@ -6,10 +6,20 @@
     <description>Recent content in statistics on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Not waving but drowning in data</title>
+      <link>/post/not-waving/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/not-waving/</guid>
+      <description>Our paper examining trends in acronyms in abstracts was recently published in eLife.We examined over 26 million abstracts from the PubMed database, which is easily the largest data set I’ve ever used.In this post I talk about some of the challenges and benefits of dealing with such a massive data set.
+Data greedOne of the most common mistakes I see researchers — new and experienced — make is to collect too much data.</description>
+    </item>
     
     <item>
       <title>Goodbye to all that</title>

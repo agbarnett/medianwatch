@@ -4,7 +4,7 @@ author: "Adrian Barnett"
 date: 2020-07-23
 slug: goodbye-president
 categories: []
-tags: ["statistics"]
+tags: ['statistics']
 subtitle: ''
 showtoc: false
 image: "/img/path_6.jpg"
