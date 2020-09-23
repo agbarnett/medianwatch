@@ -1,5 +1,5 @@
 ---
-title: "A Change To Judging Career Disruption"
+title: "A change to judging career disruption"
 author: "Adrian Barnett"
 date: 2020-09-23
 slug: career_disruption
@@ -7,8 +7,10 @@ categories: []
 tags: ['funding']
 subtitle: ''
 showtoc: false
-image: "/img/rail_2.jpg"
+image: "/img/path_6.jpg"
 ---
+
+_Re-posted from this 2016 [AusHSI blog](http://www.aushsi.org.au/a-change-to-judging-career-disruption/) because this is still an issue._
   
 Let's start with the obvious. Winning funding for health and medical research is soul-crushingly hard. Success rates for major schemes are under 20%, so failure is the norm.
 
