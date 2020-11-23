@@ -13,9 +13,7 @@ link-citations: false
 
 ### Show me the shortcut
 
-Scientists are busy people. Personally speaking, the pandemic has meant I've never been so busy - hence the shortage of posts on this site.
-
-Busy people love a short-cut because it gives them more time to be busy. 
+Scientists are busy people. Busy people love a short-cut because it gives them more time to be busy. 
 
 The [p-value](https://medianwatch.netlify.app/post/pvalue_pledge/) is a well-used scientific short-cut. It can decide for us whether something is important or not, and it's based on an equation so it must be right.
 
@@ -30,7 +28,7 @@ Sorry, we don't have time to answer those questions.
 
 Okay, so I admit there are _some_ semi-serious problems with the h-index. Which is why I've invented a new index called the c-index, short for the cartoon-index. (I will consider naming it the equally catchy abc-index for the "Adrian Barnett Cartoon index" if there's enough public pressure.)
 
-How is it calculated? The equation is simple, it's the number of cartoons that have been drawn about your research. Cartoons show genuine engagement with your work, and so are a true measure on non-academic impact. The phrase "Holy Grail" is over-used in science, but objectively measuring non-academic impact into one single number is surely a Holy Grail. 
+How is it calculated? Simple, it's the number of cartoons that have been drawn about your research. Cartoons show genuine engagement with your work, and so are a true measure on non-academic impact. The phrase "Holy Grail" is over-used in science, but objectively measuring non-academic impact into one single number is surely a Holy Grail. 
 
 This new index will likely come to dominate the science of scientific index making from today, which is also known as "Scientoshortcuts".
 
