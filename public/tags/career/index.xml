@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>career on Median Watch</title>
+    <link>https://medianwatch.netlify.com/tags/career/</link>
+    <description>Recent content in career on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://medianwatch.netlify.com/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I humbly present the novel c-index</title>
+      <link>https://medianwatch.netlify.com/post/c_index/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/c_index/</guid>
+      <description>Show me the shortcutScientists are busy people. Personally speaking, the pandemic has meant I’ve never been so busy - hence the shortage of posts on this site.
+Busy people love a short-cut because it gives them more time to be busy.
+The p-value is a well-used scientific short-cut. It can decide for us whether something is important or not, and it’s based on an equation so it must be right.</description>
+    </item>
+    
+    <item>
+      <title>A change to judging career disruption</title>
+      <link>https://medianwatch.netlify.com/post/career_disruption/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/career_disruption/</guid>
+      <description>Re-posted from this 2016 AusHSI blog because this is still an issue.
+Let’s start with the obvious. Winning funding for health and medical research is soul-crushingly hard. Success rates for major schemes are under 20%, so failure is the norm.
+Your application will be judged by a panel of 6 to 12 senior researchers. A key marker of success is your track record, which may simply mean the number and quality of your papers, and your previous research funding (a very circular measure).</description>
+    </item>
+    
+  </channel>
+</rss>

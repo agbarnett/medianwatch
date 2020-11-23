@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>p-values on Median Watch</title>
-    <link>/tags/p-values/</link>
+    <link>https://medianwatch.netlify.com/tags/p-values/</link>
     <description>Recent content in p-values on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/p-values/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://medianwatch.netlify.com/tags/p-values/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dear p-values, it&#39;s not me, it&#39;s not you, it&#39;s everyone else</title>
-      <link>/post/pvalue_pledge/</link>
+      <link>https://medianwatch.netlify.com/post/pvalue_pledge/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/pvalue_pledge/</guid>
+      <guid>https://medianwatch.netlify.com/post/pvalue_pledge/</guid>
       <description>Yet another p-value run-in.For a recent observational study I tried to limit the use of p-values in the paper.My colleagues wanted more p-values and I had to politely push back.During one team meeting I even offered to put the p-values in if someone could accurately tell me what they meant … silence.
 Predicting that the reviewers would also want to see more p-values, I added this sentence to the paper’s methods: “We have tried to limit the use of p-values, as they are often misunderstood or misinterpreted, and elected to discuss clinically meaningful differences.</description>
     </item>
