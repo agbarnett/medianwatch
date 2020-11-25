@@ -28,7 +28,7 @@ Sorry, we don't have time to answer those questions.
 
 Okay, so I admit there are _some_ semi-serious problems with the h-index. Which is why I've invented a new index called the c-index, short for the cartoon-index. (I will consider naming it the equally catchy abc-index for the "Adrian Barnett Cartoon index" if there's enough public pressure.)
 
-How is it calculated? The equation is simple, it's the number of cartoons that have been drawn about your research. Cartoons show genuine engagement with your work, and so are a true measure on non-academic impact. The phrase "Holy Grail" is over-used in science, but objectively measuring non-academic impact into one single number is surely a Holy Grail. 
+How is it calculated? Simple, it's the number of cartoons that have been drawn about your research. Cartoons show genuine engagement with your work, and so are a true measure on non-academic impact. The phrase "Holy Grail" is over-used in science, but objectively measuring non-academic impact into one single number is surely a Holy Grail. 
 
 This new index will likely come to dominate the science of scientific index making from today, which is also known as "Scientoshortcuts".
 
@@ -40,7 +40,7 @@ Only a fool would invent an index for which they have a score of zero, unless it
 
 ### Future improvements
 
-Of course the c-index is not quite perfect, I anticipate adaptions that will incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
+Of course the c-index is not quite perfect, I anticipate adaptions that incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
 
 Researchers like [Hilda Bastian](https://hildabastian.net/) who draw their own cartoons will be disqualified. So it's already better than the h-index which includes self-citations.
 
