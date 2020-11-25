@@ -13,14 +13,12 @@ link-citations: false
 
 ### Show me the shortcut
 
-Scientists are busy people. Personally speaking, the pandemic has meant I've never been so busy - hence the shortage of posts on this site.
-
-Busy people love a short-cut because it gives them more time to be busy. 
+Scientists are busy people. Busy people love a short-cut because it gives them more time to be busy. 
 
 The [p-value](https://medianwatch.netlify.app/post/pvalue_pledge/) is a well-used scientific short-cut. It can decide for us whether something is important or not, and it's based on an equation so it must be right.
 
 Another heaven-sent shortcut is the [h-index](https://en.wikipedia.org/wiki/H-index) which allows us to decide the careers of researchers based on just one number (also made by an equation). 
-How can that be possible? Well the higher your h-index the better scientist you are because it counts the number of highly cited papers you have. If you have a h-index of 50 that means you've published 50 papers with 50 or more citations, simples. 
+How does it work? Well the higher your h-index the better scientist you are because it counts the number of highly cited papers you have. If you have a h-index of 50 that means you've published 50 papers with 50 or more citations, simples. 
 
 What's that you say? What about co-authored papers? What about the fact that most citations are just filler? What about the fact that older scientists have higher h-index's just by virtue of being alive longer? What about the quality of the work rather than the quantity? What about scientists who greedily self-cite? 
 
@@ -42,7 +40,7 @@ Only a fool would invent an index for which they have a score of zero, unless it
 
 ### Future improvements
 
-Of course the c-index is not quite perfect, I anticipate adaptions of the c-index that incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
+Of course the c-index is not quite perfect, I anticipate adaptions that will incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
 
 Researchers like [Hilda Bastian](https://hildabastian.net/) who draw their own cartoons will be disqualified. So it's already better than the h-index which includes self-citations.
 
