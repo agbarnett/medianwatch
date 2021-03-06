@@ -6,10 +6,24 @@
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>citations</title>
+      <link>https://medianwatch.netlify.com/tags/citations/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/citations/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://medianwatch.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>statistics</title>
+      <link>https://medianwatch.netlify.com/tags/statistics/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/tags/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>career</title>
@@ -35,15 +49,6 @@
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/tags/p-values/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://medianwatch.netlify.com/tags/statistics/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.com/tags/statistics/</guid>
       <description></description>
     </item>
     

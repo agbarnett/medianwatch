@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>citations on Median Watch</title>
+    <link>https://medianwatch.netlify.com/tags/citations/</link>
+    <description>Recent content in citations on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/citations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Most citations are rubbish</title>
+      <link>https://medianwatch.netlify.com/post/rubbish_citations/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/rubbish_citations/</guid>
+      <description>Blog pauseIt’s been a long while between blogs. I won’t bore you with how busy I’ve been, but one thing that’s kept me away from the fun of writing blogs is the “fun” of writing grants.
+Show me the impactTo get more research funding we rightly have to explain the impact of our past funding.It’s possible to get examples of impact by seeing how other researchers have cited your work.</description>
+    </item>
+    
+  </channel>
+</rss>

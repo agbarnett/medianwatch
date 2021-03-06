@@ -1,0 +1,46 @@
+---
+title: "Most citations are rubbish"
+author: "Adrian Barnett"
+date: 2021-03-06
+slug: rubbish_citations
+categories: []
+tags: ['citations','statistics']
+subtitle: ''
+showtoc: false
+image: "/img/path_1.jpg"
+link-citations: false
+---
+
+### Blog pause
+
+It's been a long while between blogs. I won't bore you with how busy I've been, but one thing that's kept me away from the fun of writing blogs is the "fun" of writing grants.
+
+### Show me the impact
+
+To get more research funding we rightly have to explain the impact of our past funding. 
+It's possible to get examples of impact by seeing how other researchers have cited your work.
+
+The tool [scite.ai](https://scite.ai) is handy for this, as it gives the context of the citation and attempts to categorise it as 'supporting', 'mentioning' or 'disputing'. 
+
+Try it and you'll likely see how the vast majority of citations to your work are in the 'mentioning' category. 
+I've found that most citations are just filler, with throwaway sentences like, "Past research has shown that disease _X_ is of growing importance in country _Z_ [1-11]". 
+
+Should I take comfort from being paper number 1 in this group of 11? Probably not considering my surname's alphabetical advantage. 
+
+Looking at how my work has been cited makes me think that the many "impact" statistics based on citations are no more than a hill of beans.
+
+### Diamonds
+
+Saying that, you can unearth a diamond in all this coal, because you might find a citation where another research group has tried to replicate your work or based on whole study on your idea.
+
+But it's mostly coal.
+
+## Fool's gold
+
+Looking for diamonds, I found a citation to [a paper](https://www.mja.com.au/journal/2019/211/10/biostatistics-fundamental-discipline-core-modern-health-data-science) I wrote with my statistical colleagues about the shortage of statistical skills in Australia. I'm very biased, but I think this paper makes an important point about how a lot of current research in Australia is undermined by poor statistical analysis. So it's nice to see it cited, presumably by those who agree with this important message.
+
+The citation is from [this paper](https://www.researchgate.net/profile/Haider-Alsaedi/publication/346681415_The_Possible_Nephroprotective_Effect_of_Roflumilast_Ameliorating_Glycerol_-Induced_Myoglobinuric_Acute_Renal_Injury_in_Rabbits_Model/links/5fce7e1c92851c00f85b853a/The-Possible-Nephroprotective-Effect-of-Roflumilast-Ameliorating-Glycerol-Induced-Myoglobinuric-Acute-Renal-Injury-in-Rabbits-Model.pdf) and is [sic]: "P value is considered significant when its value equal or less than 0.05(18)."
+
+It's hard to work out why we've been cited, as we didn't even discuss the problem of p-values in this paper. If we did, this sentence would have been an example of the sort of bad statistics that we are trying to avoid.
+
+In one way it's a valid citation to our paper, because it supports the point we were trying to make: A lot of health and medical researchers have only a shallow understanding of statistics.

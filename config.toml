@@ -1,7 +1,7 @@
 baseurl = "https://medianwatch.netlify.com"
 title = "Median Watch"
 theme = "hugo-theme-cleanwhite"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 languageCode = "en-uk"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
