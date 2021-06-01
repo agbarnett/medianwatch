@@ -14,46 +14,46 @@ image: "/img/rail_2.jpg"
 link-citations: false
 ---
 
-# Sorry state.
+### Sorry state.
 
-A few years ago I thought about writing an article that apologised to the public about the poor state of health and medical research. Their tax pays for this research and they give their time and data, and yet far too often the results provided by research are totally unreliable. 
+A few years ago I thought about writing an article that apologised to the public about the poor state of health and medical research. Their tax pays for this research and they give their time and data, and yet far too often the final results are totally unreliable. 
 
-In the end I bottled it; too worried about the potential harm to my career. But today I've read [this important paper](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext) from a group of statistical colleagues and it's given me the nerve to speak up.
+In the end I bottled it; too worried about the potential harm to my career. But today I've read [this important paper](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext) from a group of statistical colleagues and it's given me the nerve to apologise.
 
-# A quotable paper
+### A quotable paper
 
 Here's one of many great quotes from the paper: “the scientific enterprise is doing a major disservice to patients and society.”
 
-Why are researchers doing so badly? Because we are too focused on our own careers and not enough on the health and wellbeing of society. Because the "best" journals demand interesting results, and so we provide them regardless of how reliable those results are. Because our universities and funders promote bad practice by focusing on daft metrics that mean we get rewarded for quantity instead of quality, so we cut corners in order to keep up. 
+Why are researchers doing so badly? Because we are too focused on our own careers and not enough on the public's health and wellbeing. Because the "best" journals demand interesting results, and so we provide them regardless of how reliable those results are. Because our universities and funders promote bad practice by focusing on daft metrics that reward quantity instead of quality, so we cut corners to keep our metrics up. 
 
-# It's personal
+### It's personal
 
 A personal apology feels appropriate because I've witnessed the many current problems in health and medical research for over two decades, and I've watched things get worse without doing enough to stop it. 
 
 Just in the last month I've been involved in enervating struggles on inappropriate authorship and inappropriate re-analysis. I also reviewed a paper that was so bad it felt like it was written in an afternoon or even by an algorithm. I've also been reading about growing fraud in research, including paper mills and data fraud, and a scientist brave enough to speak up about these issues [is being hassled and sued](https://osf.io/2awsv/).
 
-# You are part of the problem
+### You are part of the problem
 
 Writing about how rich people don't recognise that they are rich, the comedian David Mitchell said “[Hardly any of us think we’re part of the problem, which is part of the problem](https://www.theguardian.com/commentisfree/2017/apr/23/david-mitchell-rich-shame-70000-john-mcdonnell-squeezed-middle)".
 
 The same is true in research. We all rationalise our bad practices because there are so many examples of researchers who are worse. 
 
-If you are a researcher reading this, then you are part of the problem. I am part of the problem. None of us are doing enough to stop this deluge of poor quality research. A deluge that became a double-deluge during the pandemic, because there was even less time for careful scientific practice. 
+If you are a researcher reading this, then you are part of the problem. I am part of the problem. None of us are doing enough to stop this deluge of poor quality research. A deluge that became a double-deluge during the pandemic, because there was even less time for careful practice. 
 
-# An optimistic note
+### An optimistic note
 
 Can I end on an optimistic note? No. I don't think this will get better soon.
 
 Here's another quote from the paper that rang true: “methodological illiteracy is still accepted.” 
 
-So many researchers I work with want p-values, but they can't define what they are. But they still want them in their papers, even though neither they nor the reviewers or readers understand them. This is madness.
+So many researchers I work with want p-values, but they can't define what they are. But they still want them in their paper, even though neither they nor the reviewers or readers understand them. This is madness.
 
-I have a [one-day statistics course](https://www.aushsi.org.au/training/statistics-course/) that's teaches  researchers what p-values are and helps them avoid other common statistical blunders. But I've been told that it's too expensive and/or they can't take a day away from research. But the costs of poor medical research are [in the billions](https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/). 
+I have a [one-day statistics course](https://www.aushsi.org.au/training/statistics-course/) that teaches  researchers what p-values are and helps them avoid other common statistical blunders. But my target audience tells me that it's too expensive and/or they can't take a day away from research. But the costs of poor medical research are [in the billions](https://blogs.bmj.com/bmj/2016/01/14/paul-glasziou-and-iain-chalmers-is-85-of-health-research-really-wasted/). 
 
-How can the costs of a day be greater than this massive waste of effort? Because the research world has become so hyper-competitive that even one-day away from producing more papers is perceived as too costly.
+How can the costs of a day be greater than this massive waste of effort? Because the research world has become so hyper-competitive that even one-day away from producing more papers is seen as too costly.
 
-# Stop whining Adrian
+### Stop whining Adrian
 
 You can easily dismiss this post as professional whining about statistics and how nobody understands us. Most people have a heightened sense of importance of their own job. 
 
-This could be true. But I can imagine one day fronting a government enquiry about this huge waste and how it went on for decades. Although I'll likely be hoary and embittered by then.
+This could be true. But I can imagine one day fronting a government enquiry about this huge waste and how it went on for decades. Although I'll likely be completely hoary and embittered by then.
