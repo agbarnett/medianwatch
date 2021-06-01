@@ -6,10 +6,7 @@ slug: rubbish_citations
 categories: []
 tags: ['citations','statistics']
 subtitle: ''
-showtoc: false
-image: "/img/rail_1.jpg"
-link-citations: false
----
+c---
 
 ### Blog pause
 
