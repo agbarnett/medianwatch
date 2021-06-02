@@ -12,8 +12,6 @@ image: "/img/rail_1.jpg"
 bibliography: bibliography.bib
 link-citations: true
 ---
-
-<!--- fix header colour thanks to Patrick Lam --->
 <style>
 .post-heading h1  { color: yellow; }
 .meta { color: yellow; }
