@@ -4,6 +4,7 @@ author: Adrian Barnett
 date: '2021-06-01'
 slug: an_apology
 categories: []
+summary: tag 
 tags:
   - statistics
   - career
@@ -13,6 +14,13 @@ showtoc: false
 image: "/img/rail_2.jpg"
 link-citations: false
 ---
+
+<!--- fix header colour thanks to Patrick Lam --->
+<style>
+.post-heading h1  { color: dark blue; }
+.meta { color: dark blue; }
+</style>
+
 
 ### Sorry state.
 
