@@ -17,8 +17,8 @@ link-citations: false
 
 <!--- fix header colour thanks to Patrick Lam --->
 <style>
-.post-heading h1  { color: dark blue; }
-.meta { color: dark blue; }
+.post-heading h1  { color: green; }
+.meta { color: green; }
 </style>
 
 

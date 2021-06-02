@@ -4,6 +4,7 @@ author: "Adrian Barnett"
 date: 2020-09-08
 slug: pvalue_pledge
 categories: []
+summary: tag 
 tags: ['statistics','p-values']
 subtitle: ''
 showtoc: false
@@ -11,6 +12,13 @@ image: "/img/rail_1.jpg"
 bibliography: bibliography.bib
 link-citations: true
 ---
+
+<!--- fix header colour thanks to Patrick Lam --->
+<style>
+.post-heading h1  { color: yellow; }
+.meta { color: yellow; }
+</style>
+
 
 ## Yet another p-value run-in.
 
