@@ -1,15 +1,16 @@
 ---
 title: Finding racist users in an online football game
 author: Adrian Barnett
-date: '2020-06-11'
+date: '2021-06-11'
+categories: []
 tags:
   - football
   - racism
 slug: racism_football
 showtoc: no
-image: "/img/path_5.jpg"
-bibliography: bibliography.bib
+image: /img/path_5.jpg
 link-citations: yes
+bibliography: bibliography.bib
 ---
 
 In 1998, the French men’s team won the football World Cup for the first time in their history. For most of the country, even non-football fans, it was a joyous moment and the trigger for a massive national party, especially as the tournament was in France with the final in Paris.
@@ -32,7 +33,7 @@ In a clear sign that racism is a problem amongst some users, last season’s lea
 
 Each user picks 15 players with a budget of £100 million. The best players cost more, so you can’t just fill your team with the most renowned players. Nor can users just select, say, the entire Liverpool&nbsp;FC team: only 3 players from the same team are allowed. Users make initial picks to fill a squad of 15 with 2&nbsp;goalkeepers, 5&nbsp;defenders, 5&nbsp;midfielders and 3&nbsp;forwards (see Figure&nbsp;1). As the season progresses, users can transfer players in and out, depending on their budget. Transfers are limited to 1&nbsp;free transfer per game week, with additional transfers costing points. Users can choose to make unlimited transfers in two weeks of the season by playing a wildcard.
 
-![My own FPL team](my_fpl_team.png){width=90%, height=90%}
+![](my_fpl_team.png){width=90%, height=90%}
 
 #### Figure 1: Example fantasy football team. There are 15 players in total, 11 on the pitch and 4 on the bench. Note the “No room for racism” link in the top-right.
 
@@ -66,7 +67,7 @@ The probability that the first defender picked will not be black is 133/214 (0.6
 
 Once the matches start, users can transfer players in any position, hence the probability after 15&nbsp;picks varies by position. The probabilities for transfers in each of the four positions are shown in Figure&nbsp;2. After 40&nbsp;picks, the probability of picking no black players by chance is very small, particularly for users changing their strikers where is it smaller than 1 in a billion. 
 
-![Probability plot](black_transfer.jpg){width=60% height=60%}
+![](black_transfer.jpg){width=60% height=60%}
 
 #### Figure 2: Probability of a user picking no black players depending on the number of transfers. The y-axis is on a log scale (base&nbsp;10). The dotted vertical line is at the first 15 picks, where all users must have picked 2&nbsp;goalkeepers, 5&nbsp;defenders, 5&nbsp;midfielders and 3&nbsp;forwards.
 
