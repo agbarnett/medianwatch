@@ -1,15 +1,15 @@
 ---
-title: "Finding racist users in an online football game"
-author: "Adrian Barnett"
-date: 2020-06-11
+title: Finding racist users in an online football game
+author: Adrian Barnett
+date: '2020-06-11'
+tags:
+  - football
+  - racism
 slug: racism_football
-categories: []
-tags: ['racism','football']
-subtitle: ''
-showtoc: false
+showtoc: no
 image: "/img/path_5.jpg"
 bibliography: bibliography.bib
-link-citations: true
+link-citations: yes
 ---
 
 In 1998, the French men’s team won the football World Cup for the first time in their history. For most of the country, even non-football fans, it was a joyous moment and the trigger for a massive national party, especially as the tournament was in France with the final in Paris.
@@ -32,17 +32,15 @@ In a clear sign that racism is a problem amongst some users, last season’s lea
 
 Each user picks 15 players with a budget of £100 million. The best players cost more, so you can’t just fill your team with the most renowned players. Nor can users just select, say, the entire Liverpool&nbsp;FC team: only 3 players from the same team are allowed. Users make initial picks to fill a squad of 15 with 2&nbsp;goalkeepers, 5&nbsp;defenders, 5&nbsp;midfielders and 3&nbsp;forwards (see Figure&nbsp;1). As the season progresses, users can transfer players in and out, depending on their budget. Transfers are limited to 1&nbsp;free transfer per game week, with additional transfers costing points. Users can choose to make unlimited transfers in two weeks of the season by playing a wildcard.
 
-![](my_fpl_team.png)
+![My own FPL team](my_fpl_team.png){width=90%, height=90%}
 
-### Figure 1: Example fantasy football team. There are 15 players in total, 11 on the pitch and 4 on the bench. Note the “No room for racism” link in the top-right.
+#### Figure 1: Example fantasy football team. There are 15 players in total, 11 on the pitch and 4 on the bench. Note the “No room for racism” link in the top-right.
 
 The Fantasy Premier League make their data openly available. I downloaded over 128&nbsp;million player selections from around 5&nbsp;million users for the first five weeks of the 2020/21 season. I didn’t get all the data due to time constraints; getting these millions of records took two weeks. 
 
 I downloaded the data on the 588&nbsp;footballers in the premier league and categorised each player as readily identifiable by others as black or not; two friends checked my categorisation. A binary classification of race is simplistic and some players may have a more complex identity. However, I was hoping to find the bad behaviour of people making simplistic choices and believed this binary classification would be adequate for this goal.
 
 There are many black players in the Premier League, with more who play as strikers than goalkeepers (see Table&nbsp;1). 
-
-### Table 1: Proportion of black players in the English Premier League fantasy game by position. These are based on my own categorisation and there is no official league data on player ethnicity.
 
 ```{r, echo=FALSE, comment=''}
 library(dplyr)
@@ -60,15 +58,17 @@ tab = flextable(data) %>%
 tab
 ```
 
+#### Table 1: Proportion of black players in the English Premier League fantasy game by position. These are based on my own categorisation and there is no official league data on player ethnicity.
+
 I calculated the probability of a user picking no black players simply by chance. Starting with the two goalkeepers, the probability the first goalkeeper will not be black is 60/65 (0.92). For the second goalkeeper we assume the first pick was not a black player, so the probability the second goalkeeper will not be black is reduced slightly to 59/64 (0.92). To get the probability of no black goalkeepers by chance alone we multiply the two probabilities and get 0.84. 
 
 The probability that the first defender picked will not be black is 133/214 (0.62) and the first striker is 36/72 (0.50). After filling a team with 15 players, the probability of a user picking no black players by chance is just 0.00079, less than one in a thousand. This small probability arises from the steady reduction of the cumulative probability for each player picked. 
 
 Once the matches start, users can transfer players in any position, hence the probability after 15&nbsp;picks varies by position. The probabilities for transfers in each of the four positions are shown in Figure&nbsp;2. After 40&nbsp;picks, the probability of picking no black players by chance is very small, particularly for users changing their strikers where is it smaller than 1 in a billion. 
 
-![](black_transfer.jpg){width=650px} 
+![Probability plot](black_transfer.jpg){width=60% height=60%}
 
-### Figure 2: Probability of a user picking no black players depending on the number of transfers. The y-axis is on a log scale (base&nbsp;10). The dotted vertical line is at the first 15 picks, where all users must have picked 2&nbsp;goalkeepers, 5&nbsp;defenders, 5&nbsp;midfielders and 3&nbsp;forwards.
+#### Figure 2: Probability of a user picking no black players depending on the number of transfers. The y-axis is on a log scale (base&nbsp;10). The dotted vertical line is at the first 15 picks, where all users must have picked 2&nbsp;goalkeepers, 5&nbsp;defenders, 5&nbsp;midfielders and 3&nbsp;forwards.
 
 Focusing on the observed data, I looked at users with no black players and 30 or more transfers. I found just 11 with no black players from 5.3&nbsp;million users. The expected number of number of users assuming no racist behaviour is around 12, hence the numbers show no issue. 
 
