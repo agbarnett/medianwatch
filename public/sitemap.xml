@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://medianwatch.netlify.com/post/pvalue_year/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/p-values/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/racism_football/</loc>
+    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/football/</loc>
+    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/racism/</loc>
+    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://medianwatch.netlify.com/post/an_apology/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/career/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/post/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/c_index/</loc>
@@ -30,9 +45,6 @@
     <lastmod>2020-09-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/pvalue_pledge/</loc>
-    <lastmod>2020-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/p-values/</loc>
     <lastmod>2020-09-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/big-data/</loc>

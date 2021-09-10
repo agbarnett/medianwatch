@@ -2,7 +2,6 @@
 title: Finding racist users in an online football game
 author: Adrian Barnett
 date: '2021-06-11'
-categories: []
 tags:
   - football
   - racism
