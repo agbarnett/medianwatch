@@ -12,8 +12,6 @@ bibliography: bibliography.bib
 link-citations: yes
 ---
 
-## My values are not p-values
-
 One year ago after another stupid fight with a journal about p-values, I made [a pledge to go without them for a year](https://medianwatch.netlify.app/post/pvalue_pledge/). Here's how it went.
 
 ## But first, why?
@@ -30,7 +28,7 @@ It's a grandiose analogy, but I'm reminded of nuclear power: fine in theory, but
 
 I've had very different conversations with colleagues when I told them you can have the p-values or me as an author, but not both. Although this was an ultimatum I was cordial and let my colleagues know that their decision would not upset me or harm our working relationship. 
 
-In every case but one the authors removed the p-values, relying instead on confidence intervals. But what was more satisfying is that it spurred some meaningful conversations about p-values and their limitations. My willingness to forgo that most precious of academic credit of a paper meant that my seriousness finally cut through. 
+In every case but one my colleagues removed the p-values, relying instead on confidence intervals. But what was more satisfying is that it spurred some meaningful conversations about p-values and their limitations. My willingness to forgo that most precious of academic credit of a paper meant that my seriousness finally cut through. 
 
 For the one paper where my colleagues preferred the p-values, the paper was accepted and is in press. Deliciously the acknowledgement section reads: "Thanks to Adrian Barnett who would have been an author but it was him or the p-values." Let's hope that gets through the copy editors. 
 
