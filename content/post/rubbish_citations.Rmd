@@ -1,6 +1,7 @@
 ---
 title: "Most citations are rubbish"
 author: "Adrian Barnett"
+draft: false
 date: 2021-03-06
 slug: rubbish_citations
 categories: []
