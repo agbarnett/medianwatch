@@ -1,6 +1,7 @@
 ---
 title: Funding schemes that cost as much as they reward
 author: Adrian Barnett
+draft: false
 date: '2021-09-16'
 tags:
   - funding

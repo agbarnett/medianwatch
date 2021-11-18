@@ -2,8 +2,9 @@
 title: University league tables cost money and cause harm
 author: Adrian Barnett
 date: '2021-11-19'
+draft: false
 tags:
-  - league_tables
+  - "league tables"
 slug: league_tables
 showtoc: no
 image: /img/alley_1.jpg
