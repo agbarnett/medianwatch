@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://medianwatch.netlify.com/tags/league-tables/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/league_tables/</loc>
+    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://medianwatch.netlify.com/tags/funding/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/hidden_funding_costs/</loc>
-    <lastmod>2021-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/</loc>
-    <lastmod>2021-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/post/</loc>
-    <lastmod>2021-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/pvalue_year/</loc>
