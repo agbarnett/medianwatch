@@ -6,7 +6,17 @@
     <description>Recent content in statistics on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Celebrate hard science</title>
+      <link>https://medianwatch.netlify.com/post/science_is_hard/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/science_is_hard/</guid>
+      <description>Two weeks ago I gave a fun online talk on statistics for the Young Scientist Forum of the German Society for Biomaterials. I had some great chats with the organisers and there were good questions from the audience.
+One good question was about how to interpret the analysis results when things are not clear cut. As part of the talk I had talked about not deleting difficult outliers and not relying on p-values to give a falsely certain interpretation of what their results mean.</description>
+    </item>
+    
     <item>
       <title>A year without p-values</title>
       <link>https://medianwatch.netlify.com/post/pvalue_year/</link>
