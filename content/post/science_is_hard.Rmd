@@ -7,7 +7,7 @@ tags:
   - statistics
 slug: science_is_hard
 showtoc: no
-image: /img/path_2.jpg
+image: /img/path_5.jpg
 ---
 
 Two weeks ago I gave a fun online talk on statistics for the [Young Scientist Forum of the German Society for Biomaterials](https://twitter.com/ysf_dgbm). I had some great chats with the organisers and there were good questions from the audience. 
