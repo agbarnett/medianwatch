@@ -1,0 +1,32 @@
+---
+title: Streamlining
+author: Adrian Barnett
+date: '2022-03-21'
+tags:
+  - funding
+slug: streamlining
+showtoc: no
+image: /img/rail_1.jpg
+bibliography: bibliography.bib
+link-citations: yes
+---
+
+I read [a an article in The Age newspaper](https://www.smh.com.au/national/desperate-despondent-ignored-australian-science-at-crisis-point-20220310-p5a3g2.html) with lots of researchers calling for a simpler system.
+
+https://twitter.com/ARC_Tracker/status/1505301410409512960
+
+I am a big fan of a simpler funding system, and our past research has documented the high costs and high stress of applying.
+
+However, there's a big barrier to really streamlining the system, and that is researchers. Because at the same time as asking for streamlining, researchers also regularly ask for more complexity. 
+
+## Panels
+
+As an example, I've seen multiple calls for the re-introduction on panels for NHMRC grants (ADD TWEET). 
+
+Panels were used for a long while by the NHMRC. A panel was a group of senior researchers who would discuss grant applications with that discussion informed by expert reviews. The evidence shows (here and here) that they don't make much of a difference to the final decision, but they do cost money and time. Hence the NHMRC's switch to use more expert reviews was entirely evidence-based in my opinion. 
+
+Some people think panels might increase transparency, but there's no evidence they will do that. I've even seen some bad behaviour on panels and I can imagine them easily becoming a place where people don't feel empowered to speak up about any unfairness. I acknowledge that's an anecdote rather than evidence.
+
+Another anecdotal-based gripe: panels may benefit those who sit on them, because it gives an invaluable insight into the decision making process. Whilst that's great for those that attend, it's a serious disadvantage to those that can't, which could be those with caring responsibilities.
+
+## x
