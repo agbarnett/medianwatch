@@ -6,7 +6,29 @@
     <description>Recent content on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication bias or research misconduct?</title>
+      <link>https://medianwatch.netlify.com/post/z_values/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/z_values/</guid>
+      <description>In my talk on bad statistics in medical research practice, I showed the infamous plot of z-values created by Erik van Zwet.
+A version of the plot made with David Borg is shown below. The sample size is over 1.1 million Z-values.
+The two large spikes in Z-values are just below and above the statistically significant threshold of ± 1.96, corresponding to a p-value of less than 0.05. The plot looks like a Normal distribution that’s caved in.</description>
+    </item>
+    
+    <item>
+      <title>A possibly enormous change to health and medical research</title>
+      <link>https://medianwatch.netlify.com/post/ethics_impact/</link>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/ethics_impact/</guid>
+      <description>Re-posted from Campus Morning Mail with permission.
+The National Statement on Ethical Conduct in Human Research is a vitally important document for researchers and the public, because it determines what research is acceptable and guides how researchers should design studies to adhere to ethical practice. There is a current public consultation on changes to the statement. One proposed change is that this sentence:
+“Research may lead to harms, discomforts and/or inconveniences for participants and/or others.</description>
+    </item>
+    
     <item>
       <title>Celebrate hard science</title>
       <link>https://medianwatch.netlify.com/post/science_is_hard/</link>

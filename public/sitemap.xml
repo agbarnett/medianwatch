@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://medianwatch.netlify.com/post/science_is_hard/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://medianwatch.netlify.com/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/p-values/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/z_values/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/statistics/</loc>
-    <lastmod>2022-07-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/ethics_impact/</loc>
+    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/ethics/</loc>
+    <lastmod>2022-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/science_is_hard/</loc>
     <lastmod>2022-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/disaster/</loc>
