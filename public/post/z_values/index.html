@@ -198,14 +198,14 @@
                 
 
 
-<p>In my talk on bad statistics in medical research practice, I showed the <a href="https://agbarnett.github.io/talks/TRI/slides#13">infamous plot of z-values</a> created by <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241">Erik van Zwet</a>.</p>
+<p>In my talk on bad statistics in medical research, I showed the <a href="https://agbarnett.github.io/talks/TRI/slides#13">infamous plot of Z-values</a> created by <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241">Erik van Zwet</a>.</p>
 <p>A version of the plot made with David Borg is shown below. The sample size is over 1.1 million Z-values.</p>
-<p><img src="../../public/img/Z_plot.png" /></p>
+<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot.png" width="450" /></p>
 <p>The two large spikes in Z-values are just below and above the statistically significant threshold of ± 1.96, corresponding to a p-value of less than 0.05. The plot looks like a Normal distribution that’s caved in.</p>
 <p>In my opinion, this is evidence that research misconduct is widespread. Lots of researchers are re-analysing their data until they get a “significant” p-value, using tricks like removing outliers, collecting more data, adjusting for different variables, etc.</p>
 <div id="misconduct-or-publication-bias" class="section level3">
 <h3>Misconduct or publication bias?</h3>
-<p>I had an interesting question from Kyle Sheldrick about my interpretation, and whether this was predominantly misconduct or mostly publication bias. Publication bias is where journal editors and peer reviewers have a strong bias to accept results that are statistically significant, so this would also create spikes in Z-values at ± 1.96. There’s good evidence that publication bias exists, thanks to a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/226270">neat randomised trial</a> that manipulated p-values and found huge differences in acceptance rates.</p>
+<p>I had an interesting question from Kyle Sheldrick about my interpretation, and whether this was predominantly misconduct or mostly publication bias. Publication bias is where journal editors and peer reviewers more likely accept papers with results that are statistically significant, so this would also create spikes in the Z-values at ± 1.96. There’s good evidence that publication bias exists, thanks to a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/226270">neat randomised trial</a> that manipulated p-values and found papers with significant p-values were much more likely to be accepted.</p>
 <p>So the question is, what is the predominant cause for the spikes? Publication bias from journals or misconduct by researchers? Not the happiest question, but one worth answering.</p>
 </div>
 <div id="plos-one" class="section level3">
@@ -213,7 +213,7 @@
 <p>To somewhat answer this I have created the Z-plot using only results from the journal <em>PLOS ONE</em>. Theoretically this should be free from publication bias because: “<a href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process">The editors make decisions on submissions based on scientific rigor, regardless of novelty</a>”.</p>
 <p>So a well conducted study with a p-value over 0.05 should still be accepted by <em>PLOS ONE</em>. Reviewers should not be able to use a lack of significance as a reason for rejection, although some may still apply their biases covertly.</p>
 <p>Looking at the plot below (sample size over 64,000), it’s clear that there are still huge spikes in Z-values at the magic P &lt; 0.05 threshold. This cements my belief that research misconduct is widespread.</p>
-<p><img src="../../public/img/Z_plot_plos_one.png" /></p>
+<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot_plos_one.png" width="450" /></p>
 </div>
 <div id="data-sharing" class="section level3">
 <h3>Data sharing</h3>

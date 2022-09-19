@@ -40,7 +40,7 @@ Only a fool would invent an index for which they have a score of zero, unless it
 
 ### Future improvements
 
-Of course the c-index is not quite perfect, I anticipate adaptions that incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
+Of course the c-index is not quite perfect, I anticipate adaptations that incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
 
 Researchers like [Hilda Bastian](https://hildabastian.net/) who draw their own cartoons will be disqualified. So it's already better than the h-index which includes self-citations.
 
