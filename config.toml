@@ -72,7 +72,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 # AGB: would be nice to add orcid to below
   [params.social]
-  rss            = false 
+  rss            = true 
   email          = "a.barnett@qut.edu.au"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
