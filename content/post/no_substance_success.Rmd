@@ -5,12 +5,13 @@ date: '2023-01-31'
 draft: false
 tags:
   - "league tables"
+  - "covid-19"
 slug: no_substance_success
 showtoc: no
 image: /img/path_1.jpg
 ---
 
-Reposted from permission from [360info](https://360info.org/success-without-substance/).
+Reposted with permission from [360info](https://360info.org/success-without-substance/).
 
 New Zealander Nigel Richards has won the French Scrabble championship twice. What’s more remarkable than double wins is that Nigel [doesn’t speak French](https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french). He applied his prodigious brain to the task of memorising words from the French dictionary, bypassing the need for understanding.
 
