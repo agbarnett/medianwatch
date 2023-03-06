@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="Mistakes, I’ve made a few, but then again, not too few to mention" />
-    <meta property="og:title" content="Mistakes, I’ve made a few, but then again, not too few to mention" />
-    <meta property="twitter:title" content="Mistakes, I’ve made a few, but then again, not too few to mention" />
+    <meta name="title" content="Success without substance" />
+    <meta property="og:title" content="Success without substance" />
+    <meta property="twitter:title" content="Success without substance" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="statistics, meta-research">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Mistakes, I’ve made a few, but then again, not too few to mention-Median Watch</title>
+    <title>Success without substance-Median Watch</title>
 
-    <link rel="canonical" href="/post/making-mistakes/">
+    <link rel="canonical" href="/post/no_substance_success/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -143,7 +143,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/rail_1.jpg')
+        background-image: url('/img/path_2.jpg')
     }
 </style>
 <header class="intro-header">
@@ -153,16 +153,16 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/statistics" title="statistics">
-                            statistics
+                        <a class="tag" href="/tags/league-tables" title="league tables">
+                            league tables
                         </a>
                         
-                        <a class="tag" href="/tags/mistakes" title="mistakes">
-                            mistakes
+                        <a class="tag" href="/tags/covid-19" title="covid-19">
+                            covid-19
                         </a>
                         
                     </div>
-                    <h1>Mistakes, I’ve made a few, but then again, not too few to mention</h1>
+                    <h1>Success without substance</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         Posted by 
@@ -170,7 +170,7 @@
                             Adrian Barnett
                          
                         on 
-                        Tuesday, March 17, 2020
+                        Tuesday, January 31, 2023
                         
                         
                         
@@ -198,57 +198,22 @@
                 
 
 
-<div id="statistics-can-be-hard" class="section level3">
-<h3>Statistics can be hard</h3>
-<p>Here’s a great quote about working with statistics from the fantastic statistician <a href="http://www.statslab.cam.ac.uk/~david/">David Spiegelhalter</a>: “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really <em>is</em> a difficult and unintuitive idea” <span class="citation">(Spiegelhalter <a href="#ref-Spiegelhalter2019" role="doc-biblioref">2019</a>)</span>.</p>
-<p>Someone who attended my one-day statistics refresher course expressed disappointment in their evaluation that after a day’s training they did not now feel like an expert. Perhaps if I’d given a course in <em>Microsoft Paint</em> I could have handed out certificates that rightly said “certified expert”, but statistics is not something you can master in a day.</p>
-</div>
-<div id="mistakes" class="section level3">
-<h3>Mistakes</h3>
-<p>One consequence of statistics being hard is that mistakes are made. Far too often researchers use the wrong statistical methods, or use shoddy data, or misinterpret the statistics.</p>
-<p>And I’ve made mistakes too. Just last week I noticed a mistake in my R code that substantively changed the results of a survey analysis. Luckily I spotted this before we sent the paper for review, but it was a near miss.</p>
-<p>I made a big mistake in one of my first ever publications by using the wrong intra-cluster correlation <span class="citation">(Underwood, Barnett, and Hajioff <a href="#ref-Underwood1988" role="doc-biblioref">1998</a>)</span>, which was kindly corrected by Sally Kerry and Martin Bland (more from him below) <span class="citation">(Kerry and Bland <a href="#ref-Kerry1998" role="doc-biblioref">1998</a>)</span>.</p>
-<p>I made a mistake in my most highly cited paper <span class="citation">(Barnett, Pols, and Dobson <a href="#ref-Barnett2004" role="doc-biblioref">2004</a>)</span>. I found this one years later when I was moving the code from an old web site to <em>GitHub</em> <span class="citation">(Barnett, Van Der Pols, and Dobson <a href="#ref-Barnett2015IJE" role="doc-biblioref">2015</a>)</span>. The calculations were right on the web site, but wrong in the paper. I have no idea how this happened, possibly just a transcription error as I was fiddling with the parameters in the example between the web and the paper. This is a regrettable mistake because this paper has been widely cited and read.</p>
-<p>I made a mistake in one of my most influential papers on the time that Australian researchers spend applying for funding <span class="citation">(Herbert et al. <a href="#ref-Herbert2013" role="doc-biblioref">2013</a>)</span>. Here I accidentally used the number of chief investigators rather than the distribution of chief investigators. This means the total time that researchers spend applying for funding should be 604 years not 551. A fairly big difference that does cause me chagrin. My comfort is that I think the impact of the paper would have been the same with either figure, as both are shocking.</p>
-<p>I even made a minor mistake in my first <a href="https://medianwatch.netlify.com/post/funding-gender-disparity">blog article</a>, as I didn’t label what the error bars were (fixed now).</p>
-<p>There are likely other mistakes that I’ve missed and have been published because neither my colleagues or the peer reviewers spotted them. With bigger data sets with huge numbers of rows and columns, mistakes are now more likely. I think a big part of the current reproducibility crisis is caused by errors in statistical analyses.</p>
-</div>
-<div id="martin-bland" class="section level3">
-<h3>Martin Bland</h3>
-<p>Back in 2002 when I was an early career researcher, I saw the great statistician Martin Bland give an hour-long talk about his own statistical mistakes. This remains one of the most memorable talks I have ever attended. I found it incredibly empowering to realise that someone so talented still made mistakes. I felt like Martin had given me a licence to fail, but that also gave me a licence to try.</p>
-<p>This might sound like I’m encouraging slap-dash practices, as if statistics were karaoke where you get praised for having the nerve to do it rather than what you sound like. In reality there are real consequences for getting statistics wrong. To keep this blog topical, I’ve seen multiple legitimate warnings on <em>Twitter</em> just this week about people “having a go” with data on COVID-19.</p>
-<p>I am still advocating for lots of background reading, lots of training (in theory and practice), and lots of data and code checking. But I’m also saying that you are likely to make mistakes given that we work in such a complex area.</p>
-<p>Another benefit to making mistakes is that I am good at spotting mistakes when I review papers, because I’ve remembered the tell-tale signs of my past mistakes.
-A key part of Martin’s talk was about learning from his mistakes and then avoiding them.</p>
-</div>
-<div id="the-final-curtain" class="section level3">
-<h3>The final curtain</h3>
-<p>I’m now going to brazenly compare myself to Martin and hope that my admissions of mistakes will similarly empower other statisticians. I also hope that these admissions do not destroy my career; Martin has survived pretty well!</p>
-<p>For what else could I do? I’ve travelled each and every statistical by way (one-way and two-way), and more, much more than this, I analysed it my way.</p>
-<div id="references" class="section level4 unnumbered">
-<h4>References</h4>
-<div id="refs" class="references">
-<div id="ref-Barnett2004">
-<p>Barnett, Adrian G, Jolieke C van der Pols, and Annette J Dobson. 2004. “Regression to the Mean: What It Is and How to Deal with It.” <em>International Journal of Epidemiology</em> 34 (1): 215–20. <a href="https://doi.org/10.1093/ije/dyh299">https://doi.org/10.1093/ije/dyh299</a>.</p>
-</div>
-<div id="ref-Barnett2015IJE">
-<p>Barnett, Adrian G, Jolieke C Van Der Pols, and Annette J Dobson. 2015. “Correction to: Regression to the Mean: What It Is and How to Deal with It.” <em>International Journal of Epidemiology</em> 44 (5): 1748–8. <a href="https://doi.org/10.1093/ije/dyv161">https://doi.org/10.1093/ije/dyv161</a>.</p>
-</div>
-<div id="ref-Herbert2013">
-<p>Herbert, Danielle L, Adrian G Barnett, Philip Clarke, and Nicholas Graves. 2013. “On the Time Spent Preparing Grant Proposals: An Observational Study of Australian Researchers.” <em>BMJ Open</em> 3 (5). <a href="https://doi.org/10.1136/bmjopen-2013-002800">https://doi.org/10.1136/bmjopen-2013-002800</a>.</p>
-</div>
-<div id="ref-Kerry1998">
-<p>Kerry, S, and M Bland. 1998. “Cluster Randomization.” <em>British Journal of General Practice</em> 48 (431): 1342.</p>
-</div>
-<div id="ref-Spiegelhalter2019">
-<p>Spiegelhalter, D. 2019. <em>The Art of Statistics: How to Learn from Data</em>. Basic Books. <a href="https://books.google.com.au/books?id=4qWFDwAAQBAJ">https://books.google.com.au/books?id=4qWFDwAAQBAJ</a>.</p>
-</div>
-<div id="ref-Underwood1988">
-<p>Underwood, M, A Barnett, and S Hajioff. 1998. “Cluster Randomization: A Trap for the Unwary.” <em>British Journal of General Practice</em> 48 (428): 1089–90. <a href="https://bjgp.org/content/48/428/1089">https://bjgp.org/content/48/428/1089</a>.</p>
-</div>
-</div>
-</div>
-</div>
+<p>Reposted with permission from <a href="https://360info.org/success-without-substance/">360info</a>.</p>
+<p>New Zealander Nigel Richards has won the French Scrabble championship twice. What’s more remarkable than double wins is that Nigel <a href="https://www.npr.org/sections/thetwo-way/2015/07/21/424980378/winner-of-french-scrabble-title-does-not-speak-french">doesn’t speak French</a>. He applied his prodigious brain to the task of memorising words from the French dictionary, bypassing the need for understanding.</p>
+<p>In 2022, The Lancet medical journal <a href="https://retractionwatch.com/2022/06/28/the-lancet-more-than-doubles-its-impact-factor-eclipsing-nejm-for-the-first-time-ever/">achieved a feat</a> that has parallels with Nigel’s Scrabble win. It achieved the highest ‘impact factor’ of any scientific journal in history. This number does not measure noble goals such as improvements in the length or quality of life. Instead, impact factor is a numbers game tangential to the purpose of medical research. Like Nigel’s Scrabble game, it is success without substance.</p>
+<p>The impact factor is calculated using the total number of times scientists have referenced papers from the journal, so it measures attention, both good and bad. The average journal article in medicine gets 15 citations over 10 years. As an example of bad attention, The Lancet’s famously discredited study that linked the MMR vaccine to autism has more than 1,800 citations.</p>
+<p>Citations are often inaccurate, with researchers referencing findings that were <a href="https://portlandpress.com/clinsci/article/135/5/671/227884/How-accurate-are-citations-of-frequently-cited">not in the paper</a>, or misunderstanding the paper. Many citations are fleeting, with authors using long lists of citations as a way of demonstrating their in-depth knowledge of a field.</p>
+<p>The desire to win the impact factor game has predictably led to bad behaviour, with journals seeking to inflate their impact factor by <a href="https://link.springer.com/article/10.1007/s00005-008-0024-5">fiddling their data</a>. Some citations are even corrupt, with journals and reviewers <a href="https://www.nature.com/articles/d41586-020-02378-2">manipulating citations</a> to make themselves look better.</p>
+<p>Real improvements are what journals should aspire to, but measuring how a journal has helped people’s lives is extremely difficult. Instead, we are lumped with the impact factor that is simple to measure, but measures nothing of value.</p>
+<p>To win the impact factor game, journals need to publish papers that will garner a lot of attention. This creates an incentive for journals to publish headline-grabbing papers about new breakthroughs, while important papers debunking existing treatments can find it harder to get in a ‘top’ journal.</p>
+<p>This also creates an incentive for researchers to work on new and exciting breakthroughs. But there’s a lot of much-needed research on relatively mundane parts of health. For example, governments could save an enormous amount of money if they stopped providing treatments that have no scientific evidence.</p>
+<p>One <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30566-3/fulltext">headline-grabbing paper</a> published by The Lancet has had 5,878 citations – the Scrabble equivalent of playing “quiz” on a triple letter score. This paper grabbed the headlines because it was an early study of the risks of dying from COVID-19 from a hospital in Wuhan, China. But this paper includes a serious flaw. The calculations excluded patients who were still alive, creating an enormous potential for reverse-survivor bias to skew the results.</p>
+<p>For scientists, this flaw is easy to spot, so it’s not clear why it wasn’t spotted in the peer review process, where other experts check over the paper before publication. But The Lancet has also missed other flaws, for example another <a href="https://www.the-scientist.com/features/the-surgisphere-scandal-what-went-wrong--67955">headline-grabbing COVID-19 paper</a> that needed readers to point out impossibilities in the data. Possibly the urgency of the pandemic meant that peer review was trumped by attention.</p>
+<p>It’s not just journals that are distracted by flimsy numbers. Scientists are also vulnerable to citation competitions rather than competing to do the best science. Scientists can boost their citation scores by citing their own work. Bigger boosts come from working together, and <a href="https://blog.frontiersin.org/2017/01/03/citations-cartels-an-emerging-problem-in-scientific-publishing/">citation cartels</a> have been discovered where groups of scientists make a pact to cite each other’s papers.</p>
+<p>Universities are also prone to meaningless metrics, as they compete in international rankings tables, such as QS, Times Higher Education and ARWU. The idea that any university could be summed up using a single number is something that primary school children could understand. Nevertheless universities — the pinnacle of education — are enslaved to these numbers. And what are the tables based on? Citations feature heavily, and other numbers that are easy to measure but do not measure the quality of education.</p>
+<p>But recently two heavyweight <a href="https://www.theguardian.com/us-news/2022/nov/17/yale-harvard-law-school-us-news-world-report-rankings">US law schools have withdrawn</a> from the biggest league table used in the US. This is a bold decision as league tables <a href="https://rss.onlinelibrary.wiley.com/doi/epdf/10.1111/1740-9713.01663">can influence student numbers</a> and higher education policy. The schools took a stand because the tables are “using a misguided formula that discourages law schools from doing what is best for legal education.”</p>
+<p>Scientists, journals and universities have become slaves to misguided formulas based on meaningless data. Science is one of humanity’s proudest achievements, but scientists are human and have become distracted by prestige games that do nothing to advance science.</p>
+<p>Now more than ever, science needs to be performing at its peak, as humanity deals with its biggest ever challenges. It’s time to stop the counting games and work on what really counts.</p>
 
 
                 
@@ -257,13 +222,13 @@ A key part of Martin’s talk was about learning from his mistakes and then avoi
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/funding-gender-disparity/" data-toggle="tooltip" data-placement="top" title="A 2-for-1 deal for female researchers">&larr;
+                        <a href="/post/data_sharing/" data-toggle="tooltip" data-placement="top" title="Australia does not want to share health data">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/post/covid-uncertainty/" data-toggle="tooltip" data-placement="top" title="It&#39;s fun to look at the Y A C M (Yet Another COVID Model)">Next
+                        <a href="/post/crushing_careers/" data-toggle="tooltip" data-placement="top" title="What to do when applying for research grants is a waste of time for almost everybody">Next
                             Post &rarr;</a>
                     </li>
                     

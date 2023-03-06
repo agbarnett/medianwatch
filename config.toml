@@ -70,13 +70,13 @@ home = ["HTML", "RSS", "Algolia"]
   # demo: https://highlightjs.org/static/demo/
   highlightjs = "docco"
 
-# AGB: would be nice to add orcid to below
+# 
   [params.social]
   rss            = true 
   email          = "a.barnett@qut.edu.au"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
-  twitter       = "https://twitter.com/aidybarnett"
+  #twitter       = "https://twitter.com/aidybarnett"
   #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
   #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
@@ -86,7 +86,7 @@ home = ["HTML", "RSS", "Algolia"]
   #pinterest     = "full profile url in pinterest"
   #reddit        = "full profile url in reddit"
   #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
+  mastodon      = "https://fediscience.org/@aidybarnett"
   #keybase       = "full profile url in keybase"
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"

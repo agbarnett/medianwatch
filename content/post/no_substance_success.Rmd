@@ -8,7 +8,7 @@ tags:
   - "covid-19"
 slug: no_substance_success
 showtoc: no
-image: /img/path_1.jpg
+image: /img/path_5.jpg
 ---
 
 Reposted with permission from [360info](https://360info.org/success-without-substance/).

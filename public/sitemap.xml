@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://medianwatch.netlify.com/tags/career/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/funding/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/crushing_careers/</loc>
+    <lastmod>2023-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/tags/league-tables/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.com/post/no_substance_success/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://medianwatch.netlify.com/post/data_sharing/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,15 +36,6 @@
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/ethics/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/post/</loc>
-    <lastmod>2022-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/</loc>
     <lastmod>2022-10-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/p-values/</loc>
@@ -41,14 +59,8 @@
     <loc>https://medianwatch.netlify.com/post/disaster/</loc>
     <lastmod>2022-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://medianwatch.netlify.com/tags/league-tables/</loc>
-    <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://medianwatch.netlify.com/post/league_tables/</loc>
     <lastmod>2021-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/funding/</loc>
-    <lastmod>2021-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/hidden_funding_costs/</loc>
     <lastmod>2021-09-16T00:00:00+00:00</lastmod>
@@ -66,9 +78,6 @@
     <lastmod>2021-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/an_apology/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/career/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/tags/citations/</loc>
@@ -103,9 +112,6 @@
   </url><url>
     <loc>https://medianwatch.netlify.com/post/working-weekends-and-late-nights/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.com/tags/covid-19/</loc>
-    <lastmod>2020-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.com/post/research-waste-covid/</loc>
     <lastmod>2020-04-29T00:00:00+00:00</lastmod>
