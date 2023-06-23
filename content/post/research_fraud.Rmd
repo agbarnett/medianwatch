@@ -1,0 +1,75 @@
+---
+title: "Scientific fraud is rising, and automated systems won’t stop it. We need research detectives"
+author: "Adrian Barnett"
+date: "2023-06-23"
+draft: false
+tags:
+  - "funding"
+  - "fraud"
+slug: research_fraud
+showtoc: no
+image: /img/rail_4.jpg
+---
+
+_Reposted from [The Conversation](https://theconversation.com/scientific-fraud-is-rising-and-automated-systems-wont-stop-it-we-need-research-detectives-206235)._
+
+Fraud in science is alarmingly common. Sometimes researchers [lie about results and invent data](https://retractionwatch.com/2016/03/31/neuroscientist-pleads-guilty-to-fraud-gets-two-year-suspended-sentence/) to win funding and prestige. Other times, researchers might pay to stage and publish entirely bogus studies to win an undeserved pay rise – fuelling a “paper mill” industry worth [an estimated €1 billion a year](https://ioppublishing.org/news/increasing-confidence-and-trust-in-research/).
+
+Some of this rubbish can be easily spotted by peer reviewers, but the peer review system has become badly stretched by ever-rising paper numbers. And there’s a new threat, as more sophisticated AI is able to [generate plausible scientific data](https://www.nature.com/articles/d41586-023-01780-w). 
+
+The latest idea among academic publishers is to use automated tools to screen all papers submitted to scientific journals for telltale signs. However, some of these tools are easy to fool.
+
+I am part of a group of multidisciplinary scientists working to tackle research fraud and poor practice using [metascience](https://en.wikipedia.org/wiki/Metascience) or the “science of science”. Ours is a new field, but we already have our own [society](https://aimos.community/) and our members have worked with funders and publishers to investigate improvements to research practice.
+
+## The limits of automated screening
+
+The problems with automated screening are highlighted by a [new screening tool](https://www.science.org/content/article/fake-scientific-papers-are-alarmingly-common) publicised last month. The tool suggested around one in three neuroscience papers might be fraudulent. 
+
+However, this tool detects suspected fraud simply by flagging authors with a non-institutional email (such as gmail.com) and with a hospital affiliation. While this could catch some fraud, it will also flag many honest researchers, and the tool flagged a whopping 44% of genuine papers as potentially fake. 
+
+One big problem with simple screening tools is that fraudsters will quickly find workarounds. For instance, telling their clients to use their institutional email address to submit the paper. 
+
+Given the amount of money to be made, fraudsters have the time and motivation to find workarounds to automated screening systems.
+
+This is not to say automated tools have no place. They have been used successfully to [check papers for faulty experiments](https://retractionwatch.com/2017/01/19/turned-cancer-researcher-literature-watchdog/), and to hunt for pilfered text reworked to [avoid plagiarism checkers](https://retractionwatch.com/2021/07/19/tortured-phrases-lost-in-translation-sleuths-find-even-more-problems-at-journal-that-just-flagged-400-papers/).
+
+A [project](https://www.stm-assoc.org/stm-integrity-hub/) launched by the International Association of Scientific, Technical and Medical Publishers which aims to use screening tools to tackle fraud is also welcome. But automated tools cannot be the only line of defence. 
+
+## A crowdfunded detective
+
+There are remarkably few people who hunt through published research to detect scientific fraud. Perhaps the best known is the Dutch microbiologist Elisabeth Bik, who is an expert at catching manipulated images in scientific papers.
+
+Bik has single-handedly caught multiple massive fraudsters, with the dodgy papers eventually being retracted from the scientific record. 
+
+Bik’s work is a tremendous public service. However, she isn’t paid by a university or a scientific publisher. Her detective work – which has seen her face [harassment and court cases](https://www.theguardian.com/science/2021/may/22/world-expert-in-scientific-misconduct-faces-legal-action-for-challenging-integrity-of-hydroxychloroquine-study) – is [crowd funded](https://www.bbc.co.uk/programmes/m001lqvg).
+
+With the billions of dollars in the publishing world, can’t a few million be found for quality control? In the meantime, one of our best-known lines of defence relies on good will and passion.
+
+In Australia, spending just 0.1% of the annual scientific research budget on quality control would be A$12 million per year. This would be enough to fund a whole office of detectives and also training for researchers in good scientific practice, increasing the return on investment for the remaining 99.9% of the annual budget. 
+
+## Call the fraud police
+
+A solution – or at least a partial one – seems obvious: somebody should employ lots of people like Bik to check quality. However, “somebody should” [is a dangerous phrase](https://twitter.com/jamesheathers/status/1485980092367052804), because it could easily mean nobody will.
+
+Research funders wait for scientific publishers to take action. Publishers expect universities and other institutions to do something. Those institutions in turn look to government for a solution.
+
+Meanwhile, paper mills are happily making a mint, and the world’s pool of scientific evidence is becoming increasingly contaminated by rubbish.
+
+Quality control systems need not be expensive, as we don’t need to check every paper in detail. Random spot checks might be effective. 
+
+Say one in every 300 submissions gets checked by the “fraud police”. That’s a small probability, but people are notoriously bad at judging small probabilities, as proved by the popularity of lotteries.
+
+There would also need to be consequences, such as notifying all the institutions and funders involved, and an expectation of a rapid response. If an institution were involved in multiple cases, publishers could flag all papers from that institution for extra checks. 
+
+## Publicity would be a good start
+
+Of course, this could disadvantage honest researchers from that institution – but personally I would like to know if my colleagues had been submitting fraud. And given institutions rarely publicise the wrongdoing of their own staff, it may be the first I hear about it. 
+
+If honest researchers pressure their institutions to act, it would be a tremendous change. Publishers can’t be the only line of defence in tackling fraud. 
+
+Funding for [stronger screening systems](https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-022-06080-6) is a great start, but we also need to spend money on people. We need to turn the arms race with the fraudsters into a brains race, because we have the better brains.
+
+<!-- Below is The Conversation's page counter tag. Please DO NOT REMOVE. -->
+<img src="https://counter.theconversation.com/content/206235/count.gif?distributor=republish-lightbox-basic" alt="The Conversation" width="1" height="1" style="border: none !important; box-shadow: none !important; margin: 0 !important; max-height: 1px !important; max-width: 1px !important; min-height: 1px !important; min-width: 1px !important; opacity: 0 !important; outline: none !important; padding: 0 !important" referrerpolicy="no-referrer-when-downgrade" />
+<!-- End of code. If you don't see any code above, please get new code from the Advanced tab after you click the republish button. The page counter does not collect any personal data. More info: https://theconversation.com/republishing-guidelines -->
+ 
