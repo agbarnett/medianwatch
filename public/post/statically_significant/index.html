@@ -143,7 +143,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/path_1.jpg')
+        background-image: url('/img/path_5.jpg')
     }
 </style>
 <header class="intro-header">
@@ -195,46 +195,18 @@
                 post-container">
 
                 
-                <header>
-                    <h2>TOC</h2>
-                </header>
-                
-                
                 
 
 
-<pre class="r"><code>not_run = function(){ # takes too long
-library(rentrez)
-library(ggplot2)
-library(dplyr)
-ids = entrez_search(db=&#39;pubmed&#39;, term=&#39;&quot;statically significant&quot;&#39;, retmax=1000)
-all_records = NULL
-N = ids$count
-for (k in 242:N){ # to avoid 414 error with requesting too many records
-  record = entrez_fetch(db=&quot;pubmed&quot;, id = ids$ids[k], rettype=&quot;xml&quot;) # get from pubmed
-  parsed = parse_pubmed_xml(record)
-  if(length(parsed)==0){next} # for empty records like books
-  # make data frame, year is sometimes empty
-  year = ifelse(length(parsed$year)==0, NA, parsed$year)
-  #
-  frame = data.frame(pmid = parsed$pmid, # make into a data frame
-             year = year, # just year
-             journal = parsed$journal,
-             n.authors = length(parsed$authors), # number of authors
-             title = parsed$title,
-             abstract = paste(parsed$abstract, collapse=&#39; &#39;)) # paste together paragraphs
-  all_records = bind_rows(all_records, frame)
-  Sys.sleep(7)
-}
-}</code></pre>
 <p>A colleague sent me a draft manuscript with the typo “statically significant”. A typo that passes a spell check, but would surely not pass reviewers and editors?</p>
-<p>Oh dear, a quick search of <em>PubMed</em> reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used the phrase. We should have a celebration for the 1000th paper!</p>
-<p><img src="screencapture-pubmed-ncbi-nlm-nih-gov-2023-07-18-19_15_49.jpg" /></p>
-<p>Surely that’s only in the terrible journals though? Well only if you consider JAMA to be one of the terrible journals (abstract <a href="https://pubmed.ncbi.nlm.nih.gov/36472594/">here</a>).</p>
+<p>Oh dear, a quick search of <em>PubMed</em> reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. We should have a celebration for the 1000th paper!</p>
+<p><img src="pubmed_search.jpg" /></p>
+<p>Surely that’s only in the terrible journals though? Well only if you consider JAMA to be terrible (abstract <a href="https://pubmed.ncbi.nlm.nih.gov/36472594/">here</a>).</p>
 <p>It has also happened in <a href="https://pubmed.ncbi.nlm.nih.gov/35725252/">BMJ Open</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/37173653">BMC Surgery</a>, and — of all places — <a href="https://pubmed.ncbi.nlm.nih.gov/35530430">Reading and Writing</a>, which “publishes high-quality scientific articles pertaining to the processes, acquisition, and loss of reading and writing skills” and is also contributing to that loss.</p>
 <p>“statically” is a good word, it often gets paired with “charged”. Like statically charged hair from a Van de Graaff Generator.</p>
-<p>“statistically” is a good word, it often gets paired with “significant”, to the detriment of both.</p>
-<p>So there’s another level of hell when it comes to “statistical significance”, and that’s nearly 1000 people not even able to spell their poorly conceived ideas.</p>
+<p>“statistically” is a good word, it often gets paired with “significant” to the detriment of both.</p>
+<p>I didn’t think that the use of “statistical significance” could get any worse, but I was wrong. It’s an immovable trope that’s become so lazily used that you can throw it down using free-form spelling and still get published.</p>
+<p>All this recent worry about what semi-intelligent machines might write. I remain deeply concerned about the writings of people.</p>
 
 
                 

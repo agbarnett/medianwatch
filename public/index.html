@@ -179,7 +179,9 @@
 	
         <div class="post-content-preview">
 	
-            not_run = function(){ # takes too longlibrary(rentrez)library(ggplot2)library(dplyr)ids = entrez_search(db=&#39;pubmed&#39;, term=&#39;&quot;statically significant&quot;&#39;, retmax=1000)all_records = NULLN = ids$countfor (k in 242:N){ # to avoid 414 error with requesting too many recordsrecord = entrez_fetch(db=&quot;pubmed&quot;, id = ids$ids[k], rettype=&quot;xml&quot;) # get from pubmedparsed = parse_pubmed_xml(record)if(length(parsed)==0){next} # for empty records like books# make data frame, year is sometimes emptyyear = ifelse(length(parsed$year)==0, NA, parsed$year)#frame = data.
+            A colleague sent me a draft manuscript with the typo “statically significant”. A typo that passes a spell check, but would surely not pass reviewers and editors?
+Oh dear, a quick search of PubMed reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. We should have a celebration for the 1000th paper!
+Surely that’s only in the terrible journals though?
        
         </div>
     </a>
