@@ -6,7 +6,16 @@
     <description>Recent content in p-values on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/p-values/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/p-values/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statically significant</title>
+      <link>https://medianwatch.netlify.com/post/statically_significant/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/statically_significant/</guid>
+      <description>not_run = function(){ # takes too longlibrary(rentrez)library(ggplot2)library(dplyr)ids = entrez_search(db=&amp;#39;pubmed&amp;#39;, term=&amp;#39;&amp;quot;statically significant&amp;quot;&amp;#39;, retmax=1000)all_records = NULLN = ids$countfor (k in 242:N){ # to avoid 414 error with requesting too many recordsrecord = entrez_fetch(db=&amp;quot;pubmed&amp;quot;, id = ids$ids[k], rettype=&amp;quot;xml&amp;quot;) # get from pubmedparsed = parse_pubmed_xml(record)if(length(parsed)==0){next} # for empty records like books# make data frame, year is sometimes emptyyear = ifelse(length(parsed$year)==0, NA, parsed$year)#frame = data.</description>
+    </item>
+    
     <item>
       <title>Publication bias or research misconduct?</title>
       <link>https://medianwatch.netlify.com/post/z_values/</link>

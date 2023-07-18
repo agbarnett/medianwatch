@@ -171,6 +171,27 @@
             
 
 <div class="post-preview">
+    <a href="https://medianwatch.netlify.com/post/statically_significant/">
+        <h2 class="post-title">
+            Statically significant
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            not_run = function(){ # takes too longlibrary(rentrez)library(ggplot2)library(dplyr)ids = entrez_search(db=&#39;pubmed&#39;, term=&#39;&quot;statically significant&quot;&#39;, retmax=1000)all_records = NULLN = ids$countfor (k in 242:N){ # to avoid 414 error with requesting too many recordsrecord = entrez_fetch(db=&quot;pubmed&quot;, id = ids$ids[k], rettype=&quot;xml&quot;) # get from pubmedparsed = parse_pubmed_xml(record)if(length(parsed)==0){next} # for empty records like books# make data frame, year is sometimes emptyyear = ifelse(length(parsed$year)==0, NA, parsed$year)#frame = data.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    Posted by Adrian Barnett Tuesday, July 18, 2023
+    
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
     <a href="https://medianwatch.netlify.com/post/z_values/">
         <h2 class="post-title">
             Publication bias or research misconduct?
