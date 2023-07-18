@@ -18,7 +18,7 @@ A colleague sent me a draft manuscript with the typo "statically significant". A
 
 Oh dear, a quick search of _PubMed_ reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. We should have a celebration for the 1000th paper!
 
-![](screencapture-pubmed-ncbi-nlm-nih-gov-2023-07-18-19_15_49.jpg){width=60% height=60%}
+![](pubmed_search.jpg){width=80%,height=80%}
 
 Surely that's only in the terrible journals though? Well only if you consider JAMA to be  terrible (abstract [here](https://pubmed.ncbi.nlm.nih.gov/36472594/)).
 
@@ -30,4 +30,4 @@ It has also happened in [BMJ Open](https://pubmed.ncbi.nlm.nih.gov/35725252/), [
 
 I didn't think that the use of "statistical significance" could get any worse, but I was wrong. It's an immovable trope that's become so lazily used that you can throw it down using free-form spelling and still get published. 
 
-All this recent worry about what semi-intelligent machines might write. I'm remain deeply concerned about the writings of actual people. 
+All this recent worry about what semi-intelligent machines might write. I remain deeply concerned about the writings of people. 
