@@ -6,15 +6,25 @@
     <description>Recent content in Posts on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lights, camera, authorship</title>
+      <link>https://medianwatch.netlify.com/post/hollywood/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/hollywood/</guid>
+      <description>As a teenager I watched a lot of films starring Paul Newman and Steve McQueen and loved them all. As an adult I was disappointed to learn they had petty fights about whose name appeared first in the posters.
+Two big egos fighting about prestige will be familiar to many in academia. Academia presents itself as an intellectual pursuit, but off-stage there are always squabbles about who deserves the biggest slice of the prestige pie.</description>
+    </item>
+    
     <item>
       <title>Statically significant</title>
       <link>https://medianwatch.netlify.com/post/statically_significant/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/post/statically_significant/</guid>
-      <description>A colleague sent me a draft manuscript with the typo “statically significant”. A typo that passes a spell check, but would surely not pass reviewers and editors?
-Oh dear, a quick search of PubMed reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. We should have a celebration for the 1000th paper!
+      <description>A colleague sent me a draft manuscript with the typo “statically significant”. A typo that passes a spell check but would surely not pass reviewers and editors?
+Oh dear, a PubMed search reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. There should be a celebration for the 1000th paper!
 Surely that’s only in the terrible journals though?</description>
     </item>
     
