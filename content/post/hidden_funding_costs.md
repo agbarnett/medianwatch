@@ -1,0 +1,41 @@
+---
+title: Funding schemes that cost as much as they reward
+author: Adrian Barnett
+draft: false
+date: '2021-09-16'
+tags:
+  - funding
+slug: hidden_funding_costs
+showtoc: no
+image: /img/bridge_3.jpg
+link-citations: no
+---
+
+Johnson & Johnson have [a funding scheme for women in STEM](https://www.jnj.com/wistem2d/award-criteria). Of course this is a great idea and much needed given the chronic under-representation of women in health and medical research, which was confirmed again this week with the [latest NHMRC figures](https://twitter.com/AAMRI_Aus/status/1437967939941003265).
+
+But there's a huge potential problem with this scheme: the success rate is under 1%. The last round had 650 applications and [6 awarded](https://www.jnj.com/johnson-johnson-announces-six-global-winners-for-the-2021-women-in-stem2d-scholar-awards). Given this incredibly low success rate, this scheme could be costing as much as it rewards.
+
+The six winners got USD \$150,000 each, so that's a total prize pool of \$900,000. Dividing that by the 650 applicants gives $1,385 per applicant. So if applicants spent more than USD \$1,385 of their time on the application, then the scheme cost more than it funded. 
+
+How many hours of time does \$1,385 give? The six winners from the last scheme were all at least postdocs, and an average postdoc salary in the USA is \$45,000. Assuming 1,801 hours per year, that's an hourly rate of \$25, and this is likely to be at the lower end of the true cost. Using the \$25 figure means that if applicants spent 55 hours (around 7 working days), then that wipes out the entire value of the funding. 
+
+## How long do funding application forms take?
+
+Would applicants spend 1 to 2 weeks on this? It was a relatively short application of 1,000 words, a three-page CV, and letter of recommendation. That may seem short, but for the chance of winning \$150,000 I can imagine applicants spending at least a few days crafting their 1,000 words. Then there's the additional costs of getting permission from their university and meetings with colleagues. 
+
+We've researched the time that applicants spend on funding applications and interestingly time went up for one scheme after an application form [was shortened](https://bmjopen.bmj.com/content/5/1/e006912), with average times increasing from 34 to 38 working days. It could be that applicants are deciding how much time to spend based on the size of the prize and not the length of the application form. So to win USD \$150,000, applicants may feel it's logical to spend at least a week on their application.
+
+There were also very likely other applicants that spent time but weren't submitted to J&J because each institution is only allowed to put forward six candidates. I also haven't costed the administrative time of institutions. 
+
+On the positive side applicants might get some utility out of developing their ideas, but I think these benefits are relatively small. 
+
+So it's only back of the envelope calculations, but I think this funding scheme could be costing as much as it rewards.
+
+I have seen a similar problem for a Mozilla fellowship, which had just 2 successes from 1,090 applications. With a total prize of \$120,000, the value gets wiped out if each application cost just \$110.
+
+## What to do
+
+I haven't approached J&J about this, but my advice to them is:
+
+* Add one question to the application form asking applicants how long they spent on their application. I realise the irony of making the form longer, but this information would reveal the currently hidden costs.
+* Restrict the number of people that can apply. It's nice to have open rounds and be inclusive, but there's a massive externalised cost to doing this.

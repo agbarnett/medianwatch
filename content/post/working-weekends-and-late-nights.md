@@ -1,0 +1,39 @@
+---
+title: "Working Weekends and Late Nights"
+author: "Inger Mewburn & Adrian Barnett"
+date: 2020-05-20
+slug: working-weekends-and-late-nights
+categories: []
+tags: ['academia']
+subtitle: ''
+showtoc: false
+image: "/img/path_4.jpg"
+---
+
+*Re-posted from [the March 2020 issue of Advocate](http://www.nteu.org.au/article/Working-late%2C-weekends-and-poolside%3A-Inger-Mewburn%2C-columnist-%28Advocate-27-01%29-21855).*
+
+
+The smell of pool chlorine reminds us of work. Both of us admit to doing emails while sitting at the local pool waiting for the kids to finish their lessons, as well as at cafés, on airplanes, waiting in queues. At least one of us does the odd email or two from the bathroom. We are academics and therefore work anywhere, anytime (maybe most of the time?). 
+
+You might be thinking ‘so far, so normal’ and it’s true: ubiquitous communication technology enables professionals like us to do their email everywhere. But our recent study of submission activity around a popular academic journal shows that it’s not just emails that get done poolside. The core business of academia: writing up research results, is also being pushed into the ‘off hours’. 
+
+We compared the times of day and the week when academics submit papers to the British Medical Journal (BMJ) (paper [here](https://www.bmj.com/content/367/bmj.l6460)). The famous Christmas edition of the BMJ gives space to light hearted, but serious science. Our analysis included more than 49,000 manuscript submissions and 76,000 peer reviews. We noted the time stamp on the submissions and tracked the patterns to see when people were most likely to declare their work ‘finished’ and send it in. Our analysis suggested that academics are doing plenty of research writing work during lunch breaks, after hours and on the weekend. 
+
+Interestingly, there were clear and consistent differences between countries with respect to after hours work. Adjusting for the cultural conventions about when in the week rest days tend to fall, Chinese researchers were the most likely to work at weekends and at midnight, whereas researchers in Scandinavian countries (where there are many more ‘family friendly’ workplace policies) were among the most likely to submit during the week and the middle of the day. Of course, we can’t say when most of the work took place. Certainly chemicals were titrated, samples were cut and prepped and people were interviewed during the week, but it seemed the writing was not. 
+
+Is doing academic writing in the evenings and on the weekends necessarily a bad thing? We are conflicted. Ironically, both of us worked on our paper about weekend work on weekends, as well as a few late nights and holiday breaks. Every time we sent each other an email after 6pm, or at 10am on a Saturday morning from the pool, we noted that we were just as prone to after hours work as anyone in our data set. 
+
+However, the work didn’t feel onerous as it was something we really wanted to do – a fun side project with no deadlines. And perhaps this is the key. The background noise of administration demands and meetings goes away on the weekends. Students may continue to email us, but we feel freer to ignore those demands out of conventional hours. This makes weekends and quiet times in the evenings a great time to be creative. 
+
+[Dorothy Hodgkin](https://en.wikipedia.org/wiki/Dorothy_Hodgkin) created the structure of insulin on a 'wonderful weekend', and this contributed to her Nobel prize (she remains the only British woman to win one). This is a nice example of how working on the weekend can be a great and creative experience. And we need creativity more than ever to tackle the deep problems that academics wrestle with. We are not at the forefront of fire fights or caring for people in hospitals, but we do important work that assists people in those roles to do their work more easily and with less risk to life, limb and health. 
+
+Weekend work can make you happy if you’re doing what you want to do, but it can make you unhappy if you’re feeling under pressure to finish a less pleasant task (e.g. marking). Perhaps academic weekdays should become more like weekends? Universities could start by helping us re-create a quiet space during the week: let’s say on Fridays. 
+
+Academics avoid running face to face classes on that day anyway as students are notorious for skipping them – we should follow their lead! The university could actually switch the email system off (although we are aware that banning emails out of hours [can paradoxically increase stress](https://www.bbc.com/news/technology-50073107)). Meetings could be discouraged by making meeting rooms unbookable. The Online Learning systems could stay on, but academics could be locked out and students left alone to talk amongst themselves.
+
+We can’t finish without noting that doing nothing on the weekend can also be useful. David Vaux made a major breakthrough after neglecting an experiment over the weekend and returning to find the cells were still alive. Academics have a great job compared with most people, and so we shouldn’t be complaining too loudly about working on the holidays, late nights and weekends. 
+
+But there is a limit. Working out of standard business hours can mean missing out on fun stuff and neglecting to properly look after ourselves. Too many of us have present in body, but not in spirit, at family events and missed important milestones. So, this Australian summer, we encourage you to drink coffee and wave at your kids during swimming lessons. Let’s find ways to stage large and small acts of rebellion you can start by writing during the week on paid time. Who knows? It might become a habit. 
+
+_Inger Mewburn does research on research and writes about it at [thesiswhisperer.com](thesiswhisperer.com)_.
+

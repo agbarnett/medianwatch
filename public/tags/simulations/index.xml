@@ -13,7 +13,7 @@
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/post/covid-uncertainty/</guid>
-      <description>Yet another COVID model.I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
+      <description>Yet another COVID model. I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
-      <description>The gender disparity in research funding.There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
+      <description>The gender disparity in research funding. There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
     </item>
     
   </channel>

@@ -8,7 +8,7 @@ disqusShortname = ""
 googleAnalytics = "G-H7CHR5BQRK"
 preserveTaxonomyNames = true
 paginate = 5 #frontpage pagination
-hasCJKLanguage = false
+hasCJKLanguage = false # not in Chinese, Korean, and Japanese
 
 [outputs]
 home = ["HTML", "RSS", "Algolia"]
@@ -18,8 +18,8 @@ home = ["HTML", "RSS", "Algolia"]
   SEOTitle = "Median Watch"
   author = "Adrian Barnett"
   dateFormat = "2020-01-01"
-  description = "A blog about statistics, meta-research and academia"
-  keyword = "statistics, meta-research"
+  description = "A blog about statistics, meta-research, metascience and academia"
+  keyword = "statistics, meta-research, metascience"
   slogan = "Eyes on statistics"
 
 # I should change this image to my own
@@ -42,7 +42,7 @@ home = ["HTML", "RSS", "Algolia"]
   sidebar_about_description = "Statistician and health researcher"
   sidebar_avatar = "img/smart_rocky.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-# AGB: might be worth turning on when you have a few posts
+# AGB: worth turning on when you have a few posts
   featured_tags = true
   featured_condition_size = 1 
 

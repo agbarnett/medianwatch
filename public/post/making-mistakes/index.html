@@ -21,9 +21,9 @@
     
 
     
-    <meta name="description" content="A blog about statistics, meta-research and academia">
-    <meta property="og:description" content="A blog about statistics, meta-research and academia" />
-    <meta property="twitter:description" content="A blog about statistics, meta-research and academia" />
+    <meta name="description" content="A blog about statistics, meta-research, metascience and academia">
+    <meta property="og:description" content="A blog about statistics, meta-research, metascience and academia" />
+    <meta property="twitter:description" content="A blog about statistics, meta-research, metascience and academia" />
     
 
     
@@ -31,7 +31,7 @@
     
     
 
-    <meta name="keyword"  content="statistics, meta-research">
+    <meta name="keyword"  content="statistics, meta-research, metascience">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>Mistakes, I’ve made a few, but then again, not too few to mention-Median Watch</title>
@@ -195,58 +195,45 @@
                 post-container">
 
                 
-                
-
-
-<div id="statistics-can-be-hard" class="section level3">
-<h3>Statistics can be hard</h3>
-<p>Here’s a great quote about working with statistics from the fantastic statistician <a href="http://www.statslab.cam.ac.uk/~david/">David Spiegelhalter</a>: “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really <em>is</em> a difficult and unintuitive idea” <span class="citation">(Spiegelhalter <a href="#ref-Spiegelhalter2019" role="doc-biblioref">2019</a>)</span>.</p>
+                <h3 id="statistics-can-be-hard">Statistics can be hard</h3>
+<p>Here’s a great quote about working with statistics from the fantastic statistician <a href="http://www.statslab.cam.ac.uk/~david/">David Spiegelhalter</a>: “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really <em>is</em> a difficult and unintuitive idea” (<a href="#ref-Spiegelhalter2019">Spiegelhalter 2019</a>).</p>
 <p>Someone who attended my one-day statistics refresher course expressed disappointment in their evaluation that after a day’s training they did not now feel like an expert. Perhaps if I’d given a course in <em>Microsoft Paint</em> I could have handed out certificates that rightly said “certified expert”, but statistics is not something you can master in a day.</p>
-</div>
-<div id="mistakes" class="section level3">
-<h3>Mistakes</h3>
+<h3 id="mistakes">Mistakes</h3>
 <p>One consequence of statistics being hard is that mistakes are made. Far too often researchers use the wrong statistical methods, or use shoddy data, or misinterpret the statistics.</p>
 <p>And I’ve made mistakes too. Just last week I noticed a mistake in my R code that substantively changed the results of a survey analysis. Luckily I spotted this before we sent the paper for review, but it was a near miss.</p>
-<p>I made a big mistake in one of my first ever publications by using the wrong intra-cluster correlation <span class="citation">(Underwood, Barnett, and Hajioff <a href="#ref-Underwood1988" role="doc-biblioref">1998</a>)</span>, which was kindly corrected by Sally Kerry and Martin Bland (more from him below) <span class="citation">(Kerry and Bland <a href="#ref-Kerry1998" role="doc-biblioref">1998</a>)</span>.</p>
-<p>I made a mistake in my most highly cited paper <span class="citation">(Barnett, Pols, and Dobson <a href="#ref-Barnett2004" role="doc-biblioref">2004</a>)</span>. I found this one years later when I was moving the code from an old web site to <em>GitHub</em> <span class="citation">(Barnett, Van Der Pols, and Dobson <a href="#ref-Barnett2015IJE" role="doc-biblioref">2015</a>)</span>. The calculations were right on the web site, but wrong in the paper. I have no idea how this happened, possibly just a transcription error as I was fiddling with the parameters in the example between the web and the paper. This is a regrettable mistake because this paper has been widely cited and read.</p>
-<p>I made a mistake in one of my most influential papers on the time that Australian researchers spend applying for funding <span class="citation">(Herbert et al. <a href="#ref-Herbert2013" role="doc-biblioref">2013</a>)</span>. Here I accidentally used the number of chief investigators rather than the distribution of chief investigators. This means the total time that researchers spend applying for funding should be 604 years not 551. A fairly big difference that does cause me chagrin. My comfort is that I think the impact of the paper would have been the same with either figure, as both are shocking.</p>
+<p>I made a big mistake in one of my first ever publications by using the wrong intra-cluster correlation (<a href="#ref-Underwood1988">Underwood, Barnett, and Hajioff 1998</a>), which was kindly corrected by Sally Kerry and Martin Bland (more from him below) (<a href="#ref-Kerry1998">Kerry and Bland 1998</a>).</p>
+<p>I made a mistake in my most highly cited paper (<a href="#ref-Barnett2004">Barnett, Pols, and Dobson 2004</a>). I found this one years later when I was moving the code from an old web site to <em>GitHub</em> (<a href="#ref-Barnett2015IJE">Barnett, Van Der Pols, and Dobson 2015</a>). The calculations were right on the web site, but wrong in the paper. I have no idea how this happened, possibly just a transcription error as I was fiddling with the parameters in the example between the web and the paper. This is a regrettable mistake because this paper has been widely cited and read.</p>
+<p>I made a mistake in one of my most influential papers on the time that Australian researchers spend applying for funding (<a href="#ref-Herbert2013">Herbert et al. 2013</a>). Here I accidentally used the number of chief investigators rather than the distribution of chief investigators. This means the total time that researchers spend applying for funding should be 604 years not 551. A fairly big difference that does cause me chagrin. My comfort is that I think the impact of the paper would have been the same with either figure, as both are shocking.</p>
 <p>I even made a minor mistake in my first <a href="https://medianwatch.netlify.com/post/funding-gender-disparity">blog article</a>, as I didn’t label what the error bars were (fixed now).</p>
 <p>There are likely other mistakes that I’ve missed and have been published because neither my colleagues or the peer reviewers spotted them. With bigger data sets with huge numbers of rows and columns, mistakes are now more likely. I think a big part of the current reproducibility crisis is caused by errors in statistical analyses.</p>
-</div>
-<div id="martin-bland" class="section level3">
-<h3>Martin Bland</h3>
+<h3 id="martin-bland">Martin Bland</h3>
 <p>Back in 2002 when I was an early career researcher, I saw the great statistician Martin Bland give an hour-long talk about his own statistical mistakes. This remains one of the most memorable talks I have ever attended. I found it incredibly empowering to realise that someone so talented still made mistakes. I felt like Martin had given me a licence to fail, but that also gave me a licence to try.</p>
 <p>This might sound like I’m encouraging slap-dash practices, as if statistics were karaoke where you get praised for having the nerve to do it rather than what you sound like. In reality there are real consequences for getting statistics wrong. To keep this blog topical, I’ve seen multiple legitimate warnings on <em>Twitter</em> just this week about people “having a go” with data on COVID-19.</p>
 <p>I am still advocating for lots of background reading, lots of training (in theory and practice), and lots of data and code checking. But I’m also saying that you are likely to make mistakes given that we work in such a complex area.</p>
 <p>Another benefit to making mistakes is that I am good at spotting mistakes when I review papers, because I’ve remembered the tell-tale signs of my past mistakes.
 A key part of Martin’s talk was about learning from his mistakes and then avoiding them.</p>
-</div>
-<div id="the-final-curtain" class="section level3">
-<h3>The final curtain</h3>
+<h3 id="the-final-curtain">The final curtain</h3>
 <p>I’m now going to brazenly compare myself to Martin and hope that my admissions of mistakes will similarly empower other statisticians. I also hope that these admissions do not destroy my career; Martin has survived pretty well!</p>
 <p>For what else could I do? I’ve travelled each and every statistical by way (one-way and two-way), and more, much more than this, I analysed it my way.</p>
-<div id="references" class="section level4 unnumbered">
-<h4>References</h4>
-<div id="refs" class="references">
-<div id="ref-Barnett2004">
+<h4 id="references">References</h4>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Barnett2004" class="csl-entry">
 <p>Barnett, Adrian G, Jolieke C van der Pols, and Annette J Dobson. 2004. “Regression to the Mean: What It Is and How to Deal with It.” <em>International Journal of Epidemiology</em> 34 (1): 215–20. <a href="https://doi.org/10.1093/ije/dyh299">https://doi.org/10.1093/ije/dyh299</a>.</p>
 </div>
-<div id="ref-Barnett2015IJE">
-<p>Barnett, Adrian G, Jolieke C Van Der Pols, and Annette J Dobson. 2015. “Correction to: Regression to the Mean: What It Is and How to Deal with It.” <em>International Journal of Epidemiology</em> 44 (5): 1748–8. <a href="https://doi.org/10.1093/ije/dyv161">https://doi.org/10.1093/ije/dyv161</a>.</p>
+<div id="ref-Barnett2015IJE" class="csl-entry">
+<p>Barnett, Adrian G, Jolieke C Van Der Pols, and Annette J Dobson. 2015. “Correction to: Regression to the Mean: What It Is and How to Deal with It.” <em>International Journal of Epidemiology</em> 44 (5): 1748–48. <a href="https://doi.org/10.1093/ije/dyv161">https://doi.org/10.1093/ije/dyv161</a>.</p>
 </div>
-<div id="ref-Herbert2013">
+<div id="ref-Herbert2013" class="csl-entry">
 <p>Herbert, Danielle L, Adrian G Barnett, Philip Clarke, and Nicholas Graves. 2013. “On the Time Spent Preparing Grant Proposals: An Observational Study of Australian Researchers.” <em>BMJ Open</em> 3 (5). <a href="https://doi.org/10.1136/bmjopen-2013-002800">https://doi.org/10.1136/bmjopen-2013-002800</a>.</p>
 </div>
-<div id="ref-Kerry1998">
+<div id="ref-Kerry1998" class="csl-entry">
 <p>Kerry, S, and M Bland. 1998. “Cluster Randomization.” <em>British Journal of General Practice</em> 48 (431): 1342.</p>
 </div>
-<div id="ref-Spiegelhalter2019">
+<div id="ref-Spiegelhalter2019" class="csl-entry">
 <p>Spiegelhalter, D. 2019. <em>The Art of Statistics: How to Learn from Data</em>. Basic Books. <a href="https://books.google.com.au/books?id=4qWFDwAAQBAJ">https://books.google.com.au/books?id=4qWFDwAAQBAJ</a>.</p>
 </div>
-<div id="ref-Underwood1988">
+<div id="ref-Underwood1988" class="csl-entry">
 <p>Underwood, M, A Barnett, and S Hajioff. 1998. “Cluster Randomization: A Trap for the Unwary.” <em>British Journal of General Practice</em> 48 (428): 1089–90. <a href="https://bjgp.org/content/48/428/1089">https://bjgp.org/content/48/428/1089</a>.</p>
-</div>
-</div>
 </div>
 </div>
 
@@ -291,10 +278,6 @@ A key part of Martin’s talk was about learning from his mistakes and then avoi
                         
                         
                         
-                        
-                        <a href="/tags/authorship" title="authorship">
-                            authorship
-                        </a>
                         
                         
                         
@@ -351,10 +334,6 @@ A key part of Martin’s talk was about learning from his mistakes and then avoi
                         </a>
                         
                         
-                        
-                        <a href="/tags/prestige" title="prestige">
-                            prestige
-                        </a>
                         
                         
                         

@@ -21,9 +21,9 @@
     
 
     
-    <meta name="description" content="A blog about statistics, meta-research and academia">
-    <meta property="og:description" content="A blog about statistics, meta-research and academia" />
-    <meta property="twitter:description" content="A blog about statistics, meta-research and academia" />
+    <meta name="description" content="A blog about statistics, meta-research, metascience and academia">
+    <meta property="og:description" content="A blog about statistics, meta-research, metascience and academia" />
+    <meta property="twitter:description" content="A blog about statistics, meta-research, metascience and academia" />
     
 
     
@@ -31,7 +31,7 @@
     
     
 
-    <meta name="keyword"  content="statistics, meta-research">
+    <meta name="keyword"  content="statistics, meta-research, metascience">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>Publication bias or research misconduct?-Median Watch</title>
@@ -195,32 +195,23 @@
                 post-container">
 
                 
-                
-
-
-<p>In my talk on bad statistics in medical research, I showed the <a href="https://agbarnett.github.io/talks/TRI/slides#13">infamous plot of Z-values</a> created by <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241">Erik van Zwet</a>.</p>
+                <p>In my talk on bad statistics in medical research, I showed the <a href="https://agbarnett.github.io/talks/TRI/slides#13">infamous plot of Z-values</a> created by <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/stan.12241">Erik van Zwet</a>.</p>
 <p>A version of the plot made with David Borg is shown below. The sample size is over 1.1 million Z-values.</p>
-<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot.png" width="450" /></p>
-<p>The two large spikes in Z-values are just below and above the statistically significant threshold of ± 1.96, corresponding to a p-value of less than 0.05. The plot looks like a Normal distribution that’s caved in.</p>
-<p>In my opinion, this is evidence that research misconduct is widespread. Lots of researchers are re-analysing their data until they get a “significant” p-value, using tricks like removing outliers, collecting more data, adjusting for different variables, etc.</p>
-<div id="misconduct-or-publication-bias" class="section level3">
-<h3>Misconduct or publication bias?</h3>
-<p>I had an interesting question from Kyle Sheldrick about my interpretation, and whether this was predominantly misconduct or mostly publication bias. Publication bias is where journal editors and peer reviewers more likely accept papers with results that are statistically significant, so this would also create spikes in the Z-values at ± 1.96. There’s good evidence that publication bias exists, thanks to a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/226270">neat randomised trial</a> that manipulated p-values and found papers with significant p-values were much more likely to be accepted.</p>
+<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot.png" alt="">{width=450px}</p>
+<p>The two large spikes in Z-values are just below and above the statistically significant threshold of ± 1.96, corresponding to a p-value of less than 0.05. The plot looks like a Normal distribution that&rsquo;s caved in.</p>
+<p>In my opinion, this is evidence that research misconduct is widespread. Lots of researchers are re-analysing their data until they get a &ldquo;significant&rdquo; p-value, using tricks like removing outliers, collecting more data, adjusting for different variables, etc.</p>
+<h3 id="misconduct-or-publication-bias">Misconduct or publication bias?</h3>
+<p>I had an interesting question from Kyle Sheldrick about my interpretation, and whether this was predominantly misconduct or mostly publication bias. Publication bias is where journal editors and peer reviewers more likely accept papers with results that are statistically significant, so this would also create spikes in the Z-values at ± 1.96. There&rsquo;s good evidence that publication bias exists, thanks to a <a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/226270">neat randomised trial</a> that manipulated p-values and found papers with significant p-values were much more likely to be accepted.</p>
 <p>So the question is, what is the predominant cause for the spikes? Publication bias from journals or misconduct by researchers? Not the happiest question, but one worth answering.</p>
-</div>
-<div id="plos-one" class="section level3">
-<h3>PLOS ONE</h3>
-<p>To somewhat answer this I have created the Z-plot using only results from the journal <em>PLOS ONE</em>. Theoretically this should be free from publication bias because: “<a href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process">The editors make decisions on submissions based on scientific rigor, regardless of novelty</a>”.</p>
+<h3 id="plos-one">PLOS ONE</h3>
+<p>To somewhat answer this I have created the Z-plot using only results from the journal <em>PLOS ONE</em>. Theoretically this should be free from publication bias because: &ldquo;<a href="https://journals.plos.org/plosone/s/editorial-and-peer-review-process">The editors make decisions on submissions based on scientific rigor, regardless of novelty</a>&rdquo;.</p>
 <p>So a well conducted study with a p-value over 0.05 should still be accepted by <em>PLOS ONE</em>. Reviewers should not be able to use a lack of significance as a reason for rejection, although some may still apply their biases covertly.</p>
-<p>Looking at the plot below (sample size over 64,000), it’s clear that there are still huge spikes in Z-values at the magic P &lt; 0.05 threshold. This cements my belief that research misconduct is widespread.</p>
-<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot_plos_one.png" width="450" /></p>
-</div>
-<div id="data-sharing" class="section level3">
-<h3>Data sharing</h3>
-<p>There’s a positive coda to this work.</p>
+<p>Looking at the plot below (sample size over 64,000), it&rsquo;s clear that there are still huge spikes in Z-values at the magic P &lt; 0.05 threshold. This cements my belief that research misconduct is widespread.</p>
+<p><img src="https://raw.githubusercontent.com/agbarnett/medianwatch/master/public/img/Z_plot_plos_one.png" alt="">{width=450px}</p>
+<h3 id="data-sharing">Data sharing</h3>
+<p>There&rsquo;s a positive coda to this work.</p>
 <p>The data used in the plots were from my <a href="https://bmjopen.bmj.com/content/9/11/e032506.long">study</a> with Jonathan Wren, who provided the excellent algorithm for extracting ratio confidence intervals from papers. When plotting the results, I struggled to get across the sharp change in lower/upper intervals that were just above/below 1 (making them statistically significant). I tried log-transforms and truncating the axes. In the end, my plots did the job, but not brilliantly.</p>
 <p>We openly shared our data, and they were re-used by Erik van Zwet who had the great idea of transforming the intervals to Z-values. That did a much better job of showing the huge gap in null results, and the plot was widely shared on <a href="https://twitter.com/hmkyale/status/1334924287636086785">Twitter</a>.</p>
-</div>
 
 
                 
@@ -263,10 +254,6 @@
                         
                         
                         
-                        
-                        <a href="/tags/authorship" title="authorship">
-                            authorship
-                        </a>
                         
                         
                         
@@ -323,10 +310,6 @@
                         </a>
                         
                         
-                        
-                        <a href="/tags/prestige" title="prestige">
-                            prestige
-                        </a>
                         
                         
                         

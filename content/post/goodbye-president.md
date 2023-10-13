@@ -1,0 +1,53 @@
+---
+title: "Goodbye to all that"
+author: "Adrian Barnett"
+date: 2020-07-23
+slug: goodbye-president
+categories: []
+tags: ['statistics']
+subtitle: ''
+showtoc: false
+image: "/img/path_6.jpg"
+---
+
+Today I end my two year stint as president of the [Statistical Society of Australia](https://www.statsoc.org.au). As I press "submit" on my presidency, here's a hodge-podge of reflections. 
+
+I was delighted to be president, and I will miss being able to say, "I'm the president of the Stats Society". Statistics has given me an incredible career and I feel I owe something back. 
+
+It might sound strange to feel a debt to a thing, but statistics is a big thing. Often overlooked, misused and derided, statistics is so much more than facts and figures. 
+It's a way to work out what the heck is going on, and the world needs that right now. (If you don't agree, you've been looking at the wrong statistics.) 
+
+## Young Stats Talent Time
+
+A huge highlight of my presidency was the Young Stats conference in Canberra. The variety of topics was incredible, and the standard of the talks was way higher than most "normal" conferences. 
+
+It's encouraging to see such new talent starting their careers, but the numbers show that Australia is not producing enough statisticians given the demand for people with maths and stats skills. 
+There are big shortages in qualified maths and stats teachers, and not enough kids are doing advanced maths at school, especially girls. 
+
+Australia will likely continue to plug the gap by importing statisticians (I am from the UK and so was the last president), but that's a lazy work-around and one that is only available because of the country's finances.
+We're neglecting our own pool of talent and dipping in to others. 
+
+And better maths and stats teaching is not just for people who want a career in the mathematical sciences. 
+I've met lots of scientists who run metaphorical marathons in their own field, but stub their toe on statistics.
+
+## Boom
+
+There's been a explosion in data analysis in the last decade, but in statistics we've only felt the echo rather than the boom.
+Instead "machine learning" and "data science" have become their own things, despite having statistics at their core and statistics at their edges.
+
+Maybe our crusty old field of statistics wasn't dynamic enough to lead this new wave of data analysis, and we should be grateful for the indirect rise in our profile.
+However, there's a strength in numbers, and we would be better off politically and financially if we club together.
+
+The society of engineers split early with the shearing off of civil engineering, and that has forever weakened them.
+
+## Future boom?
+
+Most statisticians have an ingrained reluctance to make bold predictions, but I will go against the grain and say that the future of statistics looks bright.
+The world's biggest current problems involve data and evidence, and we'll need people with skills and experience for some time to come (don't believe anyone who tells you that analysts will be replaced by algorithms).
+
+The future of the Stats Society looks healthy too, and I know that [Jessica Kasza](https://research.monash.edu/en/persons/jessica-kasza) will be a great president and she's already done fantastic work as Vice President.
+
+Our society relies on our members. I may have been nominally top of the pyramid, but the whole structure would fall in a heap without the support of lots of people. I want to give special mention to Marie-Louise Rankin (Executive Officer), Doug Shaw (Secretary), Raaj Kishore Biswas (Young Stats) and Carmen Lim (Vice President of Media).
+
+We rely on our members to keep us relevant and vibrant. 
+So please join us and join in.

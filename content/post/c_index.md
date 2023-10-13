@@ -1,0 +1,50 @@
+---
+title: "I humbly present the novel c-index"
+author: "Adrian Barnett"
+date: 2020-11-23
+slug: c_index
+categories: []
+tags: ['career']
+subtitle: ''
+showtoc: false
+image: "/img/path_4.jpg"
+link-citations: false
+---
+
+### Show me the shortcut
+
+Scientists are busy people. Busy people love a short-cut because it gives them more time to be busy. 
+
+The [p-value](https://medianwatch.netlify.app/post/pvalue_pledge/) is a well-used scientific short-cut. It can decide for us whether something is important or not, and it's based on an equation so it must be right.
+
+Another heaven-sent shortcut is the [h-index](https://en.wikipedia.org/wiki/H-index) which allows us to decide the careers of researchers based on just one number (also made by an equation). 
+How does it work? Well the higher your h-index the better scientist you are because it counts the number of highly cited papers you have. If you have a h-index of 50 that means you've published 50 papers with 50 or more citations, simples. 
+
+What's that you say? What about co-authored papers? What about the fact that most citations are just filler? What about the fact that older scientists have higher h-index's just by virtue of being alive longer? What about the quality of the work rather than the quantity? What about scientists who greedily self-cite? 
+
+Sorry, we don't have time to answer those questions.
+
+### One index to rule them all
+
+Okay, so I admit there are _some_ semi-serious problems with the h-index. Which is why I've invented a new index called the c-index, short for the cartoon-index. (I will consider naming it the equally catchy abc-index for the "Adrian Barnett Cartoon index" if there's enough public pressure.)
+
+How is it calculated? Simple, it's the number of cartoons that have been drawn about your research. Cartoons show genuine engagement with your work, and so are a true measure on non-academic impact. The phrase "Holy Grail" is over-used in science, but objectively measuring non-academic impact into one single number is surely a Holy Grail. 
+
+This new index will likely come to dominate the science of scientific index making from today, which is also known as "Scientoshortcuts".
+
+### What's my c-index?
+
+I have an outstanding c-index of 3. With cartoons by [First Dog on the Moon](https://firstdogonthemoon.com.au/cartoons/2013/03/26/we-could-be-enjoying-science-from-the-year-2413-right-now/), Cathy Wilcox (I can't find a link, but trust me), and [Science-In-Doses](https://www.scienceindoses.com/2020/09/acronyms-are-new-jargon.html). 
+
+Only a fool would invent an index for which they have a score of zero, unless it's a retraction index.
+
+### Future improvements
+
+Of course the c-index is not quite perfect, I anticipate adaptations that incorporate the sentiment of the cartoon, the readership size where the cartoon was published, and the number of colours used.
+
+Researchers like [Hilda Bastian](https://hildabastian.net/) who draw their own cartoons will be disqualified. So it's already better than the h-index which includes self-citations.
+
+### Farewell to the h-index
+
+So farewell to the h-index, you've had a good run. We shall wave you goodbye using our middle - not index - finger.
+
