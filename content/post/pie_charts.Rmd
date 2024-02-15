@@ -26,7 +26,7 @@ A pie chart is a circular diagram that represents numerical percentages. The cir
 
 An example pie chart below shows Australia’s two-party preferred vote before the last election, with Labor on 55% and the the Coalition on 45%. The two near semi-circles show the relatively tight race – this is a useful example of a pie chart.
 
-![](/img/pie_polls2.jpg){width=650px} 
+![](/img/pie_polls2.jpg) 
 
 # What’s wrong with pie charts?
 
@@ -34,11 +34,11 @@ Once we have more than two categories, pie charts can easily misrepresent percen
 
 The three charts below are a good example – it is very hard to work out which of the five areas is the largest. The pie chart’s circularity means the areas lack a common reference point.
 
-![](/img/1280px-Piecharts_half.png){width=650px} 
+![](/img/1280px-Piecharts_half.png) 
 
 Pie charts also do badly when there are lots of categories. For example, this chart from a study on data sources used for COVID data visualisation shows hundreds of categories in one pie.
 
-![](/img/informatics-07-00035-g005.png){width=650px} 
+![](/img/informatics-07-00035-g005.png) 
 
 The tiny slices, lack of clear labelling and the kaleidoscope of colours make interpretation difficult for anyone.
 
@@ -48,7 +48,7 @@ It can get even worse if we take pie charts and make them three-dimensional. Thi
 
 Below, the yellow, red and green areas are all the same size (one-third), but appear to be different based on the angle and which slice is placed at the bottom of the pie.
 
-![](/img/three_areas.png){width=650px} 
+![](/img/three_areas.png) 
 
 # So why are pie charts everywhere?
 
@@ -58,7 +58,7 @@ While statisticians have criticised them for decades, it’s hard to argue with 
 
 Possibly they are popular because they are popular, which is a circular argument that suits a pie chart.
 
-![](/img/collage.png){width=650px} 
+![](/img/collage.png)
 # What’s a good alternative to pie charts?
 
 There’s a simple fix that can effectively summarise big data in a small space and still allow creative colour schemes.
@@ -67,13 +67,13 @@ There’s a simple fix that can effectively summarise big data in a small space 
 It’s the humble bar chart. Remember the brain-aching pie chart example above with the five categories? Here’s the same example using bars – we can now instantly see which category is the largest.
 
 
-![](/img/1280px-Piecharts.png){width=650px} 
+![](/img/1280px-Piecharts.png) 
 
 Linear bars are easier on the eye than the non-linear segments of a pie chart. But beware the temptation to make a humble bar chart look more interesting by adding a 3D effect. As you already saw, 3D charts distort perception and make it harder to find a reference point.
 
 Below is a standard bar chart and a 3D alternative of the number of voters in the 1992 US presidential election split by family income (from under US$15K to over $75k). Using the 3D version, can you tell the number of voters for each candidate in the highest income category? Not easily.
 
-![](/img/3d_bars.png){width=650px} 
+![](/img/3d_bars.png)
 
 # Is it ever okay to use a pie chart?
 
