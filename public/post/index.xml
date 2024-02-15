@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 13 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Here’s why you should (almost) never use a pie chart for your data</title>
+      <link>https://medianwatch.netlify.com/post/pie_charts/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.com/post/pie_charts/</guid>
+      <description>Reproduced from The Conversation
+Our lives are becoming increasingly data driven. Our phones monitor our time and internet usage and online surveys discern our opinions and likes. These data harvests are used for telling us how well we’ve slept or what we might like to buy.
+Numbers are becoming more important for everyday life, yet people’s numerical skills are falling behind. For example, the percentage of Year 12 schoolchildren in Australia taking higher and intermediate mathematics has been declining for decades.</description>
+    </item>
+    
     <item>
       <title>What is the AIMOS conference?</title>
       <link>https://medianwatch.netlify.com/post/aimos/</link>
