@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>statistics on Median Watch</title>
-    <link>https://medianwatch.netlify.com/tags/statistics/</link>
+    <link>https://medianwatch.netlify.app/tags/statistics/</link>
     <description>Recent content in statistics on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Here’s why you should (almost) never use a pie chart for your data</title>
-      <link>https://medianwatch.netlify.com/post/pie_charts/</link>
+      <link>https://medianwatch.netlify.app/post/pie_charts/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/pie_charts/</guid>
+      <guid>https://medianwatch.netlify.app/post/pie_charts/</guid>
       <description>Reproduced from The Conversation
 Our lives are becoming increasingly data driven. Our phones monitor our time and internet usage and online surveys discern our opinions and likes. These data harvests are used for telling us how well we’ve slept or what we might like to buy.
 Numbers are becoming more important for everyday life, yet people’s numerical skills are falling behind. For example, the percentage of Year 12 schoolchildren in Australia taking higher and intermediate mathematics has been declining for decades.</description>
@@ -20,10 +20,10 @@ Numbers are becoming more important for everyday life, yet people’s numerical 
     
     <item>
       <title>Statically significant</title>
-      <link>https://medianwatch.netlify.com/post/statically_significant/</link>
+      <link>https://medianwatch.netlify.app/post/statically_significant/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/statically_significant/</guid>
+      <guid>https://medianwatch.netlify.app/post/statically_significant/</guid>
       <description>A colleague sent me a draft manuscript with the typo &amp;ldquo;statically significant&amp;rdquo;. A typo that passes a spell check but would surely not pass reviewers and editors?
 Oh dear, a PubMed search reveals that it has snuck past reviewers and editors, many many times. There are 975 abstracts that have used this nonsense phrase. There should be a celebration for the 1000th paper!
 {width=80%,height=80%}
@@ -32,10 +32,10 @@ Surely that&amp;rsquo;s only in the terrible journals though?</description>
     
     <item>
       <title>Publication bias or research misconduct?</title>
-      <link>https://medianwatch.netlify.com/post/z_values/</link>
+      <link>https://medianwatch.netlify.app/post/z_values/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/z_values/</guid>
+      <guid>https://medianwatch.netlify.app/post/z_values/</guid>
       <description>In my talk on bad statistics in medical research, I showed the infamous plot of Z-values created by Erik van Zwet.
 A version of the plot made with David Borg is shown below. The sample size is over 1.1 million Z-values.
 {width=450px}
@@ -44,20 +44,20 @@ The two large spikes in Z-values are just below and above the statistically sign
     
     <item>
       <title>Celebrate hard science</title>
-      <link>https://medianwatch.netlify.com/post/science_is_hard/</link>
+      <link>https://medianwatch.netlify.app/post/science_is_hard/</link>
       <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/science_is_hard/</guid>
+      <guid>https://medianwatch.netlify.app/post/science_is_hard/</guid>
       <description>Two weeks ago I gave a fun online talk on statistics for the Young Scientist Forum of the German Society for Biomaterials. I had some great chats with the organisers and there were good questions from the audience.
 One good question was about how to interpret the analysis results when things are not clear cut. During my presentation I had talked about not deleting difficult outliers and not relying on p-values to give a falsely certain interpretation of what their results mean.</description>
     </item>
     
     <item>
       <title>A year without p-values</title>
-      <link>https://medianwatch.netlify.com/post/pvalue_year/</link>
+      <link>https://medianwatch.netlify.app/post/pvalue_year/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/pvalue_year/</guid>
+      <guid>https://medianwatch.netlify.app/post/pvalue_year/</guid>
       <description>One year ago after another stupid fight with a journal about p-values, I made a pledge to go without them for a year. Here’s how it went.
 But first, why? I am aware of the arguments for and against p-values. I have used p-values for a long while and they can be a useful statistic.
 The reason I ditched them is because almost nobody in health and medical research interprets them correctly, wrongly thinking they reveal the probability that the null hypothesis is true (other misinterpretations are available).</description>
@@ -65,50 +65,50 @@ The reason I ditched them is because almost nobody in health and medical researc
     
     <item>
       <title>An apology to the public</title>
-      <link>https://medianwatch.netlify.com/post/an_apology/</link>
+      <link>https://medianwatch.netlify.app/post/an_apology/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/an_apology/</guid>
+      <guid>https://medianwatch.netlify.app/post/an_apology/</guid>
       <description>Sorry state. A few years ago I thought about writing an article that apologised to the public about the poor state of health and medical research. Their tax pays for this research and they give their time and data, and yet far too often the final results are totally unreliable.
 In the end I bottled it; too worried about the potential harm to my career. But today I&amp;rsquo;ve read this important paper from a group of statistical colleagues and it&amp;rsquo;s given me the nerve to apologise.</description>
     </item>
     
     <item>
       <title>Most citations are rubbish</title>
-      <link>https://medianwatch.netlify.com/post/rubbish_citations/</link>
+      <link>https://medianwatch.netlify.app/post/rubbish_citations/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/rubbish_citations/</guid>
+      <guid>https://medianwatch.netlify.app/post/rubbish_citations/</guid>
       <description>Blog pause It&amp;rsquo;s been a long while between blogs. I won&amp;rsquo;t bore you with how busy I&amp;rsquo;ve been, but one thing that&amp;rsquo;s kept me away from the fun of writing blogs is the &amp;ldquo;fun&amp;rdquo; of writing grants.
 Beans To get more research funding we rightly have to explain the impact of our past funding. It&amp;rsquo;s possible to get examples of impact by seeing how other researchers have cited your work.</description>
     </item>
     
     <item>
       <title>Dear p-values, it&#39;s not me, it&#39;s not you, it&#39;s everyone else</title>
-      <link>https://medianwatch.netlify.com/post/pvalue_pledge/</link>
+      <link>https://medianwatch.netlify.app/post/pvalue_pledge/</link>
       <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/pvalue_pledge/</guid>
+      <guid>https://medianwatch.netlify.app/post/pvalue_pledge/</guid>
       <description>Yet another p-value run-in. For a recent observational study I tried to limit the use of p-values in the paper. My colleagues wanted more p-values and I had to politely push back. During one team meeting I even offered to put the p-values in if someone could accurately tell me what they meant … silence.
 Predicting that the reviewers would also want to see more p-values, I added this sentence to the paper’s methods: “We have tried to limit the use of p-values, as they are often misunderstood or misinterpreted, and elected to discuss clinically meaningful differences.</description>
     </item>
     
     <item>
       <title>Not waving but drowning in data</title>
-      <link>https://medianwatch.netlify.com/post/not-waving/</link>
+      <link>https://medianwatch.netlify.app/post/not-waving/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/not-waving/</guid>
+      <guid>https://medianwatch.netlify.app/post/not-waving/</guid>
       <description>Our paper examining trends in acronyms in abstracts was recently published in eLife. We examined over 26 million abstracts from the PubMed database, which is easily the largest data set I’ve ever used. In this post I talk about some of the challenges and benefits of dealing with such a massive data set.
 Data greed One of the most common mistakes I see researchers — new and experienced — make is to collect too much data.</description>
     </item>
     
     <item>
       <title>Goodbye to all that</title>
-      <link>https://medianwatch.netlify.com/post/goodbye-president/</link>
+      <link>https://medianwatch.netlify.app/post/goodbye-president/</link>
       <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/goodbye-president/</guid>
+      <guid>https://medianwatch.netlify.app/post/goodbye-president/</guid>
       <description>Today I end my two year stint as president of the Statistical Society of Australia. As I press &amp;ldquo;submit&amp;rdquo; on my presidency, here&amp;rsquo;s a hodge-podge of reflections.
 I was delighted to be president, and I will miss being able to say, &amp;ldquo;I&amp;rsquo;m the president of the Stats Society&amp;rdquo;. Statistics has given me an incredible career and I feel I owe something back.
 It might sound strange to feel a debt to a thing, but statistics is a big thing.</description>
@@ -116,10 +116,10 @@ It might sound strange to feel a debt to a thing, but statistics is a big thing.
     
     <item>
       <title>I did the dishes.</title>
-      <link>https://medianwatch.netlify.com/post/did-the-dishes/</link>
+      <link>https://medianwatch.netlify.app/post/did-the-dishes/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/did-the-dishes/</guid>
+      <guid>https://medianwatch.netlify.app/post/did-the-dishes/</guid>
       <description>My daughter loves a song by Parry Gripp called &amp;ldquo;I did the dishes&amp;rdquo;. The chorus is &amp;ldquo;I did the dishes, I&amp;rsquo;m a hero.&amp;rdquo;
 I can&amp;rsquo;t work out if the song is trying to encourage kids to do the dishes, or if it&amp;rsquo;s making fun of people who think their housework is heroic, or a bit of both.
 &amp;ldquo;Plates, done! Bowls, done! Gravy boat, done!&amp;rdquo;
@@ -128,10 +128,10 @@ I helped some people, I&amp;rsquo;m a hero Here&amp;rsquo;s a screenshot of some
     
     <item>
       <title>The COVID-19 crisis is amplifying shortcomings in health and medical research.</title>
-      <link>https://medianwatch.netlify.com/post/research-waste-covid/</link>
+      <link>https://medianwatch.netlify.app/post/research-waste-covid/</link>
       <pubDate>Wed, 29 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/research-waste-covid/</guid>
+      <guid>https://medianwatch.netlify.app/post/research-waste-covid/</guid>
       <description>Re-posted from Campus Morning Mail.
 Poor quality medical research is nothing new. A major cause is the race to be published first, which means researchers do not adequately check their work.
 The COVID-19 crisis has put an already pressured system under even more strain, and the cracks are clearly visible.
@@ -140,29 +140,29 @@ Small studies have been used to justify massive changes in clinical practice, su
     
     <item>
       <title>Playing the scientific record backwards.</title>
-      <link>https://medianwatch.netlify.com/post/climate-crisis/</link>
+      <link>https://medianwatch.netlify.app/post/climate-crisis/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/climate-crisis/</guid>
+      <guid>https://medianwatch.netlify.app/post/climate-crisis/</guid>
       <description>I’ve done a lot of research on seasonal models. I’ve always enjoyed playing with the elegantly simple sinusoid function, which can fit a remarkable array of shapes with just a few parameters. Put enough sinusoids together and you can create any sound. When Fourier discovered this, it was considered too simple to be true.
 A great number of diseases are seasonal, so these models are useful as well as being mathematically pleasing.</description>
     </item>
     
     <item>
       <title>It&#39;s fun to look at the Y A C M (Yet Another COVID Model)</title>
-      <link>https://medianwatch.netlify.com/post/covid-uncertainty/</link>
+      <link>https://medianwatch.netlify.app/post/covid-uncertainty/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/covid-uncertainty/</guid>
+      <guid>https://medianwatch.netlify.app/post/covid-uncertainty/</guid>
       <description>Yet another COVID model. I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
     </item>
     
     <item>
       <title>Mistakes, I’ve made a few, but then again, not too few to mention</title>
-      <link>https://medianwatch.netlify.com/post/making-mistakes/</link>
+      <link>https://medianwatch.netlify.app/post/making-mistakes/</link>
       <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/making-mistakes/</guid>
+      <guid>https://medianwatch.netlify.app/post/making-mistakes/</guid>
       <description>Statistics can be hard Here’s a great quote about working with statistics from the fantastic statistician David Spiegelhalter: “I am often asked why people tend to find probability a difficult and unintuitive idea, and I reply that, after forty years researching and teaching in this area, I have finally concluded that it is because probability really is a difficult and unintuitive idea” (Spiegelhalter 2019).
 Someone who attended my one-day statistics refresher course expressed disappointment in their evaluation that after a day’s training they did not now feel like an expert.</description>
     </item>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>simulations on Median Watch</title>
-    <link>https://medianwatch.netlify.com/tags/simulations/</link>
+    <link>https://medianwatch.netlify.app/tags/simulations/</link>
     <description>Recent content in simulations on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.com/tags/simulations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/simulations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It&#39;s fun to look at the Y A C M (Yet Another COVID Model)</title>
-      <link>https://medianwatch.netlify.com/post/covid-uncertainty/</link>
+      <link>https://medianwatch.netlify.app/post/covid-uncertainty/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/covid-uncertainty/</guid>
+      <guid>https://medianwatch.netlify.app/post/covid-uncertainty/</guid>
       <description>Yet another COVID model. I did this modelling because I was asked to provide some COVID estimates for a hospital. There have been lots of models in the last few weeks and I don’t want to reduce the signal-to-noise ratio in this vitally important area, but I’m sharing this in case someone finds my approach useful. All the code is here. I have used similar models before to simulate disease numbers over time, for example my PhD student Dimity used microsimulation to examine the long-term effects of climate change (Stephen and Barnett 2017).</description>
     </item>
     
     <item>
       <title>A 2-for-1 deal for female researchers</title>
-      <link>https://medianwatch.netlify.com/post/funding-gender-disparity/</link>
+      <link>https://medianwatch.netlify.app/post/funding-gender-disparity/</link>
       <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://medianwatch.netlify.com/post/funding-gender-disparity/</guid>
+      <guid>https://medianwatch.netlify.app/post/funding-gender-disparity/</guid>
       <description>The gender disparity in research funding. There is a large gender disparity in the number of research grants awarded in Australia. For years men have won more funding than women. This disparity in success is driven by a disparity in applications, as women apply far less often. Success rates for men and women are relatively close, so policies to reduce the gender disparity in funding should focus on encouraging more applications from women.</description>
     </item>
     
