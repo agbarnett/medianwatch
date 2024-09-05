@@ -20,4 +20,4 @@ options(
 )
 
 # fix Hugo version
-options(blogdown.hugo.version = "0.89.4", blogdown.hugo.dir = "node_modules/.bin/hugo")
+options(blogdown.hugo.version = "0.89.4", blogdown.hugo.dir = "C:/Program Files/hugo")

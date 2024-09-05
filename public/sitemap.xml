@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://medianwatch.netlify.app/tags/journals/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <loc>https://medianwatch.netlify.app/tags/career/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/post/football/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/post/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/</loc>
+    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/journals/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/p-values/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://medianwatch.netlify.app/post/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://medianwatch.netlify.app/post/negative_results/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/retraction_watch/</loc>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/statistics/</loc>
     <lastmod>2024-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/career/</loc>
-    <lastmod>2023-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/aimos/</loc>
     <lastmod>2023-10-13T00:00:00+00:00</lastmod>
