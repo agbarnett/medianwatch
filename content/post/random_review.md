@@ -1,16 +1,16 @@
 ---
-title: Randomisation can resolve the uncertainty at the heart of peer review
-author: Adrian Barnett
-date: '2024-10-26'
+title: "Randomisation can resolve the uncertainty at the heart of peer review"
+author: "Adrian Barnett"
+date: "2024-10-26"
 draft: false
 slug: random_review
 tags:
-  - journals
-  - peer review
+- journals
+- peer review
 subtitle: ''
 description: ''
-showtoc: no
-image: '/img/path_5.jpg'
+showtoc: false
+image: /img/path_5.jpg
 ---
 
 Reproduced from the [LSE impact blog](https://blogs.lse.ac.uk/impactofsocialsciences/2024/09/23/randomisation-can-resolve-the-uncertainty-at-the-heart-of-peer-review/). Here's their introduction:
