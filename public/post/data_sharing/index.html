@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Median Watch">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://medianwatch.netlify.app/img/moth_water.jpg">
+    <meta property="twitter:image" content="https://medianwatch.netlify.app/img/moth_water.jpg" />
+    
+
+    
+    <meta name="title" content="Australia does not want to share health data" />
+    <meta property="og:title" content="Australia does not want to share health data" />
+    <meta property="twitter:title" content="Australia does not want to share health data" />
+    
+
+    
+    <meta name="description" content="A blog about statistics, meta-research, metascience and academia">
+    <meta property="og:description" content="A blog about statistics, meta-research, metascience and academia" />
+    <meta property="twitter:description" content="A blog about statistics, meta-research, metascience and academia" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="statistics, meta-research, metascience">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Australia does not want to share health data-Median Watch</title>
+
+    <link rel="canonical" href="/post/data_sharing/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Median Watch</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                    
+                    
+		    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/path_5.jpg')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/ethics" title="ethics">
+                            ethics
+                        </a>
+                        
+                        <a class="tag" href="/tags/big-data" title="big data">
+                            big data
+                        </a>
+                        
+                    </div>
+                    <h1>Australia does not want to share health data</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                            Adrian Barnett
+                         
+                        on 
+                        Friday, October 7, 2022
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>I am a statistician. I rely on data for my career. Luckily data is everywhere, so I&rsquo;m often spoilt for choice.</p>
+<p>One place where I no longer look for existing data is the health and medical system in Australia. This comes from multiple painful experiences of spending months on approval processes that end in failure.</p>
+<h3 id="ad-nauseum-examples">Ad nauseum examples</h3>
+<p>Many other researchers have spoken about the difficulties of accessing health data for research in Australia. For example papers see <a href="https://www.publish.csiro.au/ah/ah20022">here</a>, <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1753-6405.12929">here</a> and <a href="https://www.mja.com.au/journal/2018/208/4/potential-solutions-improve-governance-multicentre-health-services-research">here</a> (there are many more).</p>
+<p>In the last few months I&rsquo;ve had two projects from colleagues be denied access to promised health data, one on smoking and one on gestational diabetes.</p>
+<h3 id="national-preference">National preference</h3>
+<p>In my opinion, Australia will always be a conservative country when it comes to sharing health data for research.</p>
+<p>Whilst I would prefer that we are more open to sharing, I have accepted that the prevailing view of those who control data access is very conservative. I think this is a national characteristic. We are generally unwilling to take risks relative to other countries. I would argue that there are little risks to sharing health data with qualified researchers, but the risks are not zero.</p>
+<p>If we want to strongly protect individuals and their data, then not sharing any health data is a simple and low cost way to achieve this goal. We could even create further safeguards around health data to better achieve this goal.</p>
+<h3 id="time-for-honesty">Time for honesty</h3>
+<p>The current situation is the worst possible combination: pretending to share data, but then not following through. This leads to lots of researchers being tempted into the quicksand of data approval processes.</p>
+<p>Multiple national agencies continue to talk about the goal to use big data to investigate important health issues. But whilst this high-level policy talk sounds great, the reality at ground-level is an unworkable and unfixable system.</p>
+<p>Not sharing data means that we won&rsquo;t learn about the Australian health system. Instead, we&rsquo;ll have to adapt research from other countries. Whilst that&rsquo;s not ideal, it would be a far better use of researchers' time to work out how results from other countries apply to our system, rather than having them filling in pointless forms.</p>
+<h3 id="exceptions">Exceptions</h3>
+<p>There are exceptions. For example, researchers can get high quality data from the <a href="https://alswh.org.au/">Australian Longitudinal Study on Women’s Health</a> or the <a href="https://www.saxinstitute.org.au/our-work/45-up-study/">45 and up study</a>. But these great examples do not cover every important research question.</p>
+<p>There are also some Australian data linkage studies that have succeeded, but these exceptions paper over a broken system.</p>
+<p>It&rsquo;s also possible to collect bespoke data in Australia, for example in a trial or survey. What I am talking about is getting existing data, for example from hospitals.</p>
+<h3 id="what-happens-next">What happens next</h3>
+<p>I fear that we will continue to be Janus-faced about data sharing. I can&rsquo;t imagine any politician who would be willing to make a strong stand for either position: the &ldquo;risk-taking reward&rdquo; face, or the &ldquo;no risk, no learning&rdquo; face. So there will continue to be episodic inquiries into why the system is not working, and minor changes will be made to policies that will have no substantive impact on practice.</p>
+<p>Incidents like the recent <a href="https://www.smh.com.au/technology/optus-hacker-releases-10-000-customer-records-20220927-p5bl7x.html">Optus data breach</a> don&rsquo;t help, and are likely to create even more restrictions around data access, thickening the quicksand.</p>
+<p>I am not playing devil&rsquo;s advocate. I genuinely believe that creating an efficient and workable system of sharing existing health data in Australia will never be realised. We need to accept this reality and make better use of Australian researchers' time.</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/z_values/" data-toggle="tooltip" data-placement="top" title="Publication bias or research misconduct?">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/no_substance_success/" data-toggle="tooltip" data-placement="top" title="Success without substance">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/big-data" title="big-data">
+                            big-data
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/career" title="career">
+                            career
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/covid-19" title="covid-19">
+                            covid-19
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/ethics" title="ethics">
+                            ethics
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/funding" title="funding">
+                            funding
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/journals" title="journals">
+                            journals
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/league-tables" title="league-tables">
+                            league-tables
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/p-values" title="p-values">
+                            p-values
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/simulations" title="simulations">
+                            simulations
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/statistics" title="statistics">
+                            statistics
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Median Watch" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:a.barnett@qut.edu.au">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/agbarnett">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://fediscience.org/@aidybarnett">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+            
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Median Watch 2024
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-H7CHR5BQRK', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</body>
+</html>

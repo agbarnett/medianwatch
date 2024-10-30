@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="Median Watch">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://medianwatch.netlify.app/img/moth_water.jpg">
+    <meta property="twitter:image" content="https://medianwatch.netlify.app/img/moth_water.jpg" />
+    
+
+    
+    <meta name="title" content="A year without p-values" />
+    <meta property="og:title" content="A year without p-values" />
+    <meta property="twitter:title" content="A year without p-values" />
+    
+
+    
+    <meta name="description" content="A blog about statistics, meta-research, metascience and academia">
+    <meta property="og:description" content="A blog about statistics, meta-research, metascience and academia" />
+    <meta property="twitter:description" content="A blog about statistics, meta-research, metascience and academia" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="statistics, meta-research, metascience">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>A year without p-values-Median Watch</title>
+
+    <link rel="canonical" href="/post/pvalue_year/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+    
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    
+    
+
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Median Watch</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                        
+                    
+                    
+		    
+                        <li><a href="/top/about/">ABOUT</a></li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/rail_3.jpg')
+    }
+</style>
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/p-values" title="p-values">
+                            p-values
+                        </a>
+                        
+                        <a class="tag" href="/tags/statistics" title="statistics">
+                            statistics
+                        </a>
+                        
+                    </div>
+                    <h1>A year without p-values</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by 
+                        
+                            Adrian Barnett
+                         
+                        on 
+                        Friday, September 10, 2021
+                        
+                        
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p>One year ago after another stupid fight with a journal about p-values, I made <a href="https://medianwatch.netlify.app/post/pvalue_pledge/">a pledge to go without them for a year</a>. Here’s how it went.</p>
+<h2 id="but-first-why">But first, why?</h2>
+<p>I am aware of the arguments for and against p-values. I have used p-values for a long while and they can be a useful statistic.</p>
+<p>The reason I ditched them is because almost nobody in health and medical research interprets them correctly, wrongly thinking they reveal the probability that the null hypothesis is true (<a href="https://pubmed.ncbi.nlm.nih.gov/18582619/">other misinterpretations</a> are available). P-values are on a pedestal and wrongly get used to judge the entire scientific validity and quality of a study. This inflated importance leads to p-hacking and publication bias, which are badly warping evidence-based medicine.</p>
+<p>I’ve tried teaching my colleagues about the limitations of p-values and they have told me they understood. Then draft papers arrive in my inbox with little p-values doing all the heavy lifting. “We understand the limitations Adrian, but the journal reviewers won’t so we need the p-values.”</p>
+<p>It’s a grandiose analogy, but I’m reminded of nuclear power: fine in theory, but terrible when combined with people. I’ve switched to cleaner forms of generating energy and evidence.</p>
+<h2 id="im-claiming-victory">I’m claiming victory.</h2>
+<p>I’ve had very different conversations with colleagues when I told them you can have the p-values or me as an author, but not both. Although this was an ultimatum I was cordial and let my colleagues know that their decision would not upset me or harm our working relationship.</p>
+<p>In every case but one my colleagues removed the p-values, relying instead on confidence intervals. But what was more satisfying is that it spurred some meaningful conversations about p-values and their limitations. My willingness to forgo that most precious of academic credit of a paper meant that my seriousness finally cut through.</p>
+<p>For the one paper where my colleagues preferred the p-values, the paper was accepted and is in press. Deliciously the acknowledgement section reads: “Thanks to Adrian Barnett who would have been an author but it was him or the p-values.” Let’s hope that gets through the copy editors.</p>
+<p>My pledge was also discussed on a <a href="https://populationhealthexchange.org/fa-episode-083/">medical research podcast</a>.</p>
+<p>I also spoke with some early-career statisticians who wanted to take a similar stand, but couldn’t because of power imbalances or the need to build their academic credits.</p>
+<h2 id="dogma-fight">Dogma-fight</h2>
+<p>I am fighting dogma with dogma. I wish there was another way, but education alone has just not worked for me. I’ll continue to educate and I’ll also continue to eschew p. “Me or p” not “<a href="https://rss.onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2017.01021.x">T and P</a>”.</p>
+
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/racism_football/" data-toggle="tooltip" data-placement="top" title="Finding racist users in an online football game">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/hidden_funding_costs/" data-toggle="tooltip" data-placement="top" title="Funding schemes that cost as much as they reward">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                
+<div id="disqus-comment"></div>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-11 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/big-data" title="big-data">
+                            big-data
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/career" title="career">
+                            career
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/covid-19" title="covid-19">
+                            covid-19
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/ethics" title="ethics">
+                            ethics
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/funding" title="funding">
+                            funding
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/journals" title="journals">
+                            journals
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/league-tables" title="league-tables">
+                            league-tables
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/p-values" title="p-values">
+                            p-values
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/simulations" title="simulations">
+                            simulations
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/statistics" title="statistics">
+                            statistics
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="Median Watch" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    <li>
+                        <a href="mailto:a.barnett@qut.edu.au">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/agbarnett">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://fediscience.org/@aidybarnett">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-mastodon fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+            
+                    
+            
+            
+            
+                </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; Median Watch 2024
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-H7CHR5BQRK', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</body>
+</html>

@@ -32,7 +32,7 @@ We searched for errors in [PubMed](https://pubmed.ncbi.nlm.nih.gov/), which is a
 
 Fig.1 shows these spelling errors and the results. Eleven of the fifteen errors have increased over time, with most showing a strong increase. The total error rate has increased from 0.1&nbsp;per ten thousand abstracts in 1970, to 8.7&nbsp;per ten thousand in 2023.
 
-![](/img/smooth_trend_in_rates.jpg){width=650px} 
+![](/img/smooth_trend_in_rates.jpg)
 
 
 Spelling errors are a symptom of researchers prioritising quantity over quality. We are literally seeing more “casual inference”. The overall error rates are low, however we only examined fifteen errors and these trends are likely to be repeated for other spelling errors, who knows how many ‘teh’s there are in the scholarly record.

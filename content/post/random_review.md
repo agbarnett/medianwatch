@@ -27,7 +27,7 @@ Many reviewers may waiver over their recommendation, and this uncertainty could 
 
 Any decision uncertainty is not captured in a peer reviewer’s recommendation, as they must select a single recommendation such as “Accept” or “Reject”. In a recent study with three journals, we tried to numerically capture uncertainty by asking reviewers to assign percentages to every recommendation, e.g., Reject = 30%, Major revision = 70%, Minor revision = 0%.
 
-![](/img/no_uncertainty.jpg){width=650px} 
+![](/img/no_uncertainty.jpg)
 
 Most reviewers experienced some uncertainty as only 23% of reviews had no uncertainty (allocating 100% to a single recommendation). Perhaps this is because most papers are challenging to review, as it is a rare paper that ticks all a reviewer’s boxes. There would also be papers where the reviewer was certain that it was terrible.
 
