@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>peer review on Median Watch</title>
+    <link>https://medianwatch.netlify.app/tags/peer-review/</link>
+    <description>Recent content in peer review on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/peer-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A publication’s “what” should count more than it’s “where”: why we should waive journal titles</title>
+      <link>https://medianwatch.netlify.app/post/what_where/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/post/what_where/</guid>
+      <description>Reproduced from the DORA blog blog.
+The winter months can get cold in Belfast, the largest city in Northern Ireland where the Titanic was designed, built and launched in the early 1900s.
+Not seriously cold of course, never sub-zero depths of cold that were the undoing of the Titanic on its maiden voyage, but a ‘nippy’ cold… a cold that comes with biting winds and rain that means only the bravest of souls venture outside in the winter months without the insurance policy of a good coat.</description>
+    </item>
+    
+    <item>
+      <title>Randomisation can resolve the uncertainty at the heart of peer review</title>
+      <link>https://medianwatch.netlify.app/post/random_review/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/post/random_review/</guid>
+      <description>Reproduced from the LSE impact blog. Here&amp;rsquo;s their introduction:
+Peer review decisions are definitive, and depending on the style of peer review practiced at a journal, reviewers can usually make one of three recommendations: accept, reject, revise and resubmit. Discussing a new study into the levels of certainty reviewers have making these choices, Adrian Barnett suggests how embracing this doubt could improve peer review processes.
+Easy peer review Occasionally I find peer review easy.</description>
+    </item>
+    
+  </channel>
+</rss>

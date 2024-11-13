@@ -1,7 +1,7 @@
 ---
 title: "A publication’s “what” should count more than it’s “where”: why we should waive journal titles"
 author: "Adrian Barnett"
-date: "2024-11-23"
+date: "2024-11-13"
 draft: false
 slug: what_where
 tags:
