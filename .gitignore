@@ -43,6 +43,12 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# suggested by check_site()
+.DS_Store
+Thumbs.db
+/public/
+/resources/
+
 # pkgdown site
 docs/
 
