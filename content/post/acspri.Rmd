@@ -38,3 +38,7 @@ Fixing the recipe is simple, award much more money and/or severely limit the num
 
 (For part 1 see [here](https://medianwatch.netlify.app/post/hidden_funding_costs), although that scheme has now thankfully ended.)
 
+### Postscript
+
+Thanks to Gerald Schweiger for pointing out that this phenomenon is known as the "Szilard point" and there's a great [Wikipedia page](https://en.wikipedia.org/wiki/Szilard_point) which is well worth reading.
+
