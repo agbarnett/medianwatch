@@ -77,7 +77,7 @@ home = ["HTML", "RSS", "Algolia"]
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "https://twitter.com/aidybarnett"
-  #linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  linkedin       = "https://www.linkedin.com/in/adrian-barnett-6472b3140/"
   #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
   github         = "https://github.com/agbarnett"
@@ -86,10 +86,11 @@ home = ["HTML", "RSS", "Algolia"]
   #pinterest     = "full profile url in pinterest"
   #reddit        = "full profile url in reddit"
   #gitlab        = "full profile url in gitlab"
-  mastodon      = "https://fediscience.org/@aidybarnett"
+  #mastodon      = "https://fediscience.org/@aidybarnett"
   #keybase       = "full profile url in keybase"
   #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
+  bluesky        = "https://bsky.app/profile/aidybarnett.bsky.social"
   
   [[params.friend_link]]
 #  title = "Linda的博客"

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retractions on Median Watch</title>
+    <link>https://medianwatch.netlify.app/tags/retractions/</link>
+    <description>Recent content in retractions on Median Watch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/retractions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checking BibTeX files against the Retraction Watch database</title>
+      <link>https://medianwatch.netlify.app/post/retraction_watch/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/post/retraction_watch/</guid>
+      <description>Last week I saw Alison Avenell give a great talk titled &amp;ldquo;Improving the integrity of published research: How, when, and if?’’ This was on her experience of finding fraudulent papers and what actions the journals took to correct the record &amp;ndash; which was too often nothing.
+One of Alison&amp;rsquo;s recommendations was to avoid inadvertently citing retracted papers by checking against the wonderful Retraction Watch database. For those using reference management software such as Zotero this is already done for you.</description>
+    </item>
+    
+  </channel>
+</rss>

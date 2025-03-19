@@ -1,7 +1,7 @@
 ---
 title: "Painting a picture of research fraud"
 author: "Adrian Barnett"
-date: "2025-03-17"
+date: "2025-03-19"
 draft: false
 slug: van_gogh
 tags:
@@ -21,7 +21,7 @@ Soon after his paintings started to sell, van Gogh was the victim of fraud. A Ge
 
 Fraud happens in every area of life where there is money and prestige, and it of course happens in scientific research. 
 
-There are sadly many scientific versions of Otto Wacker, people who are willing to fake research that looks like the real thing and fools peer reviewers, but eventually smells fishy when held up to post-publication scrutiny. An example is Jan Hendrik Schön, who published multiple papers in Nature and Science that were created using made-up data. His sorry story is brilliantly told in the book [Plastic Fantastic](https://www.goodreads.com/book/show/6370362-plastic-fantastic) by Eugenie Reich. 
+There are sadly many scientific versions of Otto Wacker, people who are willing to fake research that looks like the real thing and fools peer reviewers, but eventually smells fishy when held up to post-publication scrutiny. An example is Jan Hendrik Schön, who published multiple papers in _Nature_ and _Science_ that were created using made-up data. His sorry story is brilliantly told in the book [Plastic Fantastic](https://www.goodreads.com/book/show/6370362-plastic-fantastic) by Eugenie Reich. 
 
 Other recent examples include forgeries in [super-conductivity](https://www.nature.com/articles/d41586-024-00976-y) and [Alzheimer's](https://www.science.org/content/blog-post/faked-beta-amyloid-data-what-does-it-mean). These fraudsters were caught because they exhibited their work in the prominent galleries of _Nature_ and _Science_. They wanted the fame and prestige of being the best, but that brings with it scrutiny from scientific sleuths (experts in spotting forgeries) and other researchers who take the work at face value and try to build on it.
 

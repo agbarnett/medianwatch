@@ -13,7 +13,7 @@ showtoc: false
 image: /img/bridge_3.jpg
 ---
 
-Reproduced from the [DORA blog blog](https://sfdora.org/2024/11/10/a-publications-what-should-count-more-than-its-where-why-we-should-waive-journal-titles/). 
+Reproduced from the [DORA blog](https://sfdora.org/2024/11/10/a-publications-what-should-count-more-than-its-where-why-we-should-waive-journal-titles/). 
 
 The winter months can get cold in Belfast, the largest city in Northern Ireland where the Titanic was designed, built and launched in the early 1900s.
 
