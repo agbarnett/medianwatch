@@ -31,17 +31,17 @@ A key advantage of my test is that it can deal with categorical as well as conti
 
 Some authors have used Carlisle's test with categorical variables, but as pointed out by Daniel Tausk this creates [false positives](https://arxiv.org/abs/2209.00131). To illustrate the problem, Tausk simulated data from two groups of randomised patients with 100 patients per group with a binary variable that had a 5% chance of being "Yes". As shown in figure&nbsp;1 below, Fisher's exact test is conservative as it does not keep up with the ideal type&nbsp;1 error, whereas the t-test is almost perfectly on the ideal diagonal line. 
 
-![Figure 1](../../public/img/tausk_fig2.jpg)
+![Figure 1](tausk_fig2.jpg)
 
-#### Figure 1: Cumulative distribution function of Fisher's exact p-value and a t-test versus the uniform distribution (diagonal line). 100 patients per group with a binary variable probability of "yes" of 0.05. The data were created with no difference between the randomised groups. 
+#### Figure 1: Cumulative distribution functions for Fisher's exact p-value and a t-test versus the uniform distribution (diagonal line). 100 patients per group with a binary variable probability of "yes" of 0.05. The data were created with no difference between the randomised groups. 
 
 The ability of the t-test to deal with categorical data was shown by [D'Agostino and colleagues](https://www.tandfonline.com/doi/abs/10.1080/00031305.1988.10475563) back in 1988, who showed that the independent samples t-test beats Fisher's exact test and the Chi-squared test for 2$\times$2 categorical data. This will be a surprise to the "statistics by recipe" crowd, who insist on choosing tests using flow charts and/or dogma.
 
 As the Fisher's exact test p-values deviate from the uniform distribution, then using Carlisle's test will lead to an excess of false positives when the null hypothesis is true. This is shown in Figure&nbsp;2 (again reproducing Tausk's paper) for simulated data with 20 categorical variables each with a 0.5 chance of being "Yes". As before, there are two groups with 100 patients per group. 
 
-![Figure 2](../../public/img/tausk_fig6.jpg)
+![Figure 2](tausk_fig6.jpg)
 
-#### Figure 2: Cumulative distribution Stouffer's test for uniform p-values and my Bayesian test for illustration. 100 patients per group, 20 binomial variables, and probability of "yes" equal to 0.5. 
+#### Figure 2: Cumulative distributions for Stouffer's test for uniform p-values and my Bayesian test for illustration. 100 patients per group, 20 binomial variables, and probability of "yes" equal to 0.5. The data were created with no difference between the randomised groups. 
 
 I've added my Bayesian test to Figure&nbsp;2, but the posterior probability from a Bayesian test does not behave like a standard p-value. However, the plot still shows that the Bayesian test often gives a low posterior probability when the null hypothesis is true, which is useful. 
 
