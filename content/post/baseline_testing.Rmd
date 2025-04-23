@@ -1,7 +1,7 @@
 ---
 title: "Testing baseline tables in trials for signs of fraud"
 author: "Adrian Barnett"
-date: "2025-04-25"
+date: "2025-04-23"
 draft: false
 slug: baseline_testing
 tags:

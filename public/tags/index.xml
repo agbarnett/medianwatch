@@ -6,13 +6,22 @@
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fraud</title>
       <link>https://medianwatch.netlify.app/tags/fraud/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.app/tags/fraud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p-values</title>
+      <link>https://medianwatch.netlify.app/tags/p-values/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/tags/p-values/</guid>
       <description></description>
     </item>
     
@@ -58,15 +67,6 @@
       <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.app/tags/peer-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>p-values</title>
-      <link>https://medianwatch.netlify.app/tags/p-values/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.app/tags/p-values/</guid>
       <description></description>
     </item>
     

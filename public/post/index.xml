@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing baseline tables in trials for signs of fraud</title>
+      <link>https://medianwatch.netlify.app/post/baseline_testing/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/post/baseline_testing/</guid>
+      <description>When fraudsters make up research data, they can make mistakes. Real data is rich and complex whilst fraudsters are on a get-rich-quick scheme and make slapdash errors.
+One mistake they make is in randomised trials, where it&amp;rsquo;s standard to have a baseline table that compares the randomised groups. As the groups are randomised, the summary statistics should be similar. Fraudsters have no sense of &amp;lsquo;similar&amp;rsquo; and so have created data where the groups are nearly identical.</description>
+    </item>
+    
     <item>
       <title>Painting a picture of research fraud</title>
       <link>https://medianwatch.netlify.app/post/van_gogh/</link>
