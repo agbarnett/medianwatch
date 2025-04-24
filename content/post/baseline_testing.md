@@ -31,7 +31,7 @@ A key advantage of my test is that it can deal with categorical as well as conti
 
 Some authors have used Carlisle's test with categorical variables, but as pointed out by Daniel Tausk this creates [false positives](https://arxiv.org/abs/2209.00131). To illustrate the problem, Tausk simulated data from two groups of randomised patients with 100 patients per group with a binary variable that had a 5% chance of being "Yes". As shown in figure&nbsp;1 below, Fisher's exact test is conservative as it does not keep up with the ideal type&nbsp;1 error, whereas the t-test is almost perfectly on the ideal diagonal line. 
 
-![Figure 1](https://github.com/agbarnett/medianwatch/raw/3c7a5b93f526f5282b0c9d72cc2a9b4c0b2f8d33/content/tausk_fig2.jpg){width=50% height=50%}
+<img src="https://github.com/agbarnett/medianwatch/raw/3c7a5b93f526f5282b0c9d72cc2a9b4c0b2f8d33/content/tausk_fig2.jpg" width=200 height=200>
 
 #### Figure 1: Cumulative distribution functions for Fisher's exact p-value and a t-test versus the uniform distribution (diagonal line). 100 patients per group with a binary variable probability of "yes" of 0.05. The data were created with no difference between the randomised groups. 
 
@@ -39,7 +39,8 @@ The ability of the t-test to deal with categorical data was shown by [D'Agostino
 
 As the Fisher's exact test p-values deviate from the uniform distribution, then using Carlisle's test will lead to an excess of false positives when the null hypothesis is true. This is shown in Figure&nbsp;2 (again reproducing Tausk's paper) for simulated data with 20 categorical variables each with a 0.5 chance of being "Yes". As before, there are two groups with 100 patients per group. 
 
-![Figure 2](https://github.com/agbarnett/medianwatch/raw/3c7a5b93f526f5282b0c9d72cc2a9b4c0b2f8d33/content/tausk_fig6.jpg){width=50% height=50%}
+<img src="https://github.com/agbarnett/medianwatch/raw/3c7a5b93f526f5282b0c9d72cc2a9b4c0b2f8d33/content/tausk_fig6.jpg" width=200 height=200>
+
 
 #### Figure 2: Cumulative distributions for Stouffer's test for uniform p-values and my Bayesian test for illustration. 100 patients per group, 20 binomial variables, and probability of "yes" equal to 0.5. The data were created with no difference between the randomised groups. 
 
