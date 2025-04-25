@@ -35,7 +35,7 @@ Some authors have used Carlisle's test with categorical variables, but as pointe
 
 #### Figure 1: Cumulative distribution functions for Fisher's exact p-value and a t-test versus the uniform distribution (diagonal line). 100 patients per group with a binary variable probability of "yes" of 0.05. The data were created with no difference between the randomised groups. 
 
-The ability of the t-test to deal with categorical data was shown by [D'Agostino and colleagues](https://www.tandfonline.com/doi/abs/10.1080/00031305.1988.10475563) back in 1988, who showed that the independent samples t-test beats Fisher's exact test and the Chi-squared test for 2$\times$2 categorical data. This will be a surprise to the "statistics by recipe" crowd, who insist on choosing tests using flow charts and/or dogma.
+The ability of the t-test to deal with categorical data was shown by [D'Agostino and colleagues](https://www.tandfonline.com/doi/abs/10.1080/00031305.1988.10475563) back in 1988, who showed that the independent samples t-test beats Fisher's exact test and the Chi-squared test for 2×2 categorical data. This will be a surprise to the "statistics by recipe" crowd, who insist on choosing tests using flow charts and/or dogma.
 
 As the Fisher's exact test p-values deviate from the uniform distribution, then using Carlisle's test will lead to an excess of false positives when the null hypothesis is true. This is shown in Figure&nbsp;2 (again reproducing Tausk's paper) for simulated data with 20 categorical variables each with a 0.5 chance of being "Yes". As before, there are two groups with 100 patients per group. 
 
