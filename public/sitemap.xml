@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://medianwatch.netlify.app/tags/fraud/</loc>
+    <loc>https://medianwatch.netlify.app/tags/career/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/</loc>
@@ -11,14 +11,17 @@
     <loc>https://medianwatch.netlify.app/post/slow_science/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://medianwatch.netlify.app/tags/p-values/</loc>
-    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://medianwatch.netlify.app/post/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/</loc>
     <lastmod>2026-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/fraud/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/p-values/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/baseline_testing/</loc>
     <lastmod>2025-04-23T00:00:00+00:00</lastmod>
@@ -31,9 +34,6 @@
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/writing/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/career/</loc>
-    <lastmod>2025-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/funding/</loc>
     <lastmod>2025-02-05T00:00:00+00:00</lastmod>

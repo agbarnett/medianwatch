@@ -5,8 +5,7 @@ date: "2026-03-08"
 draft: false
 slug: slow_science
 tags:
-- fraud
-- p-values
+- career
 subtitle: ''
 description: ''
 showtoc: false
