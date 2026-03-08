@@ -46,7 +46,7 @@ It’s utterly daft to pit one temperature extreme against the other, especially
 
 ### References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 
 <div id="ref-Gasparrini2015" class="csl-entry">
 
