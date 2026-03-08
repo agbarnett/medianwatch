@@ -1,0 +1,19 @@
+---
+title: "Speedback"
+author: "Adrian Barnett"
+date: "2025-06-05"
+draft: false
+slug: speedback
+tags:
+- writing
+subtitle: ''
+description: ''
+showtoc: false
+image: /img/bridge_3.jpg
+---
+
+Warning: this blog may sound a lot like bragging. 
+
+Speedback is also used to combine speed-dating and feedback. I think my use is better.
+
+bottleneck
