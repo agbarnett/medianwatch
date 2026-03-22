@@ -7,7 +7,7 @@ slug: ai_slop
 tags:
 - fraud
 - journals
-subtitle: 'Reproduced from the [LSE impact blog](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/).'
+subtitle: 'Reproduced from the LSE impact blog.'
 description: ''
 showtoc: false
 image: /img/bridge_3.jpg
@@ -47,3 +47,4 @@ Researchers may also have to change practices to differentiate themselves from f
 
 Of course, in an arms race every measure prompts a countermeasure. For example, introducing pre-registration could lead to fraudsters pre-registering thousands of potential analyses. Without fundamentally changing a system that rewards quantity over quality, the only option is escalation.  
 
+([Link to original LSE Impact blog](https://blogs.lse.ac.uk/impactofsocialsciences/2026/03/17/research-integrity-is-locked-into-an-arms-race-with-agentic-ai-slop/).)
