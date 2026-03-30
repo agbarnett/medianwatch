@@ -7,6 +7,7 @@ slug: ai_slop
 tags:
 - fraud
 - journals
+- artificial_intelligence
 subtitle: 'Reproduced from the LSE impact blog.'
 description: ''
 showtoc: false
