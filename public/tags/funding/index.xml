@@ -6,7 +6,17 @@
     <description>Recent content in funding on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 05 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/funding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/funding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Grant System Teeters on the Cusp of an AI Hellscape</title>
+      <link>https://medianwatch.netlify.app/post/ai_grants/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/post/ai_grants/</guid>
+      <description>Last week, I blocked out two hours of protected time in my diary for “grant writing”. I’ve done this before, but the difference this time was that at the end of two hours I had a nearly finished NHMRC Ideas Grant.
+Of course I used AI. I used PRISM, a new free tool from OpenAI designed for academic writing. I gave PRISM the Ideas Grant criteria, a document on what makes a good application, and a title and an aim.</description>
+    </item>
+    
     <item>
       <title>Funding schemes that cost more than they award: part 2</title>
       <link>https://medianwatch.netlify.app/post/acspri/</link>
