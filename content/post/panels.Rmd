@@ -32,9 +32,9 @@ The cost of a trial would be around $750,000. I think that would be worth spendi
 
 Sadly, this trial will likely never happen, and it won't be blocked by the costs. The main barrier is that too many researchers would not consent to take part, making the management of any trial impossible. 
 
-Only [2 out of 3 researchers consented to take part](https://academic.oup.com/spp/article/51/6/1042/7729313) in a randomised trial where we passively monitored them. This weakened our results and we got hammered for this by journal reviewers. 
+Only [2 out of 3 researchers consented to take part](https://academic.oup.com/spp/article/51/6/1042/7729313) in a randomised trial of funding where we passively monitored them. This weakened our results and we got hammered for this by journal reviewers. 
 
-I am certain that many researchers would not consent to a funding trial in which they might receive an inferior system. It's ironic that we ask patients to do this all the time, but many of us are unwilling to do it ourselves.
+I am certain that many researchers would not consent to take part in a funding trial where they might receive an inferior system. It's ironic that we ask patients to do this all the time, but many of us are unwilling to do it ourselves.
 
 It's not like a drug trial, where if a patient does not consent you just try the next patient. For a trial of funding, we'd need the whole pool of applicants to consent.
 
