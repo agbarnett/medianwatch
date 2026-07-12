@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://medianwatch.netlify.app/post/experimenting/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/funding/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/journals/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/peer-review/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/post/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://medianwatch.netlify.app/tags/</loc>
+    <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://medianwatch.netlify.app/tags/ethics/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/transparency/</loc>
     <lastmod>2026-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://medianwatch.netlify.app/</loc>
-    <lastmod>2026-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/post/</loc>
-    <lastmod>2026-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/</loc>
-    <lastmod>2026-06-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://medianwatch.netlify.app/post/panels/</loc>
-    <lastmod>2026-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/funding/</loc>
     <lastmod>2026-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/tags/artificial_intelligence/</loc>
@@ -37,9 +46,6 @@
   </url><url>
     <loc>https://medianwatch.netlify.app/post/ai_grants/</loc>
     <lastmod>2026-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/journals/</loc>
-    <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/ai_slop/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
@@ -69,9 +75,6 @@
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/what_where/</loc>
-    <lastmod>2024-11-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://medianwatch.netlify.app/tags/peer-review/</loc>
     <lastmod>2024-11-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://medianwatch.netlify.app/post/spelling_errors/</loc>

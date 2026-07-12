@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>funding</title>
+      <link>https://medianwatch.netlify.app/tags/funding/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/tags/funding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>journals</title>
+      <link>https://medianwatch.netlify.app/tags/journals/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/tags/journals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peer-review</title>
+      <link>https://medianwatch.netlify.app/tags/peer-review/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/tags/peer-review/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ethics</title>
       <link>https://medianwatch.netlify.app/tags/ethics/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.app/tags/ethics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>funding</title>
-      <link>https://medianwatch.netlify.app/tags/funding/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.app/tags/funding/</guid>
       <description></description>
     </item>
     
@@ -53,15 +71,6 @@
     </item>
     
     <item>
-      <title>journals</title>
-      <link>https://medianwatch.netlify.app/tags/journals/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.app/tags/journals/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>p-values</title>
       <link>https://medianwatch.netlify.app/tags/p-values/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
@@ -76,15 +85,6 @@
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.app/tags/writing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>peer review</title>
-      <link>https://medianwatch.netlify.app/tags/peer-review/</link>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.app/tags/peer-review/</guid>
       <description></description>
     </item>
     
