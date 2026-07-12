@@ -29,9 +29,9 @@ There would be two benefits.
 
 1)	The journal would have an almost perfect randomised trial of the effect of publishing in their journal. They would need to track the control papers that they didn’t publish, which are very likely to eventually be published elsewhere. Then, after a year or so of follow-up, run a bibliometric comparison of readers, downloads, citations and Altmetric scores. Assuming a positive result, the journal would be able to boast about their selection of papers. 
 
-As a longer-term outcome, the journal could examine the impact of the paper on the authors’ careers. Papers in some of the top-rated journals are [often thought to be career defining](https://www.nature.com/articles/d41586-020-02875-4).
+As a longer-term outcome, the journal could examine the impact of publication on the authors’ careers. Papers in high-profile journals are [often thought to be career defining](https://www.nature.com/articles/d41586-020-02875-4).
 
-2) The journal could publish more groundbreaking papers. The papers in the grey zone might be the risky papers that sometimes end up being surprisingly impactful. When humans decide, risky papers might more often lose out (on average). A lottery is blind to any conservativism. 
+2) The journal might publish more groundbreaking papers. The papers in the grey zone might be the risky papers that sometimes end up being surprisingly impactful. When humans decide, risky papers might more often lose out. A lottery is blind to any conservativism. 
 
 Lotteries are used by funders because their funding is finite. Some might not see the need for lotteries at an online journal where there is plenty of space. But many journals want to create scarcity to develop an exclusive brand with a low acceptance rate. 
 
@@ -42,7 +42,7 @@ Distributed peer review stops the freeloaders, of which there are many. It great
 
 Distributed peer review could be trialled at journals. 
 
-As batches of papers in the same field arrive and avoid desk rejection, the corresponding author would be sent an email explaining that their paper will be peer reviewed but they need to provide two peer reviews in return in next two weeks. They could nominate co-authors to do the reviews and be given a list of papers to chose from. 
+As batches of papers in the same field arrive and avoid desk rejection, the corresponding author would be sent an email explaining that their paper will be peer reviewed but, in return, they need to provide two peer reviews in next two weeks. They could nominate co-authors to do the reviews and be given a list of papers to choose from. 
 
 A big concern is that the extra work would discourage authors and the journal might lose business. However, it might also become a more popular journal, because the reviews will happen quickly. There would likely be some administrative headaches when an author team did not provide the reviews in time and was kicked out. There could also be gaming, as reviewers try to kill their competition. Authors might get AI to do their reviews, although this is a problem that goes beyond distributed peer review. Anyone providing AI reviews would be kicked out, although determining that with high certainty is difficult.
 
