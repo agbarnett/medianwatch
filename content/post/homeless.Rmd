@@ -39,9 +39,9 @@ This number seems too big to me. Perhaps they wanted a big number to defend thei
 
 ## Run around
 
-I felt like I was given the run around by council, I was referred from one department to another, then asked to complete a “right to information” form, then told that this wasn’t the correct form, then I tried phone with no luck. In the end, I wrote an old fashioned paper letter to the major and that led to a quick response by phone.
+I felt like I was given the run around by council, I was referred from one department to another, then asked to complete a “right to information” form, then told that this wasn’t the correct form, then I tried phoning with no luck. In the end, I wrote an old fashioned paper letter to the major and that led to a quick response by phone.
 
-The person I spoke with was very helpful and talked me through how to complete the right to information form and pay the small processing fee. The information I requested was from the council’s complaints system.
+The person I spoke with was very helpful and talked me through how to complete the right to information form and pay the small processing fee. The information I needed was from the council’s complaints system.
 
 ## Dead end
 
@@ -49,6 +49,6 @@ The response from my right to information request says they found 1,022 pages of
 
 One interesting gem of information is that the complaints were lodged between 8 December 2023 and July 2025. Why those dates were chosen, I don’t know. 
 
-I appreciate the need to backfill their staff time to extract this information, although if they had a good database then a well framed query should not take that much time, combined with a tool to remove any names or other personal details.
+I appreciate the need to backfill their staff time to extract this information, although if they had a good database then a well-framed query should not take that much time, combined with a tool to remove any names or other personal details.
 
 If only Australia had a version of the BBC's [More or Less](https://www.bbc.co.uk/programmes/b006qshd) show. It's a perfect story for them.
