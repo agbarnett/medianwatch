@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Median Watch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://medianwatch.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>statistics</title>
+      <link>https://medianwatch.netlify.app/tags/statistics/</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://medianwatch.netlify.app/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>funding</title>
       <link>https://medianwatch.netlify.app/tags/funding/</link>
@@ -103,15 +112,6 @@
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://medianwatch.netlify.app/tags/retractions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://medianwatch.netlify.app/tags/statistics/</link>
-      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://medianwatch.netlify.app/tags/statistics/</guid>
       <description></description>
     </item>
     

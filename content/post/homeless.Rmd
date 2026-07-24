@@ -1,0 +1,54 @@
+---
+title: "Sniffing out a bad statistic"
+author: "Adrian Barnett"
+date: "2026-07-24"
+draft: false
+slug: homeless
+tags:
+- statistics
+subtitle: ''
+description: ''
+showtoc: false
+image: /img/beach_path_outward.jpg
+---
+
+My friend and medical colleague John Fraser once said to me that I could sniff out a bad dataset like he could sniff out a patient in trouble. Regardless of their blood results or history, John can look at a patient, and his instincts tell him that’s something wrong. 
+
+John has seen a lot of patients, I have seen a lot of numbers. Your skills build up.
+
+## Homeless numbers
+
+Earlier this year, my local council turfed out many homeless people who were living in tents in local parks. It was awful and the [news pictures](https://www.abc.net.au/news/2026-03-06/moreton-bay-homeless-evictions-supreme-court-decision/106423036) and [videos](https://www.youtube.com/watch?v=SQpxO_gul2U) are shameful. 
+
+The council got a stinging rebuke from the Queensland Supreme Court, who found that they [breached the human rights of rough sleepers evicted from public land](https://www.hrlc.org.au/case-summaries/qld-council-breached-human-rights/).
+
+In their [unapologetic response](https://www.moretonbay.qld.gov.au/News/Media/Statement-on-Supreme-Court-Decision-6-March-2026) via a media release on 6 March 2026, the council made this claim: “Council has had 4,500 community complaints relating to people experiencing homelessness”.
+
+This big number set off my statistical sensors.
+
+## How? When? What?
+
+This number seems too big to me. Perhaps they wanted a big number to defend their decision, but I have many questions which I put to council: 
+
+- During what time period were these 4,500 complaints counted? For example, the years 2025 to 2026.
+- Related to the above, what was the reason for choosing the starting date range?
+- Was there any effort to restrict the complaints to serious complaints, or any effort to remove spurious complaints?
+- The wording of the statement means that complaints that were mostly sympathetic to people experiencing homelessness could be included, and where the "complaint" was related to the council's failure to tackle homelessness. Were these complaints included? If so, how many?
+- Do the figures include repeated complaints from the same person? Was there any effort made to remove repeated complaints from the same person and/or about the same issue?
+- Related to the above, were some of the complaints from a coordinated campaign? Was there any effort made to identify a campaign of repeated complaints? For example, looking for boiler-plate text.
+
+## Run around
+
+I felt like I was given the run around by council, I was referred from one department to another, then asked to complete a “right to information” form, then told that this wasn’t the correct form, then I tried phone with no luck. In the end, I wrote an old fashioned paper letter to the major and that led to a quick response by phone.
+
+The person I spoke with was very helpful and talked me through how to complete the right to information form and pay the small processing fee. The information I requested was from the council’s complaints system.
+
+## Dead end
+
+The response from my right to information request says they found 1,022 pages of relevant information which will take 20 hours to process and hence needs me to pay over $700. Sadly, that’s too much for me to risk on getting these data.
+
+One interesting gem of information is that the complaints were lodged between 8 December 2023 and July 2025. Why those dates were chosen, I don’t know. 
+
+I appreciate the need to backfill their staff time to extract this information, although if they had a good database then a well framed query should not take that much time, combined with a tool to remove any names or other personal details.
+
+If only Australia had a version of the BBC's [More or Less](https://www.bbc.co.uk/programmes/b006qshd) show. It's a perfect story for them.
