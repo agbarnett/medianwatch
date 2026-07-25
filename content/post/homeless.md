@@ -39,7 +39,7 @@ This number seems too big to me. Perhaps they wanted a big number to defend thei
 
 ## Run around
 
-I felt like I was given the run around by council, I was referred from one department to another, then asked to complete a “right to information” form, then told that this wasn’t the correct form, then I tried phoning with no luck. In the end, I wrote an old fashioned paper letter to the major and that led to a quick response by phone.
+I felt like I was given the run around by council, I was referred from one department to another, then asked to complete a “right to information” form, then told that this wasn’t the correct form, then I tried phoning with no luck. In the end, I wrote an old fashioned paper letter to the mayor and that led to a quick response by phone.
 
 The person I spoke with was very helpful and talked me through how to complete the right to information form and pay the small processing fee. The information I needed was from the council’s complaints system.
 
