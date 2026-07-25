@@ -52,3 +52,5 @@ One interesting gem of information is that the complaints were lodged between 8 
 I appreciate the need to backfill their staff time to extract this information, although if they had a good database then a well-framed query should not take that much time, combined with a tool to remove any names or other personal details.
 
 If only Australia had a version of the BBC's [More or Less](https://www.bbc.co.uk/programmes/b006qshd) show. It's a potentially great story for them.
+
+*Update*: A generous reader has offered to pay the fee, so I'll hopefully get the data soon and provide an update.
